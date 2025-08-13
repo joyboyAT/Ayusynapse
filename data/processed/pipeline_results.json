@@ -1,0 +1,590 @@
+{
+  "trial_data": {
+    "cancer": [
+      {
+        "nct_id": "NCT123456",
+        "title": "Phase II Study of EGFR Inhibitor in Lung Cancer",
+        "inclusion_criteria": [
+          "Age 18-75 years",
+          "ECOG performance status 0-1",
+          "EGFR mutation positive",
+          "Stage IIIB or IV non-small cell lung cancer"
+        ],
+        "exclusion_criteria": [
+          "Prior EGFR inhibitor therapy",
+          "Active brain metastases",
+          "Severe cardiac disease"
+        ]
+      },
+      {
+        "nct_id": "NCT789012",
+        "title": "ALK Inhibitor Trial for Advanced NSCLC",
+        "inclusion_criteria": [
+          "ALK rearrangement positive",
+          "ECOG performance status 0-2",
+          "Age 18-80 years",
+          "Measurable disease"
+        ],
+        "exclusion_criteria": [
+          "Prior ALK inhibitor treatment",
+          "Uncontrolled diabetes",
+          "Pregnancy"
+        ]
+      }
+    ],
+    "neurology": [
+      {
+        "nct_id": "NCT345678",
+        "title": "Alzheimer's Disease Biomarker Study",
+        "inclusion_criteria": [
+          "Age 50-85 years",
+          "MMSE score 20-26",
+          "Amyloid PET positive",
+          "No significant cognitive impairment"
+        ],
+        "exclusion_criteria": [
+          "Other neurological disorders",
+          "Severe depression",
+          "Recent stroke"
+        ]
+      }
+    ]
+  },
+  "terminology_results": {
+    "cancer": {
+      "terminologies": [
+        "18-75",
+        "years",
+        "ECOG",
+        "performance",
+        "status",
+        "EGFR",
+        "mutation",
+        "positive",
+        "Stage",
+        "IIIB",
+        "non-small",
+        "cell",
+        "lung",
+        "cancer",
+        "rearrangement",
+        "positive",
+        "ECOG",
+        "performance",
+        "status",
+        "18-80",
+        "years",
+        "Measurable",
+        "disease"
+      ],
+      "frequency_analysis": {
+        "term_frequencies": {
+          "18-75": 1,
+          "years": 2,
+          "ECOG": 2,
+          "performance": 2,
+          "status": 2,
+          "EGFR": 1,
+          "mutation": 1,
+          "positive": 2,
+          "Stage": 1,
+          "IIIB": 1,
+          "non-small": 1,
+          "cell": 1,
+          "lung": 1,
+          "cancer": 1,
+          "rearrangement": 1,
+          "18-80": 1,
+          "Measurable": 1,
+          "disease": 1
+        },
+        "top_terms": [
+          "years",
+          "ECOG",
+          "performance",
+          "status",
+          "positive",
+          "18-75",
+          "EGFR",
+          "mutation",
+          "Stage",
+          "IIIB"
+        ]
+      },
+      "categorized_terms": {
+        "demographics": [
+          "Age",
+          "years"
+        ],
+        "clinical": [
+          "ECOG",
+          "performance",
+          "status"
+        ],
+        "biomarkers": [
+          "EGFR",
+          "ALK",
+          "mutation",
+          "positive"
+        ],
+        "pathology": [
+          "cancer",
+          "disease",
+          "metastases"
+        ]
+      }
+    },
+    "neurology": {
+      "terminologies": [
+        "50-85",
+        "years",
+        "MMSE",
+        "score",
+        "20-26",
+        "Amyloid",
+        "positive",
+        "significant",
+        "cognitive",
+        "impairment"
+      ],
+      "frequency_analysis": {
+        "term_frequencies": {
+          "50-85": 1,
+          "years": 1,
+          "MMSE": 1,
+          "score": 1,
+          "20-26": 1,
+          "Amyloid": 1,
+          "positive": 1,
+          "significant": 1,
+          "cognitive": 1,
+          "impairment": 1
+        },
+        "top_terms": [
+          "50-85",
+          "years",
+          "MMSE",
+          "score",
+          "20-26",
+          "Amyloid",
+          "positive",
+          "significant",
+          "cognitive",
+          "impairment"
+        ]
+      },
+      "categorized_terms": {
+        "demographics": [
+          "Age",
+          "years"
+        ],
+        "clinical": [
+          "ECOG",
+          "performance",
+          "status"
+        ],
+        "biomarkers": [
+          "EGFR",
+          "ALK",
+          "mutation",
+          "positive"
+        ],
+        "pathology": [
+          "cancer",
+          "disease",
+          "metastases"
+        ]
+      }
+    }
+  },
+  "emr_mappings": {
+    "cancer": {
+      "years": {
+        "fhir_mapping": {
+          "resource_type": "Observation",
+          "code": {
+            "system": "http://loinc.org",
+            "code": "LOINC_YEARS",
+            "display": "years"
+          },
+          "value": "string"
+        },
+        "report_mapping": {
+          "report_types": [
+            "pathology",
+            "lab",
+            "radiology"
+          ],
+          "example_mentions": [
+            "years was observed in the specimen",
+            "Patient shows years characteristics",
+            "years levels are within normal range"
+          ]
+        },
+        "frequency": 2
+      },
+      "ECOG": {
+        "fhir_mapping": {
+          "resource_type": "Observation",
+          "code": {
+            "system": "http://loinc.org",
+            "code": "LOINC_ECOG",
+            "display": "ECOG"
+          },
+          "value": "string"
+        },
+        "report_mapping": {
+          "report_types": [
+            "pathology",
+            "lab",
+            "radiology"
+          ],
+          "example_mentions": [
+            "ECOG was observed in the specimen",
+            "Patient shows ECOG characteristics",
+            "ECOG levels are within normal range"
+          ]
+        },
+        "frequency": 2
+      },
+      "performance": {
+        "fhir_mapping": {
+          "resource_type": "Observation",
+          "code": {
+            "system": "http://loinc.org",
+            "code": "LOINC_PERFORMANCE",
+            "display": "performance"
+          },
+          "value": "string"
+        },
+        "report_mapping": {
+          "report_types": [
+            "pathology",
+            "lab",
+            "radiology"
+          ],
+          "example_mentions": [
+            "performance was observed in the specimen",
+            "Patient shows performance characteristics",
+            "performance levels are within normal range"
+          ]
+        },
+        "frequency": 2
+      },
+      "status": {
+        "fhir_mapping": {
+          "resource_type": "Observation",
+          "code": {
+            "system": "http://loinc.org",
+            "code": "LOINC_STATUS",
+            "display": "status"
+          },
+          "value": "string"
+        },
+        "report_mapping": {
+          "report_types": [
+            "pathology",
+            "lab",
+            "radiology"
+          ],
+          "example_mentions": [
+            "status was observed in the specimen",
+            "Patient shows status characteristics",
+            "status levels are within normal range"
+          ]
+        },
+        "frequency": 2
+      },
+      "positive": {
+        "fhir_mapping": {
+          "resource_type": "Observation",
+          "code": {
+            "system": "http://loinc.org",
+            "code": "LOINC_POSITIVE",
+            "display": "positive"
+          },
+          "value": "string"
+        },
+        "report_mapping": {
+          "report_types": [
+            "pathology",
+            "lab",
+            "radiology"
+          ],
+          "example_mentions": [
+            "positive was observed in the specimen",
+            "Patient shows positive characteristics",
+            "positive levels are within normal range"
+          ]
+        },
+        "frequency": 2
+      }
+    },
+    "neurology": {
+      "50-85": {
+        "fhir_mapping": {
+          "resource_type": "Observation",
+          "code": {
+            "system": "http://loinc.org",
+            "code": "LOINC_50-85",
+            "display": "50-85"
+          },
+          "value": "string"
+        },
+        "report_mapping": {
+          "report_types": [
+            "pathology",
+            "lab",
+            "radiology"
+          ],
+          "example_mentions": [
+            "50-85 was observed in the specimen",
+            "Patient shows 50-85 characteristics",
+            "50-85 levels are within normal range"
+          ]
+        },
+        "frequency": 1
+      },
+      "years": {
+        "fhir_mapping": {
+          "resource_type": "Observation",
+          "code": {
+            "system": "http://loinc.org",
+            "code": "LOINC_YEARS",
+            "display": "years"
+          },
+          "value": "string"
+        },
+        "report_mapping": {
+          "report_types": [
+            "pathology",
+            "lab",
+            "radiology"
+          ],
+          "example_mentions": [
+            "years was observed in the specimen",
+            "Patient shows years characteristics",
+            "years levels are within normal range"
+          ]
+        },
+        "frequency": 1
+      },
+      "MMSE": {
+        "fhir_mapping": {
+          "resource_type": "Observation",
+          "code": {
+            "system": "http://loinc.org",
+            "code": "LOINC_MMSE",
+            "display": "MMSE"
+          },
+          "value": "string"
+        },
+        "report_mapping": {
+          "report_types": [
+            "pathology",
+            "lab",
+            "radiology"
+          ],
+          "example_mentions": [
+            "MMSE was observed in the specimen",
+            "Patient shows MMSE characteristics",
+            "MMSE levels are within normal range"
+          ]
+        },
+        "frequency": 1
+      },
+      "score": {
+        "fhir_mapping": {
+          "resource_type": "Observation",
+          "code": {
+            "system": "http://loinc.org",
+            "code": "LOINC_SCORE",
+            "display": "score"
+          },
+          "value": "string"
+        },
+        "report_mapping": {
+          "report_types": [
+            "pathology",
+            "lab",
+            "radiology"
+          ],
+          "example_mentions": [
+            "score was observed in the specimen",
+            "Patient shows score characteristics",
+            "score levels are within normal range"
+          ]
+        },
+        "frequency": 1
+      },
+      "20-26": {
+        "fhir_mapping": {
+          "resource_type": "Observation",
+          "code": {
+            "system": "http://loinc.org",
+            "code": "LOINC_20-26",
+            "display": "20-26"
+          },
+          "value": "string"
+        },
+        "report_mapping": {
+          "report_types": [
+            "pathology",
+            "lab",
+            "radiology"
+          ],
+          "example_mentions": [
+            "20-26 was observed in the specimen",
+            "Patient shows 20-26 characteristics",
+            "20-26 levels are within normal range"
+          ]
+        },
+        "frequency": 1
+      }
+    }
+  },
+  "analytics": {
+    "cancer": {
+      "total_trials": 2,
+      "total_terminologies": 23,
+      "top_terms": [
+        "years",
+        "ECOG",
+        "performance",
+        "status",
+        "positive"
+      ],
+      "category_distribution": {
+        "demographics": 2,
+        "clinical": 3,
+        "biomarkers": 4,
+        "pathology": 3
+      }
+    },
+    "neurology": {
+      "total_trials": 1,
+      "total_terminologies": 10,
+      "top_terms": [
+        "50-85",
+        "years",
+        "MMSE",
+        "score",
+        "20-26"
+      ],
+      "category_distribution": {
+        "demographics": 2,
+        "clinical": 3,
+        "biomarkers": 4,
+        "pathology": 3
+      }
+    }
+  },
+  "matching_results": {
+    "NCT123456": {
+      "trial_name": "Phase II Study of EGFR Inhibitor in Lung Cancer",
+      "overall_score": 0.7,
+      "confidence_level": "HIGH",
+      "category_scores": {
+        "demographics": 0.8,
+        "clinical": 0.7,
+        "biomarkers": 0.9,
+        "exclusion": 0.6
+      },
+      "matched_indicators": [
+        "EGFR positive",
+        "ECOG 1"
+      ],
+      "missing_indicators": [
+        "ALK negative"
+      ]
+    },
+    "NCT789012": {
+      "trial_name": "ALK Inhibitor Trial for Advanced NSCLC",
+      "overall_score": 0.7,
+      "confidence_level": "HIGH",
+      "category_scores": {
+        "demographics": 0.8,
+        "clinical": 0.7,
+        "biomarkers": 0.9,
+        "exclusion": 0.6
+      },
+      "matched_indicators": [
+        "EGFR positive",
+        "ECOG 1"
+      ],
+      "missing_indicators": [
+        "ALK negative"
+      ]
+    },
+    "NCT345678": {
+      "trial_name": "Alzheimer's Disease Biomarker Study",
+      "overall_score": 0.7,
+      "confidence_level": "HIGH",
+      "category_scores": {
+        "demographics": 0.8,
+        "clinical": 0.7,
+        "biomarkers": 0.9,
+        "exclusion": 0.6
+      },
+      "matched_indicators": [
+        "EGFR positive",
+        "ECOG 1"
+      ],
+      "missing_indicators": [
+        "ALK negative"
+      ]
+    }
+  },
+  "summary": {
+    "timestamp": "2025-08-05T02:57:47.434806",
+    "pipeline_steps_completed": [
+      "Data Ingestion",
+      "Preprocessing & Parsing",
+      "Terminology Mining with LLM",
+      "EMR Representation Analysis",
+      "Terminology-EMR Alignment",
+      "Analytics Dashboard",
+      "Patient-Trial Matching",
+      "Final Integration & Reporting"
+    ],
+    "data_summary": {
+      "total_trials_collected": 3,
+      "conditions_analyzed": [
+        "cancer",
+        "neurology"
+      ],
+      "terminologies_extracted": 33,
+      "emr_mappings_created": 10,
+      "patients_matched": 3
+    },
+    "key_findings": {
+      "top_terminologies": {
+        "cancer": [
+          "years",
+          "ECOG",
+          "performance",
+          "status",
+          "positive"
+        ],
+        "neurology": [
+          "50-85",
+          "years",
+          "MMSE",
+          "score",
+          "20-26"
+        ]
+      },
+      "matching_statistics": {
+        "total_matches": 3,
+        "high_confidence_matches": 3,
+        "match_rate": 1.0
+      }
+    },
+    "recommendations": [
+      "Consider fine-tuning BioBERT for better terminology extraction",
+      "Expand trial collection to include more diverse conditions",
+      "Implement real-time patient matching API",
+      "Add more sophisticated EMR mapping algorithms"
+    ]
+  }
+}

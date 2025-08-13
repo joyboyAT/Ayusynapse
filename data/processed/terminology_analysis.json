@@ -1,0 +1,518 @@
+{
+  "oncology": {
+    "total_trials": 2,
+    "category_frequencies": {
+      "laboratory": {
+        "Eastern Cooperative Oncology Group": 2,
+        "hemoglobin": 1,
+        "Hemoglobin": 1,
+        "hgb": 1,
+        "Human Epidermal Growth Factor Receptor 2": 1,
+        "Estrogen Receptor": 2,
+        "Progesterone Receptor": 2,
+        "Platelets": 1,
+        "Epidermal Growth Factor Receptor": 1,
+        "platelets": 1
+      },
+      "pathology": {
+        "er": 2,
+        "her2": 1,
+        "pr": 2,
+        "egfr": 1,
+        "chemotherapy": 1,
+        "otherapy": 1
+      },
+      "clinical": {
+        "ecog": 2,
+        "Performance Status": 1,
+        "performance status": 1
+      },
+      "other": {
+        "g": 2,
+        "years": 2,
+        "ps": 1,
+        "status": 1,
+        "ct": 1,
+        "Computed Tomography": 1,
+        "disease": 1,
+        "plt": 1,
+        "lets": 1
+      },
+      "demographics": {
+        "age": 2
+      },
+      "comorbidities": {
+        "heart disease": 1,
+        "hiv": 1,
+        "diabetes": 1
+      }
+    },
+    "top_terms": {
+      "laboratory": [
+        [
+          "Eastern Cooperative Oncology Group",
+          2
+        ],
+        [
+          "Estrogen Receptor",
+          2
+        ],
+        [
+          "Progesterone Receptor",
+          2
+        ],
+        [
+          "hemoglobin",
+          1
+        ],
+        [
+          "Hemoglobin",
+          1
+        ],
+        [
+          "hgb",
+          1
+        ],
+        [
+          "Human Epidermal Growth Factor Receptor 2",
+          1
+        ],
+        [
+          "Platelets",
+          1
+        ],
+        [
+          "Epidermal Growth Factor Receptor",
+          1
+        ],
+        [
+          "platelets",
+          1
+        ]
+      ],
+      "pathology": [
+        [
+          "er",
+          2
+        ],
+        [
+          "pr",
+          2
+        ],
+        [
+          "her2",
+          1
+        ],
+        [
+          "egfr",
+          1
+        ],
+        [
+          "chemotherapy",
+          1
+        ],
+        [
+          "otherapy",
+          1
+        ]
+      ],
+      "clinical": [
+        [
+          "ecog",
+          2
+        ],
+        [
+          "Performance Status",
+          1
+        ],
+        [
+          "performance status",
+          1
+        ]
+      ],
+      "other": [
+        [
+          "g",
+          2
+        ],
+        [
+          "years",
+          2
+        ],
+        [
+          "ps",
+          1
+        ],
+        [
+          "status",
+          1
+        ],
+        [
+          "ct",
+          1
+        ],
+        [
+          "Computed Tomography",
+          1
+        ],
+        [
+          "disease",
+          1
+        ],
+        [
+          "plt",
+          1
+        ],
+        [
+          "lets",
+          1
+        ]
+      ],
+      "demographics": [
+        [
+          "age",
+          2
+        ]
+      ],
+      "comorbidities": [
+        [
+          "heart disease",
+          1
+        ],
+        [
+          "hiv",
+          1
+        ],
+        [
+          "diabetes",
+          1
+        ]
+      ]
+    },
+    "all_terms": {
+      "laboratory": [
+        "Eastern Cooperative Oncology Group",
+        "hemoglobin",
+        "Hemoglobin",
+        "hgb",
+        "Human Epidermal Growth Factor Receptor 2",
+        "Estrogen Receptor",
+        "Progesterone Receptor",
+        "Eastern Cooperative Oncology Group",
+        "Platelets",
+        "Epidermal Growth Factor Receptor",
+        "platelets",
+        "Estrogen Receptor",
+        "Progesterone Receptor"
+      ],
+      "pathology": [
+        "er",
+        "her2",
+        "pr",
+        "egfr",
+        "pr",
+        "er",
+        "chemotherapy",
+        "otherapy"
+      ],
+      "clinical": [
+        "ecog",
+        "Performance Status",
+        "performance status",
+        "ecog"
+      ],
+      "other": [
+        "g",
+        "years",
+        "ps",
+        "g",
+        "status",
+        "ct",
+        "Computed Tomography",
+        "disease",
+        "plt",
+        "years",
+        "lets"
+      ],
+      "demographics": [
+        "age",
+        "age"
+      ],
+      "comorbidities": [
+        "heart disease",
+        "hiv",
+        "diabetes"
+      ]
+    }
+  },
+  "oncology_top_indicators": {
+    "laboratory": [
+      [
+        "Eastern Cooperative Oncology Group",
+        2
+      ],
+      [
+        "Estrogen Receptor",
+        2
+      ],
+      [
+        "Progesterone Receptor",
+        2
+      ],
+      [
+        "hemoglobin",
+        1
+      ],
+      [
+        "Hemoglobin",
+        1
+      ]
+    ],
+    "pathology": [
+      [
+        "er",
+        2
+      ],
+      [
+        "pr",
+        2
+      ],
+      [
+        "her2",
+        1
+      ],
+      [
+        "egfr",
+        1
+      ],
+      [
+        "chemotherapy",
+        1
+      ]
+    ],
+    "clinical": [
+      [
+        "ecog",
+        2
+      ],
+      [
+        "Performance Status",
+        1
+      ],
+      [
+        "performance status",
+        1
+      ]
+    ],
+    "other": [
+      [
+        "g",
+        2
+      ],
+      [
+        "years",
+        2
+      ],
+      [
+        "ps",
+        1
+      ],
+      [
+        "status",
+        1
+      ],
+      [
+        "ct",
+        1
+      ]
+    ],
+    "demographics": [
+      [
+        "age",
+        2
+      ]
+    ],
+    "comorbidities": [
+      [
+        "heart disease",
+        1
+      ],
+      [
+        "hiv",
+        1
+      ],
+      [
+        "diabetes",
+        1
+      ]
+    ]
+  },
+  "neurology": {
+    "total_trials": 1,
+    "category_frequencies": {
+      "other": {
+        "pet": 2,
+        "Positron Emission Tomography": 1,
+        "years": 1,
+        "65": 1,
+        "yl": 1,
+        "oid": 1,
+        "months": 1,
+        "ct": 1,
+        "Computed Tomography": 1
+      },
+      "demographics": {
+        "age": 1
+      },
+      "pathology": {
+        "pr": 1,
+        "er": 1
+      },
+      "laboratory": {
+        "Estrogen Receptor": 1,
+        "Progesterone Receptor": 1
+      }
+    },
+    "top_terms": {
+      "other": [
+        [
+          "pet",
+          2
+        ],
+        [
+          "Positron Emission Tomography",
+          1
+        ],
+        [
+          "years",
+          1
+        ],
+        [
+          "65",
+          1
+        ],
+        [
+          "yl",
+          1
+        ],
+        [
+          "oid",
+          1
+        ],
+        [
+          "months",
+          1
+        ],
+        [
+          "ct",
+          1
+        ],
+        [
+          "Computed Tomography",
+          1
+        ]
+      ],
+      "demographics": [
+        [
+          "age",
+          1
+        ]
+      ],
+      "pathology": [
+        [
+          "pr",
+          1
+        ],
+        [
+          "er",
+          1
+        ]
+      ],
+      "laboratory": [
+        [
+          "Estrogen Receptor",
+          1
+        ],
+        [
+          "Progesterone Receptor",
+          1
+        ]
+      ]
+    },
+    "all_terms": {
+      "other": [
+        "pet",
+        "Positron Emission Tomography",
+        "years",
+        "65",
+        "yl",
+        "oid",
+        "pet",
+        "months",
+        "ct",
+        "Computed Tomography"
+      ],
+      "demographics": [
+        "age"
+      ],
+      "pathology": [
+        "pr",
+        "er"
+      ],
+      "laboratory": [
+        "Estrogen Receptor",
+        "Progesterone Receptor"
+      ]
+    }
+  },
+  "neurology_top_indicators": {
+    "other": [
+      [
+        "pet",
+        2
+      ],
+      [
+        "Positron Emission Tomography",
+        1
+      ],
+      [
+        "years",
+        1
+      ],
+      [
+        "65",
+        1
+      ],
+      [
+        "yl",
+        1
+      ]
+    ],
+    "demographics": [
+      [
+        "age",
+        1
+      ]
+    ],
+    "pathology": [
+      [
+        "pr",
+        1
+      ],
+      [
+        "er",
+        1
+      ]
+    ],
+    "laboratory": [
+      [
+        "Estrogen Receptor",
+        1
+      ],
+      [
+        "Progesterone Receptor",
+        1
+      ]
+    ]
+  }
+}

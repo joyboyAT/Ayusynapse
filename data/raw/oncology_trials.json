@@ -1,0 +1,30 @@
+[
+  {
+    "nct_id": "NCT12345678",
+    "title": "Study of Novel Therapy in Breast Cancer",
+    "conditions": [
+      "Breast Cancer",
+      "Metastatic Breast Cancer"
+    ],
+    "inclusion_criteria": "Age >= 18 years, ECOG performance status 0-2, Hemoglobin >= 10 g/dL, HER2 positive",
+    "exclusion_criteria": "Pregnant women, History of heart disease, Active infection",
+    "study_type": "Interventional",
+    "phase": "Phase 2",
+    "enrollment": "100",
+    "sponsor": "Sample Pharma Inc."
+  },
+  {
+    "nct_id": "NCT87654321",
+    "title": "Lung Cancer Treatment Study",
+    "conditions": [
+      "Lung Cancer",
+      "Non-Small Cell Lung Cancer"
+    ],
+    "inclusion_criteria": "Age >= 18 years, ECOG 0-1, Platelets >= 100,000/\u03bcL, EGFR mutation positive",
+    "exclusion_criteria": "Diabetes mellitus, HIV positive, Previous chemotherapy",
+    "study_type": "Interventional",
+    "phase": "Phase 3",
+    "enrollment": "200",
+    "sponsor": "Research Institute"
+  }
+]

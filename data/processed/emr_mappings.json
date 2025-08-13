@@ -1,0 +1,202 @@
+{
+  "oncology": {
+    "laboratory": {
+      "Eastern Cooperative Oncology Group": {
+        "frequency": 2,
+        "fhir_mappings": [],
+        "report_mappings": []
+      },
+      "Estrogen Receptor": {
+        "frequency": 2,
+        "fhir_mappings": [],
+        "report_mappings": []
+      },
+      "Progesterone Receptor": {
+        "frequency": 2,
+        "fhir_mappings": [],
+        "report_mappings": []
+      },
+      "hemoglobin": {
+        "frequency": 1,
+        "fhir_mappings": [
+          "FHIRMapping(resource_type='Observation', resource_id='lab-hemoglobin-001', field_path='valueQuantity', data_type='quantity', code_system='http://loinc.org', code_value='789-8', unit='g/dL', reference_range='12.0-15.5')"
+        ],
+        "report_mappings": [
+          "ReportMapping(report_type=<ReportType.LABORATORY: 'laboratory'>, section='Complete Blood Count', field_name='Hemoglobin', extraction_method='regex: Hemoglobin\\\\s*([0-9.]+)\\\\s*g/dL', confidence=0.95)"
+        ]
+      },
+      "Hemoglobin": {
+        "frequency": 1,
+        "fhir_mappings": [
+          "FHIRMapping(resource_type='Observation', resource_id='lab-hemoglobin-001', field_path='valueQuantity', data_type='quantity', code_system='http://loinc.org', code_value='789-8', unit='g/dL', reference_range='12.0-15.5')"
+        ],
+        "report_mappings": [
+          "ReportMapping(report_type=<ReportType.LABORATORY: 'laboratory'>, section='Complete Blood Count', field_name='Hemoglobin', extraction_method='regex: Hemoglobin\\\\s*([0-9.]+)\\\\s*g/dL', confidence=0.95)"
+        ]
+      }
+    },
+    "pathology": {
+      "er": {
+        "frequency": 2,
+        "fhir_mappings": [],
+        "report_mappings": []
+      },
+      "pr": {
+        "frequency": 2,
+        "fhir_mappings": [],
+        "report_mappings": []
+      },
+      "her2": {
+        "frequency": 1,
+        "fhir_mappings": [
+          "FHIRMapping(resource_type='Observation', resource_id='pathology-her2-001', field_path='valueCodeableConcept', data_type='code', code_system='http://loinc.org', code_value='85319-0', unit=None, reference_range='Positive/Negative')"
+        ],
+        "report_mappings": [
+          "ReportMapping(report_type=<ReportType.PATHOLOGY: 'pathology'>, section='Immunohistochemistry', field_name='HER2 Status', extraction_method='regex: HER2\\\\s*(Positive|Negative)', confidence=0.85)"
+        ]
+      },
+      "egfr": {
+        "frequency": 1,
+        "fhir_mappings": [],
+        "report_mappings": []
+      },
+      "chemotherapy": {
+        "frequency": 1,
+        "fhir_mappings": [],
+        "report_mappings": []
+      }
+    },
+    "clinical": {
+      "ecog": {
+        "frequency": 2,
+        "fhir_mappings": [
+          "FHIRMapping(resource_type='Observation', resource_id='performance-status-001', field_path='valueCodeableConcept', data_type='code', code_system='http://snomed.info/sct', code_value='424144002', unit=None, reference_range='0-4')"
+        ],
+        "report_mappings": [
+          "ReportMapping(report_type=<ReportType.CLINICAL: 'clinical'>, section='Physical Examination', field_name='Performance Status', extraction_method='regex: ECOG\\\\s*([0-4])', confidence=0.9)"
+        ]
+      },
+      "Performance Status": {
+        "frequency": 1,
+        "fhir_mappings": [],
+        "report_mappings": []
+      },
+      "performance status": {
+        "frequency": 1,
+        "fhir_mappings": [],
+        "report_mappings": []
+      }
+    },
+    "other": {
+      "g": {
+        "frequency": 2,
+        "fhir_mappings": [],
+        "report_mappings": []
+      },
+      "years": {
+        "frequency": 2,
+        "fhir_mappings": [],
+        "report_mappings": []
+      },
+      "ps": {
+        "frequency": 1,
+        "fhir_mappings": [],
+        "report_mappings": []
+      },
+      "status": {
+        "frequency": 1,
+        "fhir_mappings": [],
+        "report_mappings": []
+      },
+      "ct": {
+        "frequency": 1,
+        "fhir_mappings": [],
+        "report_mappings": []
+      }
+    },
+    "demographics": {
+      "age": {
+        "frequency": 2,
+        "fhir_mappings": [],
+        "report_mappings": []
+      }
+    },
+    "comorbidities": {
+      "heart disease": {
+        "frequency": 1,
+        "fhir_mappings": [],
+        "report_mappings": []
+      },
+      "hiv": {
+        "frequency": 1,
+        "fhir_mappings": [],
+        "report_mappings": []
+      },
+      "diabetes": {
+        "frequency": 1,
+        "fhir_mappings": [],
+        "report_mappings": []
+      }
+    }
+  },
+  "neurology": {
+    "other": {
+      "pet": {
+        "frequency": 2,
+        "fhir_mappings": [],
+        "report_mappings": []
+      },
+      "Positron Emission Tomography": {
+        "frequency": 1,
+        "fhir_mappings": [],
+        "report_mappings": []
+      },
+      "years": {
+        "frequency": 1,
+        "fhir_mappings": [],
+        "report_mappings": []
+      },
+      "65": {
+        "frequency": 1,
+        "fhir_mappings": [],
+        "report_mappings": []
+      },
+      "yl": {
+        "frequency": 1,
+        "fhir_mappings": [],
+        "report_mappings": []
+      }
+    },
+    "demographics": {
+      "age": {
+        "frequency": 1,
+        "fhir_mappings": [],
+        "report_mappings": []
+      }
+    },
+    "pathology": {
+      "pr": {
+        "frequency": 1,
+        "fhir_mappings": [],
+        "report_mappings": []
+      },
+      "er": {
+        "frequency": 1,
+        "fhir_mappings": [],
+        "report_mappings": []
+      }
+    },
+    "laboratory": {
+      "Estrogen Receptor": {
+        "frequency": 1,
+        "fhir_mappings": [],
+        "report_mappings": []
+      },
+      "Progesterone Receptor": {
+        "frequency": 1,
+        "fhir_mappings": [],
+        "report_mappings": []
+      }
+    }
+  }
+}

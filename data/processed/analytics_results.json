@@ -1,0 +1,591 @@
+{
+  "oncology": {
+    "report": {
+      "summary": {
+        "total_trials": 2,
+        "total_terminologies": 32,
+        "categories_analyzed": 6,
+        "most_frequent_category": "laboratory"
+      },
+      "frequency_analysis": {
+        "total_trials": 2,
+        "category_stats": {
+          "laboratory": {
+            "total_occurrences": 13,
+            "unique_terms": 10,
+            "avg_occurrences_per_trial": 6.5,
+            "top_5_terms": [
+              [
+                "Eastern Cooperative Oncology Group",
+                2
+              ],
+              [
+                "Estrogen Receptor",
+                2
+              ],
+              [
+                "Progesterone Receptor",
+                2
+              ],
+              [
+                "hemoglobin",
+                1
+              ],
+              [
+                "Hemoglobin",
+                1
+              ]
+            ]
+          },
+          "pathology": {
+            "total_occurrences": 8,
+            "unique_terms": 6,
+            "avg_occurrences_per_trial": 4.0,
+            "top_5_terms": [
+              [
+                "er",
+                2
+              ],
+              [
+                "pr",
+                2
+              ],
+              [
+                "her2",
+                1
+              ],
+              [
+                "egfr",
+                1
+              ],
+              [
+                "chemotherapy",
+                1
+              ]
+            ]
+          },
+          "clinical": {
+            "total_occurrences": 4,
+            "unique_terms": 3,
+            "avg_occurrences_per_trial": 2.0,
+            "top_5_terms": [
+              [
+                "ecog",
+                2
+              ],
+              [
+                "Performance Status",
+                1
+              ],
+              [
+                "performance status",
+                1
+              ]
+            ]
+          },
+          "other": {
+            "total_occurrences": 11,
+            "unique_terms": 9,
+            "avg_occurrences_per_trial": 5.5,
+            "top_5_terms": [
+              [
+                "g",
+                2
+              ],
+              [
+                "years",
+                2
+              ],
+              [
+                "ps",
+                1
+              ],
+              [
+                "status",
+                1
+              ],
+              [
+                "ct",
+                1
+              ]
+            ]
+          },
+          "demographics": {
+            "total_occurrences": 2,
+            "unique_terms": 1,
+            "avg_occurrences_per_trial": 1.0,
+            "top_5_terms": [
+              [
+                "age",
+                2
+              ]
+            ]
+          },
+          "comorbidities": {
+            "total_occurrences": 3,
+            "unique_terms": 3,
+            "avg_occurrences_per_trial": 1.5,
+            "top_5_terms": [
+              [
+                "heart disease",
+                1
+              ],
+              [
+                "hiv",
+                1
+              ],
+              [
+                "diabetes",
+                1
+              ]
+            ]
+          }
+        },
+        "top_terminologies": {
+          "overall": [
+            [
+              "Eastern Cooperative Oncology Group",
+              2
+            ],
+            [
+              "Estrogen Receptor",
+              2
+            ],
+            [
+              "Progesterone Receptor",
+              2
+            ],
+            [
+              "er",
+              2
+            ],
+            [
+              "pr",
+              2
+            ],
+            [
+              "ecog",
+              2
+            ],
+            [
+              "g",
+              2
+            ],
+            [
+              "years",
+              2
+            ],
+            [
+              "age",
+              2
+            ],
+            [
+              "hemoglobin",
+              1
+            ],
+            [
+              "Hemoglobin",
+              1
+            ],
+            [
+              "hgb",
+              1
+            ],
+            [
+              "Human Epidermal Growth Factor Receptor 2",
+              1
+            ],
+            [
+              "Platelets",
+              1
+            ],
+            [
+              "Epidermal Growth Factor Receptor",
+              1
+            ],
+            [
+              "platelets",
+              1
+            ],
+            [
+              "her2",
+              1
+            ],
+            [
+              "egfr",
+              1
+            ],
+            [
+              "chemotherapy",
+              1
+            ],
+            [
+              "otherapy",
+              1
+            ]
+          ]
+        },
+        "coverage_metrics": {
+          "laboratory": {
+            "trials_with_terms": 10,
+            "coverage_percentage": 500.0
+          },
+          "pathology": {
+            "trials_with_terms": 6,
+            "coverage_percentage": 300.0
+          },
+          "clinical": {
+            "trials_with_terms": 3,
+            "coverage_percentage": 150.0
+          },
+          "other": {
+            "trials_with_terms": 9,
+            "coverage_percentage": 450.0
+          },
+          "demographics": {
+            "trials_with_terms": 1,
+            "coverage_percentage": 50.0
+          },
+          "comorbidities": {
+            "trials_with_terms": 3,
+            "coverage_percentage": 150.0
+          }
+        }
+      },
+      "top_indicators": {
+        "laboratory": [
+          [
+            "Eastern Cooperative Oncology Group",
+            2
+          ],
+          [
+            "Estrogen Receptor",
+            2
+          ],
+          [
+            "Progesterone Receptor",
+            2
+          ],
+          [
+            "hemoglobin",
+            1
+          ],
+          [
+            "Hemoglobin",
+            1
+          ]
+        ],
+        "pathology": [
+          [
+            "er",
+            2
+          ],
+          [
+            "pr",
+            2
+          ],
+          [
+            "her2",
+            1
+          ],
+          [
+            "egfr",
+            1
+          ],
+          [
+            "chemotherapy",
+            1
+          ]
+        ],
+        "clinical": [
+          [
+            "ecog",
+            2
+          ],
+          [
+            "Performance Status",
+            1
+          ],
+          [
+            "performance status",
+            1
+          ]
+        ],
+        "other": [
+          [
+            "g",
+            2
+          ],
+          [
+            "years",
+            2
+          ],
+          [
+            "ps",
+            1
+          ],
+          [
+            "status",
+            1
+          ],
+          [
+            "ct",
+            1
+          ]
+        ],
+        "demographics": [
+          [
+            "age",
+            2
+          ]
+        ],
+        "comorbidities": [
+          [
+            "heart disease",
+            1
+          ],
+          [
+            "hiv",
+            1
+          ],
+          [
+            "diabetes",
+            1
+          ]
+        ]
+      },
+      "recommendations": [
+        "Low terminology density in demographics category. Consider standardizing terminology usage.",
+        "Low terminology density in comorbidities category. Consider standardizing terminology usage."
+      ]
+    },
+    "charts": {
+      "frequency": "Figure({\n    'data': [{'marker': {'color': '#4ECDC4'},\n              'text': [2, 2, 2, 2, 2, 2, 2, 2, 2, 1],\n              'textposition': 'auto',\n              'type': 'bar',\n              'x': [Eastern Cooperative Oncology Group, Estrogen Receptor,\n                    Progesterone Receptor, er, pr, ecog, g, years, age, hemoglobin],\n              'y': [2, 2, 2, 2, 2, 2, 2, 2, 2, 1]}],\n    'layout': {'height': 500,\n               'template': '...',\n               'title': {'text': 'Top 10 Most Frequent Medical Terminologies'},\n               'xaxis': {'title': {'text': 'Terminology'}},\n               'yaxis': {'title': {'text': 'Frequency'}}}\n})",
+      "distribution": "Figure({\n    'data': [{'hole': 0.3,\n              'labels': [laboratory, pathology, clinical, other, demographics,\n                         comorbidities],\n              'marker': {'colors': ['#FF6B6B', '#4ECDC4', '#45B7D1', '#96CEB4', '#FFEAA7', '#DDA0DD']},\n              'type': 'pie',\n              'values': [13, 8, 4, 11, 2, 3]}],\n    'layout': {'height': 500, 'template': '...', 'title': {'text': 'Distribution of Terminologies Across Categories'}}\n})",
+      "coverage": "Figure({\n    'data': [{'marker': {'color': '#FF6B6B'},\n              'text': [500.0%, 300.0%, 150.0%, 450.0%, 50.0%, 150.0%],\n              'textposition': 'auto',\n              'type': 'bar',\n              'x': [laboratory, pathology, clinical, other, demographics,\n                    comorbidities],\n              'y': [500.0, 300.0, 150.0, 450.0, 50.0, 150.0]}],\n    'layout': {'height': 500,\n               'template': '...',\n               'title': {'text': 'Trial Coverage by Terminology Category'},\n               'xaxis': {'title': {'text': 'Category'}},\n               'yaxis': {'title': {'text': 'Coverage Percentage'}}}\n})",
+      "heatmap": "Figure({\n    'data': [{'colorscale': [[0.0, '#440154'], [0.1111111111111111, '#482878'],\n                             [0.2222222222222222, '#3e4989'], [0.3333333333333333,\n                             '#31688e'], [0.4444444444444444, '#26828e'],\n                             [0.5555555555555556, '#1f9e89'], [0.6666666666666666,\n                             '#35b779'], [0.7777777777777778, '#6ece58'],\n                             [0.8888888888888888, '#b5de2b'], [1.0, '#fde725']],\n              'text': [[2, 2, 2, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1], [0, 0, 0, 2,\n                       2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 2, 0, 0,\n                       0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0,\n                       0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0], [0,\n                       0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]],\n              'textfont': {'size': 10},\n              'texttemplate': '%{text}',\n              'type': 'heatmap',\n              'x': [Eastern Cooperative Oncology Group, Estrogen Receptor,\n                    Progesterone Receptor, er, pr, ecog, g, years, age, hemoglobin,\n                    Hemoglobin, hgb, Human Epidermal Growth Factor Receptor 2,\n                    Platelets, Epidermal Growth Factor Receptor],\n              'y': [laboratory, pathology, clinical, other, demographics,\n                    comorbidities],\n              'z': [[2, 2, 2, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1], [0, 0, 0, 2, 2,\n                    0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 2, 0, 0, 0, 0,\n                    0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 0],\n                    [0, 0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0,\n                    0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]}],\n    'layout': {'height': 600,\n               'template': '...',\n               'title': {'text': 'Terminology Frequency Heatmap by Category'},\n               'xaxis': {'title': {'text': 'Terminology'}},\n               'yaxis': {'title': {'text': 'Category'}}}\n})",
+      "dashboard": "Figure({\n    'data': [{'name': 'Top Terms',\n              'type': 'bar',\n              'x': [Eastern Cooperative Oncology Group, Estrogen Receptor,\n                    Progesterone Receptor, er, pr, ecog, g, years],\n              'xaxis': 'x',\n              'y': [2, 2, 2, 2, 2, 2, 2, 2],\n              'yaxis': 'y'},\n             {'domain': {'x': [0.55, 1.0], 'y': [0.625, 1.0]},\n              'labels': [laboratory, pathology, clinical, other, demographics,\n                         comorbidities],\n              'name': 'Categories',\n              'type': 'pie',\n              'values': [13, 8, 4, 11, 2, 3]},\n             {'name': 'Coverage',\n              'type': 'bar',\n              'x': [laboratory, pathology, clinical, other, demographics,\n                    comorbidities],\n              'xaxis': 'x2',\n              'y': [500.0, 300.0, 150.0, 450.0, 50.0, 150.0],\n              'yaxis': 'y2'},\n             {'colorscale': [[0.0, '#440154'], [0.1111111111111111, '#482878'],\n                             [0.2222222222222222, '#3e4989'], [0.3333333333333333,\n                             '#31688e'], [0.4444444444444444, '#26828e'],\n                             [0.5555555555555556, '#1f9e89'], [0.6666666666666666,\n                             '#35b779'], [0.7777777777777778, '#6ece58'],\n                             [0.8888888888888888, '#b5de2b'], [1.0, '#fde725']],\n              'name': 'Heatmap',\n              'type': 'heatmap',\n              'x': [Eastern Cooperative Oncology Group, Estrogen Receptor,\n                    Progesterone Receptor, er, pr, ecog, g, years, age, hemoglobin],\n              'xaxis': 'x3',\n              'y': [laboratory, pathology, clinical, other, demographics,\n                    comorbidities],\n              'yaxis': 'y3',\n              'z': [[2, 2, 2, 0, 0, 0, 0, 0, 0, 1], [0, 0, 0, 2, 2, 0, 0, 0, 0,\n                    0], [0, 0, 0, 0, 0, 2, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 2, 2, 0,\n                    0], [0, 0, 0, 0, 0, 0, 0, 0, 2, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0,\n                    0]]}],\n    'layout': {'annotations': [{'font': {'size': 16},\n                                'showarrow': False,\n                                'text': 'Top Terminologies',\n                                'x': 0.225,\n                                'xanchor': 'center',\n                                'xref': 'paper',\n                                'y': 1.0,\n                                'yanchor': 'bottom',\n                                'yref': 'paper'},\n                               {'font': {'size': 16},\n                                'showarrow': False,\n                                'text': 'Category Distribution',\n                                'x': 0.775,\n                                'xanchor': 'center',\n                                'xref': 'paper',\n                                'y': 1.0,\n                                'yanchor': 'bottom',\n                                'yref': 'paper'},\n                               {'font': {'size': 16},\n                                'showarrow': False,\n                                'text': 'Trial Coverage',\n                                'x': 0.225,\n                                'xanchor': 'center',\n                                'xref': 'paper',\n                                'y': 0.375,\n                                'yanchor': 'bottom',\n                                'yref': 'paper'},\n                               {'font': {'size': 16},\n                                'showarrow': False,\n                                'text': 'Terminology Heatmap',\n                                'x': 0.775,\n                                'xanchor': 'center',\n                                'xref': 'paper',\n                                'y': 0.375,\n                                'yanchor': 'bottom',\n                                'yref': 'paper'}],\n               'height': 800,\n               'showlegend': False,\n               'template': '...',\n               'title': {'text': 'Clinical Trials Analytics Dashboard'},\n               'xaxis': {'anchor': 'y', 'domain': [0.0, 0.45]},\n               'xaxis2': {'anchor': 'y2', 'domain': [0.0, 0.45]},\n               'xaxis3': {'anchor': 'y3', 'domain': [0.55, 1.0]},\n               'yaxis': {'anchor': 'x', 'domain': [0.625, 1.0]},\n               'yaxis2': {'anchor': 'x2', 'domain': [0.0, 0.375]},\n               'yaxis3': {'anchor': 'x3', 'domain': [0.0, 0.375]}}\n})"
+    }
+  },
+  "neurology": {
+    "report": {
+      "summary": {
+        "total_trials": 1,
+        "total_terminologies": 14,
+        "categories_analyzed": 4,
+        "most_frequent_category": "other"
+      },
+      "frequency_analysis": {
+        "total_trials": 1,
+        "category_stats": {
+          "other": {
+            "total_occurrences": 10,
+            "unique_terms": 9,
+            "avg_occurrences_per_trial": 10.0,
+            "top_5_terms": [
+              [
+                "pet",
+                2
+              ],
+              [
+                "Positron Emission Tomography",
+                1
+              ],
+              [
+                "years",
+                1
+              ],
+              [
+                "65",
+                1
+              ],
+              [
+                "yl",
+                1
+              ]
+            ]
+          },
+          "demographics": {
+            "total_occurrences": 1,
+            "unique_terms": 1,
+            "avg_occurrences_per_trial": 1.0,
+            "top_5_terms": [
+              [
+                "age",
+                1
+              ]
+            ]
+          },
+          "pathology": {
+            "total_occurrences": 2,
+            "unique_terms": 2,
+            "avg_occurrences_per_trial": 2.0,
+            "top_5_terms": [
+              [
+                "pr",
+                1
+              ],
+              [
+                "er",
+                1
+              ]
+            ]
+          },
+          "laboratory": {
+            "total_occurrences": 2,
+            "unique_terms": 2,
+            "avg_occurrences_per_trial": 2.0,
+            "top_5_terms": [
+              [
+                "Estrogen Receptor",
+                1
+              ],
+              [
+                "Progesterone Receptor",
+                1
+              ]
+            ]
+          }
+        },
+        "top_terminologies": {
+          "overall": [
+            [
+              "pet",
+              2
+            ],
+            [
+              "Positron Emission Tomography",
+              1
+            ],
+            [
+              "years",
+              1
+            ],
+            [
+              "65",
+              1
+            ],
+            [
+              "yl",
+              1
+            ],
+            [
+              "oid",
+              1
+            ],
+            [
+              "months",
+              1
+            ],
+            [
+              "ct",
+              1
+            ],
+            [
+              "Computed Tomography",
+              1
+            ],
+            [
+              "age",
+              1
+            ],
+            [
+              "pr",
+              1
+            ],
+            [
+              "er",
+              1
+            ],
+            [
+              "Estrogen Receptor",
+              1
+            ],
+            [
+              "Progesterone Receptor",
+              1
+            ]
+          ]
+        },
+        "coverage_metrics": {
+          "other": {
+            "trials_with_terms": 9,
+            "coverage_percentage": 900.0
+          },
+          "demographics": {
+            "trials_with_terms": 1,
+            "coverage_percentage": 100.0
+          },
+          "pathology": {
+            "trials_with_terms": 2,
+            "coverage_percentage": 200.0
+          },
+          "laboratory": {
+            "trials_with_terms": 2,
+            "coverage_percentage": 200.0
+          }
+        }
+      },
+      "top_indicators": {
+        "other": [
+          [
+            "pet",
+            2
+          ],
+          [
+            "Positron Emission Tomography",
+            1
+          ],
+          [
+            "years",
+            1
+          ],
+          [
+            "65",
+            1
+          ],
+          [
+            "yl",
+            1
+          ]
+        ],
+        "demographics": [
+          [
+            "age",
+            1
+          ]
+        ],
+        "pathology": [
+          [
+            "pr",
+            1
+          ],
+          [
+            "er",
+            1
+          ]
+        ],
+        "laboratory": [
+          [
+            "Estrogen Receptor",
+            1
+          ],
+          [
+            "Progesterone Receptor",
+            1
+          ]
+        ]
+      },
+      "recommendations": [
+        "Low terminology density in demographics category. Consider standardizing terminology usage."
+      ]
+    },
+    "charts": {
+      "frequency": "Figure({\n    'data': [{'marker': {'color': '#4ECDC4'},\n              'text': [2, 1, 1, 1, 1, 1, 1, 1, 1, 1],\n              'textposition': 'auto',\n              'type': 'bar',\n              'x': [pet, Positron Emission Tomography, years, 65, yl, oid, months,\n                    ct, Computed Tomography, age],\n              'y': [2, 1, 1, 1, 1, 1, 1, 1, 1, 1]}],\n    'layout': {'height': 500,\n               'template': '...',\n               'title': {'text': 'Top 10 Most Frequent Medical Terminologies'},\n               'xaxis': {'title': {'text': 'Terminology'}},\n               'yaxis': {'title': {'text': 'Frequency'}}}\n})",
+      "distribution": "Figure({\n    'data': [{'hole': 0.3,\n              'labels': [other, demographics, pathology, laboratory],\n              'marker': {'colors': ['#FF6B6B', '#4ECDC4', '#45B7D1', '#96CEB4']},\n              'type': 'pie',\n              'values': [10, 1, 2, 2]}],\n    'layout': {'height': 500, 'template': '...', 'title': {'text': 'Distribution of Terminologies Across Categories'}}\n})",
+      "coverage": "Figure({\n    'data': [{'marker': {'color': '#FF6B6B'},\n              'text': [900.0%, 100.0%, 200.0%, 200.0%],\n              'textposition': 'auto',\n              'type': 'bar',\n              'x': [other, demographics, pathology, laboratory],\n              'y': [900.0, 100.0, 200.0, 200.0]}],\n    'layout': {'height': 500,\n               'template': '...',\n               'title': {'text': 'Trial Coverage by Terminology Category'},\n               'xaxis': {'title': {'text': 'Category'}},\n               'yaxis': {'title': {'text': 'Coverage Percentage'}}}\n})",
+      "heatmap": "Figure({\n    'data': [{'colorscale': [[0.0, '#440154'], [0.1111111111111111, '#482878'],\n                             [0.2222222222222222, '#3e4989'], [0.3333333333333333,\n                             '#31688e'], [0.4444444444444444, '#26828e'],\n                             [0.5555555555555556, '#1f9e89'], [0.6666666666666666,\n                             '#35b779'], [0.7777777777777778, '#6ece58'],\n                             [0.8888888888888888, '#b5de2b'], [1.0, '#fde725']],\n              'text': [[2, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0,\n                       0, 0, 0, 0, 1, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0,\n                       1, 1, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1]],\n              'textfont': {'size': 10},\n              'texttemplate': '%{text}',\n              'type': 'heatmap',\n              'x': [pet, Positron Emission Tomography, years, 65, yl, oid, months,\n                    ct, Computed Tomography, age, pr, er, Estrogen Receptor,\n                    Progesterone Receptor],\n              'y': [other, demographics, pathology, laboratory],\n              'z': [[2, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0,\n                    0, 0, 0, 1, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1,\n                    0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1]]}],\n    'layout': {'height': 600,\n               'template': '...',\n               'title': {'text': 'Terminology Frequency Heatmap by Category'},\n               'xaxis': {'title': {'text': 'Terminology'}},\n               'yaxis': {'title': {'text': 'Category'}}}\n})",
+      "dashboard": "Figure({\n    'data': [{'name': 'Top Terms',\n              'type': 'bar',\n              'x': [pet, Positron Emission Tomography, years, 65, yl, oid, months,\n                    ct],\n              'xaxis': 'x',\n              'y': [2, 1, 1, 1, 1, 1, 1, 1],\n              'yaxis': 'y'},\n             {'domain': {'x': [0.55, 1.0], 'y': [0.625, 1.0]},\n              'labels': [other, demographics, pathology, laboratory],\n              'name': 'Categories',\n              'type': 'pie',\n              'values': [10, 1, 2, 2]},\n             {'name': 'Coverage',\n              'type': 'bar',\n              'x': [other, demographics, pathology, laboratory],\n              'xaxis': 'x2',\n              'y': [900.0, 100.0, 200.0, 200.0],\n              'yaxis': 'y2'},\n             {'colorscale': [[0.0, '#440154'], [0.1111111111111111, '#482878'],\n                             [0.2222222222222222, '#3e4989'], [0.3333333333333333,\n                             '#31688e'], [0.4444444444444444, '#26828e'],\n                             [0.5555555555555556, '#1f9e89'], [0.6666666666666666,\n                             '#35b779'], [0.7777777777777778, '#6ece58'],\n                             [0.8888888888888888, '#b5de2b'], [1.0, '#fde725']],\n              'name': 'Heatmap',\n              'type': 'heatmap',\n              'x': [pet, Positron Emission Tomography, years, 65, yl, oid, months,\n                    ct, Computed Tomography, age],\n              'xaxis': 'x3',\n              'y': [other, demographics, pathology, laboratory],\n              'yaxis': 'y3',\n              'z': [[2, 1, 1, 1, 1, 1, 1, 1, 1, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0,\n                    1], [0, 0, 0, 0, 0, 0, 0, 0, 0, 0], [0, 0, 0, 0, 0, 0, 0, 0, 0,\n                    0]]}],\n    'layout': {'annotations': [{'font': {'size': 16},\n                                'showarrow': False,\n                                'text': 'Top Terminologies',\n                                'x': 0.225,\n                                'xanchor': 'center',\n                                'xref': 'paper',\n                                'y': 1.0,\n                                'yanchor': 'bottom',\n                                'yref': 'paper'},\n                               {'font': {'size': 16},\n                                'showarrow': False,\n                                'text': 'Category Distribution',\n                                'x': 0.775,\n                                'xanchor': 'center',\n                                'xref': 'paper',\n                                'y': 1.0,\n                                'yanchor': 'bottom',\n                                'yref': 'paper'},\n                               {'font': {'size': 16},\n                                'showarrow': False,\n                                'text': 'Trial Coverage',\n                                'x': 0.225,\n                                'xanchor': 'center',\n                                'xref': 'paper',\n                                'y': 0.375,\n                                'yanchor': 'bottom',\n                                'yref': 'paper'},\n                               {'font': {'size': 16},\n                                'showarrow': False,\n                                'text': 'Terminology Heatmap',\n                                'x': 0.775,\n                                'xanchor': 'center',\n                                'xref': 'paper',\n                                'y': 0.375,\n                                'yanchor': 'bottom',\n                                'yref': 'paper'}],\n               'height': 800,\n               'showlegend': False,\n               'template': '...',\n               'title': {'text': 'Clinical Trials Analytics Dashboard'},\n               'xaxis': {'anchor': 'y', 'domain': [0.0, 0.45]},\n               'xaxis2': {'anchor': 'y2', 'domain': [0.0, 0.45]},\n               'xaxis3': {'anchor': 'y3', 'domain': [0.55, 1.0]},\n               'yaxis': {'anchor': 'x', 'domain': [0.625, 1.0]},\n               'yaxis2': {'anchor': 'x2', 'domain': [0.0, 0.375]},\n               'yaxis3': {'anchor': 'x3', 'domain': [0.0, 0.375]}}\n})"
+    }
+  }
+}
