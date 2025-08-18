@@ -1,0 +1,80 @@
+{
+  "resourceType": "Bundle",
+  "type": "collection",
+  "entry": [
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "observation-1",
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "424144002",
+              "display": "performance status 0"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "observation-2",
+        "effectivePeriod": "18 years"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "observation-3",
+        "valueCodeableConcept": {
+          "coding": [
+            {
+              "system": "http://snomed.info/sct",
+              "code": "unknown",
+              "display": "HER2"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "condition-4",
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "code": "unknown",
+              "display": "adenocarcinoma"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Observation",
+        "id": "observation-5",
+        "effectivePeriod": "12 weeks"
+      }
+    },
+    {
+      "resource": {
+        "resourceType": "Condition",
+        "id": "condition-6",
+        "code": {
+          "coding": [
+            {
+              "system": "http://hl7.org/fhir/sid/icd-10-cm",
+              "code": "unknown",
+              "display": "advanced"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

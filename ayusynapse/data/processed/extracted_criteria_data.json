@@ -1,0 +1,6296 @@
+{
+  "trials": [
+    {
+      "trial_id": "trial_1",
+      "nct_id": "NCT07062263",
+      "title": "Trastuzumab Plus Chemotherapy vs Chemotherapy Alone in HER2 Positive Advanced Biliary Tract Cancer",
+      "criteria": [
+        {
+          "text": "Ages Eligible for Study: 18 Years and older (Adult, Older Adult)\nSexes Eligible for Study: All\nAccepts Healthy Volunteers: No",
+          "type": "demographic",
+          "entities": [
+            {
+              "text": "18 Years and older",
+              "entity_type": "AGE",
+              "value": 18,
+              "resource_type": "Patient"
+            },
+            {
+              "text": "All",
+              "entity_type": "GENDER",
+              "value": "unknown",
+              "resource_type": "Patient"
+            },
+            {
+              "text": "All",
+              "entity_type": "DIAGNOSIS",
+              "value": "All",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Inclusion Criteria:",
+          "type": "inclusion",
+          "entities": []
+        },
+        {
+          "text": "Histologically confirmed adenocarcinoma of the biliary tract (intrahepatic/extrahepatic cholangiocarcinoma or gallbladder cancer).",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "Histologically confirmed adenocarcinoma",
+              "entity_type": "DIAGNOSIS",
+              "value": "Histologically confirmed adenocarcinoma",
+              "resource_type": "Condition"
+            },
+            {
+              "text": "cancer",
+              "entity_type": "DIAGNOSIS",
+              "value": "cancer",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "HER2 positive status per local laboratory.",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "HER2 positive",
+              "entity_type": "BIOMARKER",
+              "value": "HER2 positive",
+              "resource_type": "Observation"
+            },
+            {
+              "text": "HER2 positive status",
+              "entity_type": "BIOMARKER",
+              "value": "HER2 positive status",
+              "resource_type": "Observation"
+            }
+          ]
+        },
+        {
+          "text": "At least one measurable lesion (RECIST v1.1).",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "At least one measurable lesion",
+              "entity_type": "MEASURABLE_DISEASE",
+              "value": "At least one measurable lesion",
+              "resource_type": "Observation"
+            }
+          ]
+        },
+        {
+          "text": "Life expectancy ≥12 weeks.",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "Life expectancy ≥12 weeks",
+              "entity_type": "LIFE_EXPECTANCY",
+              "value": {
+                "value": 12,
+                "unit": "weeks"
+              },
+              "resource_type": "Observation"
+            }
+          ]
+        },
+        {
+          "text": "ECOG performance status 0–1.",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "ECOG performance status 0",
+              "entity_type": "ECOG",
+              "value": 0,
+              "resource_type": "Observation"
+            }
+          ]
+        },
+        {
+          "text": "Exclusion Criteria:",
+          "type": "exclusion",
+          "entities": []
+        },
+        {
+          "text": "Prior systemic therapy for advanced/unresectable disease (adjuvant therapy allowed if completed >6 months before).",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "unresectable disease",
+              "entity_type": "DIAGNOSIS",
+              "value": "unresectable disease",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "CNS metastases.",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "CNS metastases",
+              "entity_type": "EXCLUSION",
+              "value": "CNS metastases",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Significant cardiovascular disease.",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "Significant cardiovascular disease",
+              "entity_type": "EXCLUSION",
+              "value": "Significant cardiovascular disease",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Active uncontrolled infections.",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "Active uncontrolled infections",
+              "entity_type": "EXCLUSION",
+              "value": "Active uncontrolled infections",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Pregnant or breastfeeding.",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "Pregnant",
+              "entity_type": "EXCLUSION",
+              "value": "Pregnant",
+              "resource_type": "Condition"
+            },
+            {
+              "text": "breastfeeding",
+              "entity_type": "EXCLUSION",
+              "value": "breastfeeding",
+              "resource_type": "Condition"
+            }
+          ]
+        }
+      ],
+      "total_entities": 16,
+      "all_entities": [
+        {
+          "text": "18 Years and older",
+          "entity_type": "AGE",
+          "value": 18,
+          "resource_type": "Patient"
+        },
+        {
+          "text": "All",
+          "entity_type": "GENDER",
+          "value": "unknown",
+          "resource_type": "Patient"
+        },
+        {
+          "text": "All",
+          "entity_type": "DIAGNOSIS",
+          "value": "All",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "Histologically confirmed adenocarcinoma",
+          "entity_type": "DIAGNOSIS",
+          "value": "Histologically confirmed adenocarcinoma",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "cancer",
+          "entity_type": "DIAGNOSIS",
+          "value": "cancer",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "HER2 positive",
+          "entity_type": "BIOMARKER",
+          "value": "HER2 positive",
+          "resource_type": "Observation"
+        },
+        {
+          "text": "HER2 positive status",
+          "entity_type": "BIOMARKER",
+          "value": "HER2 positive status",
+          "resource_type": "Observation"
+        },
+        {
+          "text": "At least one measurable lesion",
+          "entity_type": "MEASURABLE_DISEASE",
+          "value": "At least one measurable lesion",
+          "resource_type": "Observation"
+        },
+        {
+          "text": "Life expectancy ≥12 weeks",
+          "entity_type": "LIFE_EXPECTANCY",
+          "value": {
+            "value": 12,
+            "unit": "weeks"
+          },
+          "resource_type": "Observation"
+        },
+        {
+          "text": "ECOG performance status 0",
+          "entity_type": "ECOG",
+          "value": 0,
+          "resource_type": "Observation"
+        },
+        {
+          "text": "unresectable disease",
+          "entity_type": "DIAGNOSIS",
+          "value": "unresectable disease",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "CNS metastases",
+          "entity_type": "EXCLUSION",
+          "value": "CNS metastases",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "Significant cardiovascular disease",
+          "entity_type": "EXCLUSION",
+          "value": "Significant cardiovascular disease",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "Active uncontrolled infections",
+          "entity_type": "EXCLUSION",
+          "value": "Active uncontrolled infections",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "Pregnant",
+          "entity_type": "EXCLUSION",
+          "value": "Pregnant",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "breastfeeding",
+          "entity_type": "EXCLUSION",
+          "value": "breastfeeding",
+          "resource_type": "Condition"
+        }
+      ]
+    },
+    {
+      "trial_id": "trial_2",
+      "nct_id": "NCT07052006",
+      "title": "HT-6184 in Subjects With MDS",
+      "criteria": [
+        {
+          "text": "Ages Eligible for Study: 18 Years and older (Adult, Older Adult)\nSexes Eligible for Study: All\nAccepts Healthy Volunteers: No",
+          "type": "demographic",
+          "entities": [
+            {
+              "text": "18 Years and older",
+              "entity_type": "AGE",
+              "value": 18,
+              "resource_type": "Patient"
+            },
+            {
+              "text": "All",
+              "entity_type": "GENDER",
+              "value": "unknown",
+              "resource_type": "Patient"
+            },
+            {
+              "text": "All",
+              "entity_type": "DIAGNOSIS",
+              "value": "All",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Inclusion Criteria:",
+          "type": "inclusion",
+          "entities": []
+        },
+        {
+          "text": "Diagnosis of Myelodysplastic Syndrome (MDS) or non-proliferative chronic myelomonocytic leukemia.",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "Myelodysplastic Syndrome",
+              "entity_type": "DIAGNOSIS",
+              "value": "Myelodysplastic Syndrome",
+              "resource_type": "Condition"
+            },
+            {
+              "text": "MDS",
+              "entity_type": "DIAGNOSIS",
+              "value": "MDS",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Symptomatic anemia.",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Adequate organ function.",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Informed consent provided.",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Exclusion Criteria:",
+          "type": "exclusion",
+          "entities": []
+        },
+        {
+          "text": "Other malignancy within 2 years (exceptions apply).",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Inadequate recovery from prior therapies.",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Significant comorbid illness interfering with study participation.",
+          "type": "clinical",
+          "entities": []
+        }
+      ],
+      "total_entities": 5,
+      "all_entities": [
+        {
+          "text": "18 Years and older",
+          "entity_type": "AGE",
+          "value": 18,
+          "resource_type": "Patient"
+        },
+        {
+          "text": "All",
+          "entity_type": "GENDER",
+          "value": "unknown",
+          "resource_type": "Patient"
+        },
+        {
+          "text": "All",
+          "entity_type": "DIAGNOSIS",
+          "value": "All",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "Myelodysplastic Syndrome",
+          "entity_type": "DIAGNOSIS",
+          "value": "Myelodysplastic Syndrome",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "MDS",
+          "entity_type": "DIAGNOSIS",
+          "value": "MDS",
+          "resource_type": "Condition"
+        }
+      ]
+    },
+    {
+      "trial_id": "trial_3",
+      "nct_id": "NCT07044687",
+      "title": "Venetoclax + Azacitidine in AML (Ineligible for Standard Induction)",
+      "criteria": [
+        {
+          "text": "Ages Eligible for Study: 18 Years and older (Adult, Older Adult)\nSexes Eligible for Study: All\nAccepts Healthy Volunteers: No",
+          "type": "demographic",
+          "entities": [
+            {
+              "text": "18 Years and older",
+              "entity_type": "AGE",
+              "value": 18,
+              "resource_type": "Patient"
+            },
+            {
+              "text": "All",
+              "entity_type": "GENDER",
+              "value": "unknown",
+              "resource_type": "Patient"
+            },
+            {
+              "text": "All",
+              "entity_type": "DIAGNOSIS",
+              "value": "All",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Inclusion Criteria:",
+          "type": "inclusion",
+          "entities": []
+        },
+        {
+          "text": "Confirmed diagnosis of acute myeloid leukemia (AML), untreated.",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "AML",
+              "entity_type": "DIAGNOSIS",
+              "value": "AML",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Not eligible for standard induction chemotherapy.",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "ECOG 0–3.",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "ECOG 0",
+              "entity_type": "ECOG",
+              "value": 0,
+              "resource_type": "Observation"
+            }
+          ]
+        },
+        {
+          "text": "Exclusion Criteria:",
+          "type": "exclusion",
+          "entities": []
+        },
+        {
+          "text": "Prior AML treatment.",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "AML",
+              "entity_type": "DIAGNOSIS",
+              "value": "AML",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Active uncontrolled infection.",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "uncontrolled infection",
+              "entity_type": "EXCLUSION",
+              "value": "uncontrolled infection",
+              "resource_type": "Condition"
+            },
+            {
+              "text": "Active uncontrolled infection",
+              "entity_type": "EXCLUSION",
+              "value": "Active uncontrolled infection",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Other medical conditions that may interfere with participation.",
+          "type": "clinical",
+          "entities": []
+        }
+      ],
+      "total_entities": 8,
+      "all_entities": [
+        {
+          "text": "18 Years and older",
+          "entity_type": "AGE",
+          "value": 18,
+          "resource_type": "Patient"
+        },
+        {
+          "text": "All",
+          "entity_type": "GENDER",
+          "value": "unknown",
+          "resource_type": "Patient"
+        },
+        {
+          "text": "All",
+          "entity_type": "DIAGNOSIS",
+          "value": "All",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "AML",
+          "entity_type": "DIAGNOSIS",
+          "value": "AML",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "ECOG 0",
+          "entity_type": "ECOG",
+          "value": 0,
+          "resource_type": "Observation"
+        },
+        {
+          "text": "AML",
+          "entity_type": "DIAGNOSIS",
+          "value": "AML",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "uncontrolled infection",
+          "entity_type": "EXCLUSION",
+          "value": "uncontrolled infection",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "Active uncontrolled infection",
+          "entity_type": "EXCLUSION",
+          "value": "Active uncontrolled infection",
+          "resource_type": "Condition"
+        }
+      ]
+    },
+    {
+      "trial_id": "trial_4",
+      "nct_id": "NCT07042100",
+      "title": "Safety and Tolerability of SBO-154 in Advanced Solid Tumors",
+      "criteria": [
+        {
+          "text": "Ages Eligible for Study: 18 Years and older (Adult, Older Adult)\nSexes Eligible for Study: All\nAccepts Healthy Volunteers: No",
+          "type": "demographic",
+          "entities": [
+            {
+              "text": "18 Years and older",
+              "entity_type": "AGE",
+              "value": 18,
+              "resource_type": "Patient"
+            },
+            {
+              "text": "All",
+              "entity_type": "GENDER",
+              "value": "unknown",
+              "resource_type": "Patient"
+            },
+            {
+              "text": "All",
+              "entity_type": "DIAGNOSIS",
+              "value": "All",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Inclusion Criteria:",
+          "type": "inclusion",
+          "entities": []
+        },
+        {
+          "text": "Advanced/metastatic solid tumors that are unresectable and refractory to standard therapy.",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "solid tumors",
+              "entity_type": "DIAGNOSIS",
+              "value": "solid tumors",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "ECOG 0–1.",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "ECOG 0",
+              "entity_type": "ECOG",
+              "value": 0,
+              "resource_type": "Observation"
+            }
+          ]
+        },
+        {
+          "text": "Adequate organ function.",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Exclusion Criteria:",
+          "type": "exclusion",
+          "entities": []
+        },
+        {
+          "text": "Major surgery within 4 weeks before first dose.",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Significant organ dysfunction.",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Any condition deemed unsuitable by investigator.",
+          "type": "clinical",
+          "entities": []
+        }
+      ],
+      "total_entities": 5,
+      "all_entities": [
+        {
+          "text": "18 Years and older",
+          "entity_type": "AGE",
+          "value": 18,
+          "resource_type": "Patient"
+        },
+        {
+          "text": "All",
+          "entity_type": "GENDER",
+          "value": "unknown",
+          "resource_type": "Patient"
+        },
+        {
+          "text": "All",
+          "entity_type": "DIAGNOSIS",
+          "value": "All",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "solid tumors",
+          "entity_type": "DIAGNOSIS",
+          "value": "solid tumors",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "ECOG 0",
+          "entity_type": "ECOG",
+          "value": 0,
+          "resource_type": "Observation"
+        }
+      ]
+    },
+    {
+      "trial_id": "trial_5",
+      "nct_id": "NCT07040059",
+      "title": "AUR103 in HER2-positive Advanced Gastric/Gastroesophageal Junction Adenocarcinoma",
+      "criteria": [
+        {
+          "text": "Ages Eligible for Study: 18 Years and older (Adult, Older Adult)\nSexes Eligible for Study: All\nAccepts Healthy Volunteers: No",
+          "type": "demographic",
+          "entities": [
+            {
+              "text": "18 Years and older",
+              "entity_type": "AGE",
+              "value": 18,
+              "resource_type": "Patient"
+            },
+            {
+              "text": "All",
+              "entity_type": "GENDER",
+              "value": "unknown",
+              "resource_type": "Patient"
+            },
+            {
+              "text": "All",
+              "entity_type": "DIAGNOSIS",
+              "value": "All",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Inclusion Criteria:",
+          "type": "inclusion",
+          "entities": []
+        },
+        {
+          "text": "Histologically confirmed HER2-positive advanced gastric or gastroesophageal junction (GEJ) adenocarcinoma.",
+          "type": "demographic",
+          "entities": [
+            {
+              "text": "adenocarcinoma",
+              "entity_type": "DIAGNOSIS",
+              "value": "adenocarcinoma",
+              "resource_type": "Condition"
+            },
+            {
+              "text": "HER2",
+              "entity_type": "BIOMARKER",
+              "value": "HER2",
+              "resource_type": "Observation"
+            }
+          ]
+        },
+        {
+          "text": "ECOG 0–1.",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "ECOG 0",
+              "entity_type": "ECOG",
+              "value": 0,
+              "resource_type": "Observation"
+            }
+          ]
+        },
+        {
+          "text": "At least one measurable lesion.",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "At least one measurable lesion",
+              "entity_type": "MEASURABLE_DISEASE",
+              "value": "At least one measurable lesion",
+              "resource_type": "Observation"
+            }
+          ]
+        },
+        {
+          "text": "Exclusion Criteria:",
+          "type": "exclusion",
+          "entities": []
+        },
+        {
+          "text": "Resectable tumor.",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Prior definitive radiotherapy to target lesions.",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Severe uncontrolled illness.",
+          "type": "clinical",
+          "entities": []
+        }
+      ],
+      "total_entities": 7,
+      "all_entities": [
+        {
+          "text": "18 Years and older",
+          "entity_type": "AGE",
+          "value": 18,
+          "resource_type": "Patient"
+        },
+        {
+          "text": "All",
+          "entity_type": "GENDER",
+          "value": "unknown",
+          "resource_type": "Patient"
+        },
+        {
+          "text": "All",
+          "entity_type": "DIAGNOSIS",
+          "value": "All",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "adenocarcinoma",
+          "entity_type": "DIAGNOSIS",
+          "value": "adenocarcinoma",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "HER2",
+          "entity_type": "BIOMARKER",
+          "value": "HER2",
+          "resource_type": "Observation"
+        },
+        {
+          "text": "ECOG 0",
+          "entity_type": "ECOG",
+          "value": 0,
+          "resource_type": "Observation"
+        },
+        {
+          "text": "At least one measurable lesion",
+          "entity_type": "MEASURABLE_DISEASE",
+          "value": "At least one measurable lesion",
+          "resource_type": "Observation"
+        }
+      ]
+    },
+    {
+      "trial_id": "trial_6",
+      "nct_id": "NCT07030517",
+      "title": "Safety of Teclistamab in Relapsed/Refractory Multiple Myeloma",
+      "criteria": [
+        {
+          "text": "Ages Eligible for Study: 18 Years and older (Adult, Older Adult)\nSexes Eligible for Study: All\nAccepts Healthy Volunteers: No",
+          "type": "demographic",
+          "entities": [
+            {
+              "text": "18 Years and older",
+              "entity_type": "AGE",
+              "value": 18,
+              "resource_type": "Patient"
+            },
+            {
+              "text": "All",
+              "entity_type": "GENDER",
+              "value": "unknown",
+              "resource_type": "Patient"
+            },
+            {
+              "text": "All",
+              "entity_type": "DIAGNOSIS",
+              "value": "All",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Inclusion Criteria:",
+          "type": "inclusion",
+          "entities": []
+        },
+        {
+          "text": "Confirmed diagnosis of relapsed/refractory multiple myeloma.",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "multiple myeloma",
+              "entity_type": "DIAGNOSIS",
+              "value": "multiple myeloma",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Received ≥3 prior lines of therapy.",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Measurable disease.",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "Measurable disease",
+              "entity_type": "MEASURABLE_DISEASE",
+              "value": "Measurable disease",
+              "resource_type": "Observation"
+            }
+          ]
+        },
+        {
+          "text": "Exclusion Criteria:",
+          "type": "exclusion",
+          "entities": []
+        },
+        {
+          "text": "Prior exposure to teclistamab or similar bispecific antibodies.",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Active CNS involvement with myeloma.",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Significant concurrent illness.",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "2)",
+          "type": "clinical",
+          "entities": []
+        }
+      ],
+      "total_entities": 5,
+      "all_entities": [
+        {
+          "text": "18 Years and older",
+          "entity_type": "AGE",
+          "value": 18,
+          "resource_type": "Patient"
+        },
+        {
+          "text": "All",
+          "entity_type": "GENDER",
+          "value": "unknown",
+          "resource_type": "Patient"
+        },
+        {
+          "text": "All",
+          "entity_type": "DIAGNOSIS",
+          "value": "All",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "multiple myeloma",
+          "entity_type": "DIAGNOSIS",
+          "value": "multiple myeloma",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "Measurable disease",
+          "entity_type": "MEASURABLE_DISEASE",
+          "value": "Measurable disease",
+          "resource_type": "Observation"
+        }
+      ]
+    },
+    {
+      "trial_id": "trial_1",
+      "nct_id": "NCT06926543",
+      "title": "Postoperative Radiotherapy in Breast Cancer – Concurrent or Sequential With Chemotherapy (India sites)",
+      "criteria": [
+        {
+          "text": "Ages Eligible for Study:",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "18 years and older (Adult, Older Adult)",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "18 years and older",
+              "entity_type": "AGE",
+              "value": 18,
+              "resource_type": "Patient"
+            }
+          ]
+        },
+        {
+          "text": "Sexes Eligible for Study:",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "All",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "All",
+              "entity_type": "GENDER",
+              "value": "unknown",
+              "resource_type": "Patient"
+            },
+            {
+              "text": "All",
+              "entity_type": "DIAGNOSIS",
+              "value": "All",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Accepts Healthy Volunteers:",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "No",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Inclusion Criteria:",
+          "type": "inclusion",
+          "entities": []
+        },
+        {
+          "text": "Pathologically confirmed invasive breast cancer",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "cancer",
+              "entity_type": "DIAGNOSIS",
+              "value": "cancer",
+              "resource_type": "Condition"
+            },
+            {
+              "text": "breast cancer",
+              "entity_type": "DIAGNOSIS",
+              "value": "breast cancer",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Stage IIB-III invasive breast cancer (AJCC 8th edition)",
+          "type": "demographic",
+          "entities": [
+            {
+              "text": "cancer",
+              "entity_type": "DIAGNOSIS",
+              "value": "cancer",
+              "resource_type": "Condition"
+            },
+            {
+              "text": "breast cancer",
+              "entity_type": "DIAGNOSIS",
+              "value": "breast cancer",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Patients planned for adjuvant chemotherapy and radiotherapy",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Patients fit to receive adjuvant chemotherapy and radiotherapy",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Exclusion Criteria:",
+          "type": "exclusion",
+          "entities": []
+        },
+        {
+          "text": "Hypersensitivity to taxanes",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Patients receiving neoadjuvant chemotherapy",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "History of another malignancy except for adequately treated non-melanoma skin cancer or carcinoma in situ of the cervix.centerwatch+2",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "cancer",
+              "entity_type": "DIAGNOSIS",
+              "value": "cancer",
+              "resource_type": "Condition"
+            },
+            {
+              "text": "carcinoma",
+              "entity_type": "DIAGNOSIS",
+              "value": "carcinoma",
+              "resource_type": "Condition"
+            }
+          ]
+        }
+      ],
+      "total_entities": 9,
+      "all_entities": [
+        {
+          "text": "18 years and older",
+          "entity_type": "AGE",
+          "value": 18,
+          "resource_type": "Patient"
+        },
+        {
+          "text": "All",
+          "entity_type": "GENDER",
+          "value": "unknown",
+          "resource_type": "Patient"
+        },
+        {
+          "text": "All",
+          "entity_type": "DIAGNOSIS",
+          "value": "All",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "cancer",
+          "entity_type": "DIAGNOSIS",
+          "value": "cancer",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "breast cancer",
+          "entity_type": "DIAGNOSIS",
+          "value": "breast cancer",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "cancer",
+          "entity_type": "DIAGNOSIS",
+          "value": "cancer",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "breast cancer",
+          "entity_type": "DIAGNOSIS",
+          "value": "breast cancer",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "cancer",
+          "entity_type": "DIAGNOSIS",
+          "value": "cancer",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "carcinoma",
+          "entity_type": "DIAGNOSIS",
+          "value": "carcinoma",
+          "resource_type": "Condition"
+        }
+      ]
+    },
+    {
+      "trial_id": "trial_2",
+      "nct_id": "NCT06874985",
+      "title": "Effectiveness of Lived Experience Cancer Awareness Campaign (India, community-level oncology)",
+      "criteria": [
+        {
+          "text": "Ages Eligible for Study:",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "30 to 59 years",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Sexes Eligible for Study:",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "All",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "All",
+              "entity_type": "GENDER",
+              "value": "unknown",
+              "resource_type": "Patient"
+            },
+            {
+              "text": "All",
+              "entity_type": "DIAGNOSIS",
+              "value": "All",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Accepts Healthy Volunteers:",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "No (participants must not have a history of the target cancers)",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Inclusion Criteria:",
+          "type": "inclusion",
+          "entities": []
+        },
+        {
+          "text": "Men and women aged 30-59 years",
+          "type": "demographic",
+          "entities": [
+            {
+              "text": "30-59 years",
+              "entity_type": "AGE",
+              "value": 30,
+              "resource_type": "Patient"
+            }
+          ]
+        },
+        {
+          "text": "No prior diagnosis of cervical, breast, or oral cancer",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "cancer",
+              "entity_type": "DIAGNOSIS",
+              "value": "cancer",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Have not undergone screening for the above cancers in the last 1 year",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Exclusion Criteria:",
+          "type": "exclusion",
+          "entities": []
+        },
+        {
+          "text": "Prior diagnosis of cervical, breast, or oral cancer",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "cancer",
+              "entity_type": "DIAGNOSIS",
+              "value": "cancer",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Underwent screening for the above cancers in the last 1 year.ctv.veeva+2",
+          "type": "clinical",
+          "entities": []
+        }
+      ],
+      "total_entities": 5,
+      "all_entities": [
+        {
+          "text": "All",
+          "entity_type": "GENDER",
+          "value": "unknown",
+          "resource_type": "Patient"
+        },
+        {
+          "text": "All",
+          "entity_type": "DIAGNOSIS",
+          "value": "All",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "30-59 years",
+          "entity_type": "AGE",
+          "value": 30,
+          "resource_type": "Patient"
+        },
+        {
+          "text": "cancer",
+          "entity_type": "DIAGNOSIS",
+          "value": "cancer",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "cancer",
+          "entity_type": "DIAGNOSIS",
+          "value": "cancer",
+          "resource_type": "Condition"
+        }
+      ]
+    },
+    {
+      "trial_id": "trial_3",
+      "nct_id": "NCT06429761",
+      "title": "Safety of Trastuzumab Deruxtecan in Indian Patients (HER2-positive breast cancer, India sites)",
+      "criteria": [
+        {
+          "text": "Ages Eligible for Study:",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "18 years and older",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "18 years and older",
+              "entity_type": "AGE",
+              "value": 18,
+              "resource_type": "Patient"
+            }
+          ]
+        },
+        {
+          "text": "Sexes Eligible for Study:",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "All",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "All",
+              "entity_type": "GENDER",
+              "value": "unknown",
+              "resource_type": "Patient"
+            },
+            {
+              "text": "All",
+              "entity_type": "DIAGNOSIS",
+              "value": "All",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Accepts Healthy Volunteers:",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "No",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Inclusion Criteria:",
+          "type": "inclusion",
+          "entities": []
+        },
+        {
+          "text": "Participant must be ≥18 years of age at signing informed consent",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "Pathologically documented breast cancer that is unresectable or metastatic and HER2-positive",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "cancer",
+              "entity_type": "DIAGNOSIS",
+              "value": "cancer",
+              "resource_type": "Condition"
+            },
+            {
+              "text": "breast cancer",
+              "entity_type": "DIAGNOSIS",
+              "value": "breast cancer",
+              "resource_type": "Condition"
+            },
+            {
+              "text": "HER2",
+              "entity_type": "BIOMARKER",
+              "value": "HER2",
+              "resource_type": "Observation"
+            }
+          ]
+        },
+        {
+          "text": "Previously treated with an anti HER-2 based regimen",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Adequate bone marrow and renal function as per protocol",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Exclusion Criteria:",
+          "type": "exclusion",
+          "entities": []
+        },
+        {
+          "text": "Prior treatment with T-DXd (trastuzumab deruxtecan)",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Uncontrolled or significant cardiovascular disease (e.g., recent MI, congestive heart failure, significant QT interval prolongation)",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "significant cardiovascular disease",
+              "entity_type": "EXCLUSION",
+              "value": "significant cardiovascular disease",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "History of severe hypersensitivity to study drugs",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Known HIV infection or active hepatitis B/C infection",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Uncontrolled infection requiring IV therapy",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "Uncontrolled infection",
+              "entity_type": "EXCLUSION",
+              "value": "Uncontrolled infection",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Brain/CNS metastases requiring therapy or that are untreated",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "CNS metastases",
+              "entity_type": "EXCLUSION",
+              "value": "CNS metastases",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Pregnancy or breastfeeding.",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "Pregnancy",
+              "entity_type": "EXCLUSION",
+              "value": "Pregnancy",
+              "resource_type": "Condition"
+            },
+            {
+              "text": "breastfeeding",
+              "entity_type": "EXCLUSION",
+              "value": "breastfeeding",
+              "resource_type": "Condition"
+            }
+          ]
+        }
+      ],
+      "total_entities": 11,
+      "all_entities": [
+        {
+          "text": "18 years and older",
+          "entity_type": "AGE",
+          "value": 18,
+          "resource_type": "Patient"
+        },
+        {
+          "text": "All",
+          "entity_type": "GENDER",
+          "value": "unknown",
+          "resource_type": "Patient"
+        },
+        {
+          "text": "All",
+          "entity_type": "DIAGNOSIS",
+          "value": "All",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "cancer",
+          "entity_type": "DIAGNOSIS",
+          "value": "cancer",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "breast cancer",
+          "entity_type": "DIAGNOSIS",
+          "value": "breast cancer",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "HER2",
+          "entity_type": "BIOMARKER",
+          "value": "HER2",
+          "resource_type": "Observation"
+        },
+        {
+          "text": "significant cardiovascular disease",
+          "entity_type": "EXCLUSION",
+          "value": "significant cardiovascular disease",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "Uncontrolled infection",
+          "entity_type": "EXCLUSION",
+          "value": "Uncontrolled infection",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "CNS metastases",
+          "entity_type": "EXCLUSION",
+          "value": "CNS metastases",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "Pregnancy",
+          "entity_type": "EXCLUSION",
+          "value": "Pregnancy",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "breastfeeding",
+          "entity_type": "EXCLUSION",
+          "value": "breastfeeding",
+          "resource_type": "Condition"
+        }
+      ]
+    },
+    {
+      "trial_id": "trial_4",
+      "nct_id": "NCT06189209",
+      "title": "Tenalisib in Metastatic Triple Negative Breast Cancer (India focus)",
+      "criteria": [
+        {
+          "text": "Ages Eligible for Study:",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "18 years and older",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "18 years and older",
+              "entity_type": "AGE",
+              "value": 18,
+              "resource_type": "Patient"
+            }
+          ]
+        },
+        {
+          "text": "Sexes Eligible for Study:",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "Female",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "Female",
+              "entity_type": "GENDER",
+              "value": "female",
+              "resource_type": "Patient"
+            }
+          ]
+        },
+        {
+          "text": "Accepts Healthy Volunteers:",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "No",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Inclusion Criteria:",
+          "type": "inclusion",
+          "entities": []
+        },
+        {
+          "text": "Histologically confirmed triple negative breast cancer (TNBC)",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "cancer",
+              "entity_type": "DIAGNOSIS",
+              "value": "cancer",
+              "resource_type": "Condition"
+            },
+            {
+              "text": "breast cancer",
+              "entity_type": "DIAGNOSIS",
+              "value": "breast cancer",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Received at least 1 but not more than 3 prior chemotherapy regimens in a metastatic setting",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "At least one measurable lesion per RECIST v1.1 at baseline (bone-only disease not permitted)",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "At least one measurable lesion",
+              "entity_type": "MEASURABLE_DISEASE",
+              "value": "At least one measurable lesion",
+              "resource_type": "Observation"
+            }
+          ]
+        },
+        {
+          "text": "ECOG performance status 0 to 2",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "ECOG performance status 0",
+              "entity_type": "ECOG",
+              "value": 0,
+              "resource_type": "Observation"
+            }
+          ]
+        },
+        {
+          "text": "Adequate bone marrow, liver, and renal function",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Exclusion Criteria:",
+          "type": "exclusion",
+          "entities": []
+        },
+        {
+          "text": "Cancer therapy/any cancer investigational drug within 3 weeks (21 days) or 5 half-lives (whichever is shorter)",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "Cancer",
+              "entity_type": "DIAGNOSIS",
+              "value": "Cancer",
+              "resource_type": "Condition"
+            },
+            {
+              "text": "cancer",
+              "entity_type": "DIAGNOSIS",
+              "value": "cancer",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Not recovered from acute toxicities of previous therapy (except treatment-related alopecia)",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Prior exposure to PI3K inhibitors (e.g., alpelisib, buparlisib) for breast cancer",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "cancer",
+              "entity_type": "DIAGNOSIS",
+              "value": "cancer",
+              "resource_type": "Condition"
+            },
+            {
+              "text": "breast cancer",
+              "entity_type": "DIAGNOSIS",
+              "value": "breast cancer",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Major surgery within 4 weeks of starting study treatment",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Symptomatic uncontrolled brain metastasis",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Ongoing immunosuppressive therapy, including systemic corticosteroids",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "History of severe cutaneous reactions",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Concurrent disease or condition interfering with study participation",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Pregnancy or lactation",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "Pregnancy",
+              "entity_type": "EXCLUSION",
+              "value": "Pregnancy",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Any severe and/or uncontrolled medical conditions or other conditions that could affect participation",
+          "type": "clinical",
+          "entities": []
+        }
+      ],
+      "total_entities": 11,
+      "all_entities": [
+        {
+          "text": "18 years and older",
+          "entity_type": "AGE",
+          "value": 18,
+          "resource_type": "Patient"
+        },
+        {
+          "text": "Female",
+          "entity_type": "GENDER",
+          "value": "female",
+          "resource_type": "Patient"
+        },
+        {
+          "text": "cancer",
+          "entity_type": "DIAGNOSIS",
+          "value": "cancer",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "breast cancer",
+          "entity_type": "DIAGNOSIS",
+          "value": "breast cancer",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "At least one measurable lesion",
+          "entity_type": "MEASURABLE_DISEASE",
+          "value": "At least one measurable lesion",
+          "resource_type": "Observation"
+        },
+        {
+          "text": "ECOG performance status 0",
+          "entity_type": "ECOG",
+          "value": 0,
+          "resource_type": "Observation"
+        },
+        {
+          "text": "Cancer",
+          "entity_type": "DIAGNOSIS",
+          "value": "Cancer",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "cancer",
+          "entity_type": "DIAGNOSIS",
+          "value": "cancer",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "cancer",
+          "entity_type": "DIAGNOSIS",
+          "value": "cancer",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "breast cancer",
+          "entity_type": "DIAGNOSIS",
+          "value": "breast cancer",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "Pregnancy",
+          "entity_type": "EXCLUSION",
+          "value": "Pregnancy",
+          "resource_type": "Condition"
+        }
+      ]
+    },
+    {
+      "trial_id": "trial_5",
+      "nct_id": "NCT06131424",
+      "title": "Non-Interventional Study to Determine Prevalence of HER2-low in Metastatic Breast Cancer (India – Delhi sites)",
+      "criteria": [
+        {
+          "text": "Ages Eligible for Study:",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "18 years and older",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "18 years and older",
+              "entity_type": "AGE",
+              "value": 18,
+              "resource_type": "Patient"
+            }
+          ]
+        },
+        {
+          "text": "Sexes Eligible for Study:",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "Female",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "Female",
+              "entity_type": "GENDER",
+              "value": "female",
+              "resource_type": "Patient"
+            }
+          ]
+        },
+        {
+          "text": "Accepts Healthy Volunteers:",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "No",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Inclusion Criteria:",
+          "type": "inclusion",
+          "entities": []
+        },
+        {
+          "text": "Women aged ≥18 years",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "Histologically or cytologically confirmed metastatic breast cancer",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "cancer",
+              "entity_type": "DIAGNOSIS",
+              "value": "cancer",
+              "resource_type": "Condition"
+            },
+            {
+              "text": "breast cancer",
+              "entity_type": "DIAGNOSIS",
+              "value": "breast cancer",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Availability of tumor tissue sample for HER2 testing by IHC and/or ISH",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "HER2 ",
+              "entity_type": "BIOMARKER",
+              "value": "HER2 ",
+              "resource_type": "Observation"
+            }
+          ]
+        },
+        {
+          "text": "Willingness and ability to provide informed consent",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Exclusion Criteria:",
+          "type": "exclusion",
+          "entities": []
+        },
+        {
+          "text": "Known HER2-positive breast cancer (IHC 3+ or ISH amplified)",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "cancer",
+              "entity_type": "DIAGNOSIS",
+              "value": "cancer",
+              "resource_type": "Condition"
+            },
+            {
+              "text": "breast cancer",
+              "entity_type": "DIAGNOSIS",
+              "value": "breast cancer",
+              "resource_type": "Condition"
+            },
+            {
+              "text": "HER2",
+              "entity_type": "BIOMARKER",
+              "value": "HER2",
+              "resource_type": "Observation"
+            }
+          ]
+        },
+        {
+          "text": "Inability to comply with the study procedures",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Any condition that, in the opinion of the investigator, precludes participation",
+          "type": "clinical",
+          "entities": []
+        }
+      ],
+      "total_entities": 8,
+      "all_entities": [
+        {
+          "text": "18 years and older",
+          "entity_type": "AGE",
+          "value": 18,
+          "resource_type": "Patient"
+        },
+        {
+          "text": "Female",
+          "entity_type": "GENDER",
+          "value": "female",
+          "resource_type": "Patient"
+        },
+        {
+          "text": "cancer",
+          "entity_type": "DIAGNOSIS",
+          "value": "cancer",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "breast cancer",
+          "entity_type": "DIAGNOSIS",
+          "value": "breast cancer",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "HER2 ",
+          "entity_type": "BIOMARKER",
+          "value": "HER2 ",
+          "resource_type": "Observation"
+        },
+        {
+          "text": "cancer",
+          "entity_type": "DIAGNOSIS",
+          "value": "cancer",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "breast cancer",
+          "entity_type": "DIAGNOSIS",
+          "value": "breast cancer",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "HER2",
+          "entity_type": "BIOMARKER",
+          "value": "HER2",
+          "resource_type": "Observation"
+        }
+      ]
+    },
+    {
+      "trial_id": "trial_6",
+      "nct_id": "NCT06056843",
+      "title": "Handheld Ultrasound Device for Triage of Women With Positive Breast Exam by Non-radiologists (India site)",
+      "criteria": [
+        {
+          "text": "Ages Eligible for Study:",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "18 years and older",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "18 years and older",
+              "entity_type": "AGE",
+              "value": 18,
+              "resource_type": "Patient"
+            }
+          ]
+        },
+        {
+          "text": "Sexes Eligible for Study:",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "Female",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "Female",
+              "entity_type": "GENDER",
+              "value": "female",
+              "resource_type": "Patient"
+            }
+          ]
+        },
+        {
+          "text": "Accepts Healthy Volunteers:",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Yes (healthy volunteers considered if they present for screening after positive clinical breast exam)",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Inclusion Criteria:",
+          "type": "inclusion",
+          "entities": []
+        },
+        {
+          "text": "Female ≥18 years",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "Female",
+              "entity_type": "GENDER",
+              "value": "female",
+              "resource_type": "Patient"
+            }
+          ]
+        },
+        {
+          "text": "Positive result on clinical breast examination performed by trained non-radiology health worker",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Willing to undergo handheld ultrasound and follow-up assessments",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Exclusion Criteria:",
+          "type": "exclusion",
+          "entities": []
+        },
+        {
+          "text": "Refusal to consent",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Previous diagnosis of breast cancer",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "cancer",
+              "entity_type": "DIAGNOSIS",
+              "value": "cancer",
+              "resource_type": "Condition"
+            },
+            {
+              "text": "breast cancer",
+              "entity_type": "DIAGNOSIS",
+              "value": "breast cancer",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Currently pregnant or lactating (if precludes ultrasound examination)",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "pregnant",
+              "entity_type": "EXCLUSION",
+              "value": "pregnant",
+              "resource_type": "Condition"
+            }
+          ]
+        }
+      ],
+      "total_entities": 6,
+      "all_entities": [
+        {
+          "text": "18 years and older",
+          "entity_type": "AGE",
+          "value": 18,
+          "resource_type": "Patient"
+        },
+        {
+          "text": "Female",
+          "entity_type": "GENDER",
+          "value": "female",
+          "resource_type": "Patient"
+        },
+        {
+          "text": "Female",
+          "entity_type": "GENDER",
+          "value": "female",
+          "resource_type": "Patient"
+        },
+        {
+          "text": "cancer",
+          "entity_type": "DIAGNOSIS",
+          "value": "cancer",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "breast cancer",
+          "entity_type": "DIAGNOSIS",
+          "value": "breast cancer",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "pregnant",
+          "entity_type": "EXCLUSION",
+          "value": "pregnant",
+          "resource_type": "Condition"
+        }
+      ]
+    },
+    {
+      "trial_id": "trial_7",
+      "nct_id": "NCT06038539",
+      "title": "Biosimilar Pertuzumab + Trastuzumab + Chemo in HER2-Positive Breast Cancer (India site)",
+      "criteria": [
+        {
+          "text": "Ages Eligible for Study:",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "18 years and older",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "18 years and older",
+              "entity_type": "AGE",
+              "value": 18,
+              "resource_type": "Patient"
+            }
+          ]
+        },
+        {
+          "text": "Sexes Eligible for Study:",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "All",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "All",
+              "entity_type": "GENDER",
+              "value": "unknown",
+              "resource_type": "Patient"
+            },
+            {
+              "text": "All",
+              "entity_type": "DIAGNOSIS",
+              "value": "All",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Accepts Healthy Volunteers:",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "No",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Inclusion Criteria:",
+          "type": "inclusion",
+          "entities": []
+        },
+        {
+          "text": "Histologically confirmed, locally advanced, inflammatory, or early stage HER2-positive breast cancer",
+          "type": "demographic",
+          "entities": [
+            {
+              "text": "cancer",
+              "entity_type": "DIAGNOSIS",
+              "value": "cancer",
+              "resource_type": "Condition"
+            },
+            {
+              "text": "breast cancer",
+              "entity_type": "DIAGNOSIS",
+              "value": "breast cancer",
+              "resource_type": "Condition"
+            },
+            {
+              "text": "HER2",
+              "entity_type": "BIOMARKER",
+              "value": "HER2",
+              "resource_type": "Observation"
+            }
+          ]
+        },
+        {
+          "text": "HER2 positivity confirmed by local or central laboratory per ASCO/CAP guidelines",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "HER2 ",
+              "entity_type": "BIOMARKER",
+              "value": "HER2 ",
+              "resource_type": "Observation"
+            }
+          ]
+        },
+        {
+          "text": "ECOG performance status 0 or 1",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "ECOG performance status 0",
+              "entity_type": "ECOG",
+              "value": 0,
+              "resource_type": "Observation"
+            }
+          ]
+        },
+        {
+          "text": "Adequate organ function (hematologic, hepatic, renal)",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "No prior anti-HER2 therapy or chemotherapy for the current diagnosis",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "HER2 ",
+              "entity_type": "BIOMARKER",
+              "value": "HER2 ",
+              "resource_type": "Observation"
+            }
+          ]
+        },
+        {
+          "text": "Exclusion Criteria:",
+          "type": "exclusion",
+          "entities": []
+        },
+        {
+          "text": "Metastatic breast cancer",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "cancer",
+              "entity_type": "DIAGNOSIS",
+              "value": "cancer",
+              "resource_type": "Condition"
+            },
+            {
+              "text": "breast cancer",
+              "entity_type": "DIAGNOSIS",
+              "value": "breast cancer",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "History of serious cardiac disorders (e.g., CHF, MI <6 months, significant arrhythmia)",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Pregnancy or breastfeeding",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "Pregnancy",
+              "entity_type": "EXCLUSION",
+              "value": "Pregnancy",
+              "resource_type": "Condition"
+            },
+            {
+              "text": "breastfeeding",
+              "entity_type": "EXCLUSION",
+              "value": "breastfeeding",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Active uncontrolled infection",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "uncontrolled infection",
+              "entity_type": "EXCLUSION",
+              "value": "uncontrolled infection",
+              "resource_type": "Condition"
+            },
+            {
+              "text": "Active uncontrolled infection",
+              "entity_type": "EXCLUSION",
+              "value": "Active uncontrolled infection",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Known hypersensitivity to study drugs or their excipients",
+          "type": "clinical",
+          "entities": []
+        }
+      ],
+      "total_entities": 15,
+      "all_entities": [
+        {
+          "text": "18 years and older",
+          "entity_type": "AGE",
+          "value": 18,
+          "resource_type": "Patient"
+        },
+        {
+          "text": "All",
+          "entity_type": "GENDER",
+          "value": "unknown",
+          "resource_type": "Patient"
+        },
+        {
+          "text": "All",
+          "entity_type": "DIAGNOSIS",
+          "value": "All",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "cancer",
+          "entity_type": "DIAGNOSIS",
+          "value": "cancer",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "breast cancer",
+          "entity_type": "DIAGNOSIS",
+          "value": "breast cancer",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "HER2",
+          "entity_type": "BIOMARKER",
+          "value": "HER2",
+          "resource_type": "Observation"
+        },
+        {
+          "text": "HER2 ",
+          "entity_type": "BIOMARKER",
+          "value": "HER2 ",
+          "resource_type": "Observation"
+        },
+        {
+          "text": "ECOG performance status 0",
+          "entity_type": "ECOG",
+          "value": 0,
+          "resource_type": "Observation"
+        },
+        {
+          "text": "HER2 ",
+          "entity_type": "BIOMARKER",
+          "value": "HER2 ",
+          "resource_type": "Observation"
+        },
+        {
+          "text": "cancer",
+          "entity_type": "DIAGNOSIS",
+          "value": "cancer",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "breast cancer",
+          "entity_type": "DIAGNOSIS",
+          "value": "breast cancer",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "Pregnancy",
+          "entity_type": "EXCLUSION",
+          "value": "Pregnancy",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "breastfeeding",
+          "entity_type": "EXCLUSION",
+          "value": "breastfeeding",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "uncontrolled infection",
+          "entity_type": "EXCLUSION",
+          "value": "uncontrolled infection",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "Active uncontrolled infection",
+          "entity_type": "EXCLUSION",
+          "value": "Active uncontrolled infection",
+          "resource_type": "Condition"
+        }
+      ]
+    },
+    {
+      "trial_id": "trial_8",
+      "nct_id": "NCT05969314",
+      "title": "Ayurvedic Oral Cannabis in Breast and Head and Neck Cancer (India)",
+      "criteria": [
+        {
+          "text": "Ages Eligible for Study:",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "18 years and older",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "18 years and older",
+              "entity_type": "AGE",
+              "value": 18,
+              "resource_type": "Patient"
+            }
+          ]
+        },
+        {
+          "text": "Sexes Eligible for Study:",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "All",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "All",
+              "entity_type": "GENDER",
+              "value": "unknown",
+              "resource_type": "Patient"
+            },
+            {
+              "text": "All",
+              "entity_type": "DIAGNOSIS",
+              "value": "All",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Accepts Healthy Volunteers:",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "No",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Inclusion Criteria:",
+          "type": "inclusion",
+          "entities": []
+        },
+        {
+          "text": "Histologically proven breast cancer or head and neck cancer",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "cancer",
+              "entity_type": "DIAGNOSIS",
+              "value": "cancer",
+              "resource_type": "Condition"
+            },
+            {
+              "text": "cancer",
+              "entity_type": "DIAGNOSIS",
+              "value": "cancer",
+              "resource_type": "Condition"
+            },
+            {
+              "text": "breast cancer",
+              "entity_type": "DIAGNOSIS",
+              "value": "breast cancer",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Patient receiving chemotherapy/radiotherapy and experiencing symptoms such as pain, nausea, vomiting, anxiety, or insomnia",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "ECOG performance status 0–2",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "ECOG performance status 0",
+              "entity_type": "ECOG",
+              "value": 0,
+              "resource_type": "Observation"
+            }
+          ]
+        },
+        {
+          "text": "Willing and able to provide informed consent",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Exclusion Criteria:",
+          "type": "exclusion",
+          "entities": []
+        },
+        {
+          "text": "Current use of cannabis or cannabinoid-based medication",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Pregnant or breastfeeding",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "Pregnant",
+              "entity_type": "EXCLUSION",
+              "value": "Pregnant",
+              "resource_type": "Condition"
+            },
+            {
+              "text": "breastfeeding",
+              "entity_type": "EXCLUSION",
+              "value": "breastfeeding",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Known psychiatric disorders contraindicating cannabis use",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Known hypersensitivity to cannabis-containing products",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Severe hepatic or renal impairment",
+          "type": "clinical",
+          "entities": []
+        }
+      ],
+      "total_entities": 9,
+      "all_entities": [
+        {
+          "text": "18 years and older",
+          "entity_type": "AGE",
+          "value": 18,
+          "resource_type": "Patient"
+        },
+        {
+          "text": "All",
+          "entity_type": "GENDER",
+          "value": "unknown",
+          "resource_type": "Patient"
+        },
+        {
+          "text": "All",
+          "entity_type": "DIAGNOSIS",
+          "value": "All",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "cancer",
+          "entity_type": "DIAGNOSIS",
+          "value": "cancer",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "cancer",
+          "entity_type": "DIAGNOSIS",
+          "value": "cancer",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "breast cancer",
+          "entity_type": "DIAGNOSIS",
+          "value": "breast cancer",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "ECOG performance status 0",
+          "entity_type": "ECOG",
+          "value": 0,
+          "resource_type": "Observation"
+        },
+        {
+          "text": "Pregnant",
+          "entity_type": "EXCLUSION",
+          "value": "Pregnant",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "breastfeeding",
+          "entity_type": "EXCLUSION",
+          "value": "breastfeeding",
+          "resource_type": "Condition"
+        }
+      ]
+    },
+    {
+      "trial_id": "trial_9",
+      "nct_id": "NCT06926868",
+      "title": "Izalontamab Brengitecan vs Chemotherapy in Triple-negative Breast Cancer (Ineligible for Anti–PD-(L)1)",
+      "criteria": [
+        {
+          "text": "Ages Eligible for Study:",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "18 years and older",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "18 years and older",
+              "entity_type": "AGE",
+              "value": 18,
+              "resource_type": "Patient"
+            }
+          ]
+        },
+        {
+          "text": "Sexes Eligible for Study:",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "All",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "All",
+              "entity_type": "GENDER",
+              "value": "unknown",
+              "resource_type": "Patient"
+            },
+            {
+              "text": "All",
+              "entity_type": "DIAGNOSIS",
+              "value": "All",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Accepts Healthy Volunteers:",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "No",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Inclusion Criteria:",
+          "type": "inclusion",
+          "entities": []
+        },
+        {
+          "text": "Histologically or cytologically confirmed triple-negative breast cancer (TNBC)",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "cancer",
+              "entity_type": "DIAGNOSIS",
+              "value": "cancer",
+              "resource_type": "Condition"
+            },
+            {
+              "text": "breast cancer",
+              "entity_type": "DIAGNOSIS",
+              "value": "breast cancer",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Locally advanced or metastatic disease not amenable to curative surgery/radiotherapy",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "metastatic disease",
+              "entity_type": "DIAGNOSIS",
+              "value": "metastatic disease",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Ineligible for anti-PD-(L)1 therapy based on protocol definition",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "At least one measurable lesion per RECIST v1.1",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "At least one measurable lesion",
+              "entity_type": "MEASURABLE_DISEASE",
+              "value": "At least one measurable lesion",
+              "resource_type": "Observation"
+            }
+          ]
+        },
+        {
+          "text": "ECOG performance status 0–1",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "ECOG performance status 0",
+              "entity_type": "ECOG",
+              "value": 0,
+              "resource_type": "Observation"
+            }
+          ]
+        },
+        {
+          "text": "Adequate organ function per protocol labs",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Exclusion Criteria:",
+          "type": "exclusion",
+          "entities": []
+        },
+        {
+          "text": "Prior therapy with any topoisomerase I inhibitor-based antibody-drug conjugate",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Untreated or symptomatic CNS metastases",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "CNS metastases",
+              "entity_type": "EXCLUSION",
+              "value": "CNS metastases",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Ongoing grade ≥2 peripheral neuropathy",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Uncontrolled significant medical illness (e.g., unstable angina, uncontrolled diabetes)",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Pregnant or breastfeeding",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "Pregnant",
+              "entity_type": "EXCLUSION",
+              "value": "Pregnant",
+              "resource_type": "Condition"
+            },
+            {
+              "text": "breastfeeding",
+              "entity_type": "EXCLUSION",
+              "value": "breastfeeding",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Known HIV or active Hepatitis B/C with viremia",
+          "type": "clinical",
+          "entities": []
+        }
+      ],
+      "total_entities": 11,
+      "all_entities": [
+        {
+          "text": "18 years and older",
+          "entity_type": "AGE",
+          "value": 18,
+          "resource_type": "Patient"
+        },
+        {
+          "text": "All",
+          "entity_type": "GENDER",
+          "value": "unknown",
+          "resource_type": "Patient"
+        },
+        {
+          "text": "All",
+          "entity_type": "DIAGNOSIS",
+          "value": "All",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "cancer",
+          "entity_type": "DIAGNOSIS",
+          "value": "cancer",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "breast cancer",
+          "entity_type": "DIAGNOSIS",
+          "value": "breast cancer",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "metastatic disease",
+          "entity_type": "DIAGNOSIS",
+          "value": "metastatic disease",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "At least one measurable lesion",
+          "entity_type": "MEASURABLE_DISEASE",
+          "value": "At least one measurable lesion",
+          "resource_type": "Observation"
+        },
+        {
+          "text": "ECOG performance status 0",
+          "entity_type": "ECOG",
+          "value": 0,
+          "resource_type": "Observation"
+        },
+        {
+          "text": "CNS metastases",
+          "entity_type": "EXCLUSION",
+          "value": "CNS metastases",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "Pregnant",
+          "entity_type": "EXCLUSION",
+          "value": "Pregnant",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "breastfeeding",
+          "entity_type": "EXCLUSION",
+          "value": "breastfeeding",
+          "resource_type": "Condition"
+        }
+      ]
+    },
+    {
+      "trial_id": "trial_10",
+      "nct_id": "NCT05952557",
+      "title": "Camizestrant in ER+/HER2- Early Breast Cancer (CAMBRIA-2)",
+      "criteria": [
+        {
+          "text": "Ages Eligible for Study:",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "18 years and older",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "18 years and older",
+              "entity_type": "AGE",
+              "value": 18,
+              "resource_type": "Patient"
+            }
+          ]
+        },
+        {
+          "text": "Sexes Eligible for Study:",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "Female",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "Female",
+              "entity_type": "GENDER",
+              "value": "female",
+              "resource_type": "Patient"
+            }
+          ]
+        },
+        {
+          "text": "Accepts Healthy Volunteers:",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "No",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Inclusion Criteria:",
+          "type": "inclusion",
+          "entities": []
+        },
+        {
+          "text": "Postmenopausal or pre/perimenopausal women with ER+/HER2– early breast cancer",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "cancer",
+              "entity_type": "DIAGNOSIS",
+              "value": "cancer",
+              "resource_type": "Condition"
+            },
+            {
+              "text": "breast cancer",
+              "entity_type": "DIAGNOSIS",
+              "value": "breast cancer",
+              "resource_type": "Condition"
+            },
+            {
+              "text": "HER2",
+              "entity_type": "BIOMARKER",
+              "value": "HER2",
+              "resource_type": "Observation"
+            }
+          ]
+        },
+        {
+          "text": "Completed definitive locoregional therapy (surgery ± radiotherapy)",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Completed adjuvant chemotherapy if indicated",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Completed at least 2 years but no more than 5 years of adjuvant endocrine therapy",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "No clinical/radiologic evidence of recurrence",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Exclusion Criteria:",
+          "type": "exclusion",
+          "entities": []
+        },
+        {
+          "text": "History of invasive breast cancer or other malignancy in the past 5 years (except certain skin or cervical cancers)",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "cancer",
+              "entity_type": "DIAGNOSIS",
+              "value": "cancer",
+              "resource_type": "Condition"
+            },
+            {
+              "text": "breast cancer",
+              "entity_type": "DIAGNOSIS",
+              "value": "breast cancer",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Prior exposure to selective estrogen receptor degraders except tamoxifen",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "estrogen receptor ",
+              "entity_type": "BIOMARKER",
+              "value": "estrogen receptor ",
+              "resource_type": "Observation"
+            }
+          ]
+        },
+        {
+          "text": "Current or recent (within 6 months) history of venous thromboembolism",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Significant cardiac disease",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Any uncontrolled systemic illness",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Pregnancy or lactation",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "Pregnancy",
+              "entity_type": "EXCLUSION",
+              "value": "Pregnancy",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "NCT06923098 – PET/CT GUIDED BIOPSY VERSUS CT GUIDED BIOPSY IN EVALUATION OF SUSPECTED LUNG NEOPLASMS",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Ages Eligible for Study:",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "Above 18 years",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Sexes Eligible for Study:",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "All",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "All",
+              "entity_type": "GENDER",
+              "value": "unknown",
+              "resource_type": "Patient"
+            },
+            {
+              "text": "All",
+              "entity_type": "DIAGNOSIS",
+              "value": "All",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Key Inclusion Criteria:",
+          "type": "inclusion",
+          "entities": []
+        },
+        {
+          "text": "Age above 18 years",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "INR (International Normalized Ratio) less than 1.2",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Platelet count greater than 80,000/mm³",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "CT thorax showing lung lesion more than 10 mm in size",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Lesions must be accessible for biopsy",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Exclusion Criteria:",
+          "type": "exclusion",
+          "entities": []
+        },
+        {
+          "text": "Not explicitly listed in the summary, but likely standard exclusions related to safety and contraindications for biopsy procedures apply.",
+          "type": "exclusion",
+          "entities": []
+        },
+        {
+          "text": "This study focuses on comparing PET/CT guided biopsy versus CT guided biopsy for suspected lung lesions in adult patients with accessible lung lesions fitting the size and coagulation parameters mentioned above.",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "NCT05865002 – AUR107 in Relapsed Advanced Malignancies (India sites, solid tumor applicability)",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "solid tumor",
+              "entity_type": "DIAGNOSIS",
+              "value": "solid tumor",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Ages Eligible for Study:",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "18 years and older",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "18 years and older",
+              "entity_type": "AGE",
+              "value": 18,
+              "resource_type": "Patient"
+            }
+          ]
+        },
+        {
+          "text": "Sexes Eligible for Study:",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "All",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "All",
+              "entity_type": "GENDER",
+              "value": "unknown",
+              "resource_type": "Patient"
+            },
+            {
+              "text": "All",
+              "entity_type": "DIAGNOSIS",
+              "value": "All",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Inclusion Criteria (Summary):",
+          "type": "inclusion",
+          "entities": []
+        },
+        {
+          "text": "Histologically or cytologically confirmed relapsed or refractory advanced malignancy",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "At least one measurable lesion per RECIST 1.1",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "At least one measurable lesion",
+              "entity_type": "MEASURABLE_DISEASE",
+              "value": "At least one measurable lesion",
+              "resource_type": "Observation"
+            }
+          ]
+        },
+        {
+          "text": "Adequate organ function (hematological, renal, hepatic)",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "ECOG 0-2",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "ECOG 0",
+              "entity_type": "ECOG",
+              "value": 0,
+              "resource_type": "Observation"
+            }
+          ]
+        },
+        {
+          "text": "Life expectancy of ≥ 12 weeks",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Signed informed consent",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Exclusion Criteria (Summary):",
+          "type": "exclusion",
+          "entities": []
+        },
+        {
+          "text": "Prior treatment with Aurora kinase inhibitors",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Active CNS metastases or carcinomatous meningitis",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "CNS metastases",
+              "entity_type": "EXCLUSION",
+              "value": "CNS metastases",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Uncontrolled intercurrent illness, including infections",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Pregnant or lactating women",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "Pregnant",
+              "entity_type": "EXCLUSION",
+              "value": "Pregnant",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "NCT05861947 – AUR106 in Relapsed Advanced Malignancies (India-based, multiple cancer types)",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "cancer",
+              "entity_type": "DIAGNOSIS",
+              "value": "cancer",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Ages Eligible for Study:",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "18 years and older",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "18 years and older",
+              "entity_type": "AGE",
+              "value": 18,
+              "resource_type": "Patient"
+            }
+          ]
+        },
+        {
+          "text": "Sexes Eligible for Study:",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "All",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "All",
+              "entity_type": "GENDER",
+              "value": "unknown",
+              "resource_type": "Patient"
+            },
+            {
+              "text": "All",
+              "entity_type": "DIAGNOSIS",
+              "value": "All",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Inclusion Criteria (Summary):",
+          "type": "inclusion",
+          "entities": []
+        },
+        {
+          "text": "Histologically/cytologically confirmed relapsed/refractory advanced malignancies suitable for experimental therapy",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Measurable disease as per RECIST 1.1",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "Measurable disease",
+              "entity_type": "MEASURABLE_DISEASE",
+              "value": "Measurable disease",
+              "resource_type": "Observation"
+            }
+          ]
+        },
+        {
+          "text": "ECOG performance status ≤ 2",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Adequate hematologic, renal, and hepatic function",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Life expectancy of ≥ 12 weeks",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Exclusion Criteria (Summary):",
+          "type": "exclusion",
+          "entities": []
+        },
+        {
+          "text": "Prior Aurora kinase inhibitor exposure",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Untreated or symptomatic brain metastasis",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Serious uncontrolled medical conditions",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Pregnant or lactating women",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "Pregnant",
+              "entity_type": "EXCLUSION",
+              "value": "Pregnant",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "NCT05817110 – Validating AI Lung Nodule Malignancy Score (India sites, diagnostic focus)",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Ages Eligible for Study:",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "18 years and older",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "18 years and older",
+              "entity_type": "AGE",
+              "value": 18,
+              "resource_type": "Patient"
+            }
+          ]
+        },
+        {
+          "text": "Sexes Eligible for Study:",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "All",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "All",
+              "entity_type": "GENDER",
+              "value": "unknown",
+              "resource_type": "Patient"
+            },
+            {
+              "text": "All",
+              "entity_type": "DIAGNOSIS",
+              "value": "All",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Inclusion Criteria (Summary):",
+          "type": "inclusion",
+          "entities": []
+        },
+        {
+          "text": "Adult patients undergoing diagnostic evaluation for lung nodules",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Availability of clinical imaging data for AI algorithm validation",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Signed informed consent",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Exclusion Criteria (Summary):",
+          "type": "exclusion",
+          "entities": []
+        },
+        {
+          "text": "Poor image quality or incomplete data",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "Known prior lung malignancy under treatment",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Pregnant or lactating women",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "Pregnant",
+              "entity_type": "EXCLUSION",
+              "value": "Pregnant",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "NCT06890598 – Olomorasib in KRAS G12C-mutant Non-Small Cell Lung Cancer (NSCLC)",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "Cancer",
+              "entity_type": "DIAGNOSIS",
+              "value": "Cancer",
+              "resource_type": "Condition"
+            },
+            {
+              "text": "Lung Cancer",
+              "entity_type": "DIAGNOSIS",
+              "value": "Lung Cancer",
+              "resource_type": "Condition"
+            },
+            {
+              "text": "KRAS ",
+              "entity_type": "BIOMARKER",
+              "value": "KRAS ",
+              "resource_type": "Observation"
+            }
+          ]
+        },
+        {
+          "text": "Ages Eligible for Study:",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "18 years and older",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "18 years and older",
+              "entity_type": "AGE",
+              "value": 18,
+              "resource_type": "Patient"
+            }
+          ]
+        },
+        {
+          "text": "Sexes Eligible for Study:",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "All",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "All",
+              "entity_type": "GENDER",
+              "value": "unknown",
+              "resource_type": "Patient"
+            },
+            {
+              "text": "All",
+              "entity_type": "DIAGNOSIS",
+              "value": "All",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Inclusion Criteria:",
+          "type": "inclusion",
+          "entities": []
+        },
+        {
+          "text": "Histologically or cytologically confirmed NSCLC with stage IIIB-IIIC or IV disease, not suitable for curative surgery or radiation",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "Evidence of KRAS G12C mutation in tumor tissue or circulating tumor DNA",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "KRAS ",
+              "entity_type": "BIOMARKER",
+              "value": "KRAS ",
+              "resource_type": "Observation"
+            }
+          ]
+        },
+        {
+          "text": "Known programmed death-ligand 1 (PD-L1) expression (varies by trial part, ≥50% or 0-100%)",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Measurable disease per RECIST v1.1 criteria",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "Measurable disease",
+              "entity_type": "MEASURABLE_DISEASE",
+              "value": "Measurable disease",
+              "resource_type": "Observation"
+            }
+          ]
+        },
+        {
+          "text": "ECOG performance status 0 or 1",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "ECOG performance status 0",
+              "entity_type": "ECOG",
+              "value": 0,
+              "resource_type": "Observation"
+            }
+          ]
+        },
+        {
+          "text": "Adequate laboratory parameters and organ function",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Ability to swallow capsules/tablets",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Women of childbearing potential must have a negative pregnancy test and must not breastfeed during treatment",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "pregnancy",
+              "entity_type": "EXCLUSION",
+              "value": "pregnancy",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Contraceptive use consistent with local regulations",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Exclusion Criteria:",
+          "type": "exclusion",
+          "entities": []
+        },
+        {
+          "text": "Presence of other validated targetable oncogenic driver mutations (e.g., EGFR, ALK, BRAF V600E, HER2, MET, ROS1, RET, NTRK)",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "EGFR",
+              "entity_type": "BIOMARKER",
+              "value": "EGFR",
+              "resource_type": "Observation"
+            },
+            {
+              "text": "ALK",
+              "entity_type": "BIOMARKER",
+              "value": "ALK",
+              "resource_type": "Observation"
+            },
+            {
+              "text": "BRAF ",
+              "entity_type": "BIOMARKER",
+              "value": "BRAF ",
+              "resource_type": "Observation"
+            },
+            {
+              "text": "HER2",
+              "entity_type": "BIOMARKER",
+              "value": "HER2",
+              "resource_type": "Observation"
+            },
+            {
+              "text": "ROS1",
+              "entity_type": "BIOMARKER",
+              "value": "ROS1",
+              "resource_type": "Observation"
+            }
+          ]
+        },
+        {
+          "text": "Known active CNS metastases or carcinomatous meningitis (treated stable CNS metastases may be eligible)",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "CNS metastases",
+              "entity_type": "EXCLUSION",
+              "value": "CNS metastases",
+              "resource_type": "Condition"
+            },
+            {
+              "text": "CNS metastases",
+              "entity_type": "EXCLUSION",
+              "value": "CNS metastases",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Prior treatment with KRAS G12C small molecule inhibitors (except per protocol allowance)",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "KRAS ",
+              "entity_type": "BIOMARKER",
+              "value": "KRAS ",
+              "resource_type": "Observation"
+            }
+          ]
+        },
+        {
+          "text": "Serious cardiac conditions or major uncontrolled illnesses",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Active autoimmune diseases requiring systemic treatment in the past 2 years",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Immune-related severe adverse reactions to prior immunotherapy",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Pregnancy, breastfeeding, or planning pregnancy during the study",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "Pregnancy",
+              "entity_type": "EXCLUSION",
+              "value": "Pregnancy",
+              "resource_type": "Condition"
+            },
+            {
+              "text": "breastfeeding",
+              "entity_type": "EXCLUSION",
+              "value": "breastfeeding",
+              "resource_type": "Condition"
+            },
+            {
+              "text": "pregnancy",
+              "entity_type": "EXCLUSION",
+              "value": "pregnancy",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Known allergy to study medications",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "This trial evaluates olomorasib alone or in combination with pembrolizumab and chemotherapy in KRAS G12C-mutated NSCLC, focusing on advanced stages with measurable disease and preserved performance status.",
+          "type": "demographic",
+          "entities": [
+            {
+              "text": "KRAS ",
+              "entity_type": "BIOMARKER",
+              "value": "KRAS ",
+              "resource_type": "Observation"
+            },
+            {
+              "text": "measurable disease",
+              "entity_type": "MEASURABLE_DISEASE",
+              "value": "measurable disease",
+              "resource_type": "Observation"
+            }
+          ]
+        }
+      ],
+      "total_entities": 52,
+      "all_entities": [
+        {
+          "text": "18 years and older",
+          "entity_type": "AGE",
+          "value": 18,
+          "resource_type": "Patient"
+        },
+        {
+          "text": "Female",
+          "entity_type": "GENDER",
+          "value": "female",
+          "resource_type": "Patient"
+        },
+        {
+          "text": "cancer",
+          "entity_type": "DIAGNOSIS",
+          "value": "cancer",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "breast cancer",
+          "entity_type": "DIAGNOSIS",
+          "value": "breast cancer",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "HER2",
+          "entity_type": "BIOMARKER",
+          "value": "HER2",
+          "resource_type": "Observation"
+        },
+        {
+          "text": "cancer",
+          "entity_type": "DIAGNOSIS",
+          "value": "cancer",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "breast cancer",
+          "entity_type": "DIAGNOSIS",
+          "value": "breast cancer",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "estrogen receptor ",
+          "entity_type": "BIOMARKER",
+          "value": "estrogen receptor ",
+          "resource_type": "Observation"
+        },
+        {
+          "text": "Pregnancy",
+          "entity_type": "EXCLUSION",
+          "value": "Pregnancy",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "All",
+          "entity_type": "GENDER",
+          "value": "unknown",
+          "resource_type": "Patient"
+        },
+        {
+          "text": "All",
+          "entity_type": "DIAGNOSIS",
+          "value": "All",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "solid tumor",
+          "entity_type": "DIAGNOSIS",
+          "value": "solid tumor",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "18 years and older",
+          "entity_type": "AGE",
+          "value": 18,
+          "resource_type": "Patient"
+        },
+        {
+          "text": "All",
+          "entity_type": "GENDER",
+          "value": "unknown",
+          "resource_type": "Patient"
+        },
+        {
+          "text": "All",
+          "entity_type": "DIAGNOSIS",
+          "value": "All",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "At least one measurable lesion",
+          "entity_type": "MEASURABLE_DISEASE",
+          "value": "At least one measurable lesion",
+          "resource_type": "Observation"
+        },
+        {
+          "text": "ECOG 0",
+          "entity_type": "ECOG",
+          "value": 0,
+          "resource_type": "Observation"
+        },
+        {
+          "text": "CNS metastases",
+          "entity_type": "EXCLUSION",
+          "value": "CNS metastases",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "Pregnant",
+          "entity_type": "EXCLUSION",
+          "value": "Pregnant",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "cancer",
+          "entity_type": "DIAGNOSIS",
+          "value": "cancer",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "18 years and older",
+          "entity_type": "AGE",
+          "value": 18,
+          "resource_type": "Patient"
+        },
+        {
+          "text": "All",
+          "entity_type": "GENDER",
+          "value": "unknown",
+          "resource_type": "Patient"
+        },
+        {
+          "text": "All",
+          "entity_type": "DIAGNOSIS",
+          "value": "All",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "Measurable disease",
+          "entity_type": "MEASURABLE_DISEASE",
+          "value": "Measurable disease",
+          "resource_type": "Observation"
+        },
+        {
+          "text": "Pregnant",
+          "entity_type": "EXCLUSION",
+          "value": "Pregnant",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "18 years and older",
+          "entity_type": "AGE",
+          "value": 18,
+          "resource_type": "Patient"
+        },
+        {
+          "text": "All",
+          "entity_type": "GENDER",
+          "value": "unknown",
+          "resource_type": "Patient"
+        },
+        {
+          "text": "All",
+          "entity_type": "DIAGNOSIS",
+          "value": "All",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "Pregnant",
+          "entity_type": "EXCLUSION",
+          "value": "Pregnant",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "Cancer",
+          "entity_type": "DIAGNOSIS",
+          "value": "Cancer",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "Lung Cancer",
+          "entity_type": "DIAGNOSIS",
+          "value": "Lung Cancer",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "KRAS ",
+          "entity_type": "BIOMARKER",
+          "value": "KRAS ",
+          "resource_type": "Observation"
+        },
+        {
+          "text": "18 years and older",
+          "entity_type": "AGE",
+          "value": 18,
+          "resource_type": "Patient"
+        },
+        {
+          "text": "All",
+          "entity_type": "GENDER",
+          "value": "unknown",
+          "resource_type": "Patient"
+        },
+        {
+          "text": "All",
+          "entity_type": "DIAGNOSIS",
+          "value": "All",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "KRAS ",
+          "entity_type": "BIOMARKER",
+          "value": "KRAS ",
+          "resource_type": "Observation"
+        },
+        {
+          "text": "Measurable disease",
+          "entity_type": "MEASURABLE_DISEASE",
+          "value": "Measurable disease",
+          "resource_type": "Observation"
+        },
+        {
+          "text": "ECOG performance status 0",
+          "entity_type": "ECOG",
+          "value": 0,
+          "resource_type": "Observation"
+        },
+        {
+          "text": "pregnancy",
+          "entity_type": "EXCLUSION",
+          "value": "pregnancy",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "EGFR",
+          "entity_type": "BIOMARKER",
+          "value": "EGFR",
+          "resource_type": "Observation"
+        },
+        {
+          "text": "ALK",
+          "entity_type": "BIOMARKER",
+          "value": "ALK",
+          "resource_type": "Observation"
+        },
+        {
+          "text": "BRAF ",
+          "entity_type": "BIOMARKER",
+          "value": "BRAF ",
+          "resource_type": "Observation"
+        },
+        {
+          "text": "HER2",
+          "entity_type": "BIOMARKER",
+          "value": "HER2",
+          "resource_type": "Observation"
+        },
+        {
+          "text": "ROS1",
+          "entity_type": "BIOMARKER",
+          "value": "ROS1",
+          "resource_type": "Observation"
+        },
+        {
+          "text": "CNS metastases",
+          "entity_type": "EXCLUSION",
+          "value": "CNS metastases",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "CNS metastases",
+          "entity_type": "EXCLUSION",
+          "value": "CNS metastases",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "KRAS ",
+          "entity_type": "BIOMARKER",
+          "value": "KRAS ",
+          "resource_type": "Observation"
+        },
+        {
+          "text": "Pregnancy",
+          "entity_type": "EXCLUSION",
+          "value": "Pregnancy",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "breastfeeding",
+          "entity_type": "EXCLUSION",
+          "value": "breastfeeding",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "pregnancy",
+          "entity_type": "EXCLUSION",
+          "value": "pregnancy",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "KRAS ",
+          "entity_type": "BIOMARKER",
+          "value": "KRAS ",
+          "resource_type": "Observation"
+        },
+        {
+          "text": "measurable disease",
+          "entity_type": "MEASURABLE_DISEASE",
+          "value": "measurable disease",
+          "resource_type": "Observation"
+        }
+      ]
+    },
+    {
+      "trial_id": "trial_1",
+      "nct_id": "NCT06875310",
+      "title": "Adagrasib + Pembrolizumab + Chemotherapy (KRYSTAL-4)",
+      "criteria": [
+        {
+          "text": "Ages Eligible:",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "18 years and older",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "18 years and older",
+              "entity_type": "AGE",
+              "value": 18,
+              "resource_type": "Patient"
+            }
+          ]
+        },
+        {
+          "text": "Sexes Eligible:",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "All",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "All",
+              "entity_type": "GENDER",
+              "value": "unknown",
+              "resource_type": "Patient"
+            },
+            {
+              "text": "All",
+              "entity_type": "DIAGNOSIS",
+              "value": "All",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Inclusion Criteria:",
+          "type": "inclusion",
+          "entities": []
+        },
+        {
+          "text": "Histologically or cytologically confirmed diagnosis of non-squamous NSCLC with KRAS G12C mutation (confirmed via tumor tissue or circulating tumor DNA)",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "KRAS ",
+              "entity_type": "BIOMARKER",
+              "value": "KRAS ",
+              "resource_type": "Observation"
+            }
+          ]
+        },
+        {
+          "text": "Locally advanced or metastatic disease",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "metastatic disease",
+              "entity_type": "DIAGNOSIS",
+              "value": "metastatic disease",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Measurable disease per RECIST v1.1 of at least one lesion",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "Measurable disease",
+              "entity_type": "MEASURABLE_DISEASE",
+              "value": "Measurable disease",
+              "resource_type": "Observation"
+            }
+          ]
+        },
+        {
+          "text": "No prior systemic anti-cancer therapy for advanced/metastatic disease",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "cancer",
+              "entity_type": "DIAGNOSIS",
+              "value": "cancer",
+              "resource_type": "Condition"
+            },
+            {
+              "text": "metastatic disease",
+              "entity_type": "DIAGNOSIS",
+              "value": "metastatic disease",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Not eligible for definitive therapy (e.g., chemoradiation or complete surgical resection)",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Brain metastases allowed if asymptomatic, untreated, and ≤ 20 mm in diameter",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "Brain metastases",
+              "entity_type": "EXCLUSION",
+              "value": "Brain metastases",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Any PD-L1 expression level (0–100%)",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Exclusion Criteria:",
+          "type": "exclusion",
+          "entities": []
+        },
+        {
+          "text": "Active or suspected autoimmune or inflammatory disease",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Uncontrolled or significant cardiovascular conditions within 6 months before enrollment",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Inadequate bone marrow or liver function or ECG abnormalities",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Ongoing treatment with medications causing prolonged QTc that cannot be switched",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Prior treatment targeting KRAS G12C (e.g., sotorasib, adagrasib) in any setting",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "KRAS ",
+              "entity_type": "BIOMARKER",
+              "value": "KRAS ",
+              "resource_type": "Observation"
+            }
+          ]
+        },
+        {
+          "text": "Other severe acute/chronic medical or psychiatric conditions increasing risk",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Additional protocol-defined criteria",
+          "type": "clinical",
+          "entities": []
+        }
+      ],
+      "total_entities": 10,
+      "all_entities": [
+        {
+          "text": "18 years and older",
+          "entity_type": "AGE",
+          "value": 18,
+          "resource_type": "Patient"
+        },
+        {
+          "text": "All",
+          "entity_type": "GENDER",
+          "value": "unknown",
+          "resource_type": "Patient"
+        },
+        {
+          "text": "All",
+          "entity_type": "DIAGNOSIS",
+          "value": "All",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "KRAS ",
+          "entity_type": "BIOMARKER",
+          "value": "KRAS ",
+          "resource_type": "Observation"
+        },
+        {
+          "text": "metastatic disease",
+          "entity_type": "DIAGNOSIS",
+          "value": "metastatic disease",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "Measurable disease",
+          "entity_type": "MEASURABLE_DISEASE",
+          "value": "Measurable disease",
+          "resource_type": "Observation"
+        },
+        {
+          "text": "cancer",
+          "entity_type": "DIAGNOSIS",
+          "value": "cancer",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "metastatic disease",
+          "entity_type": "DIAGNOSIS",
+          "value": "metastatic disease",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "Brain metastases",
+          "entity_type": "EXCLUSION",
+          "value": "Brain metastases",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "KRAS ",
+          "entity_type": "BIOMARKER",
+          "value": "KRAS ",
+          "resource_type": "Observation"
+        }
+      ]
+    },
+    {
+      "trial_id": "trial_2",
+      "nct_id": "NCT06692738",
+      "title": "Rilvegostomig or Pembrolizumab + Chemotherapy for Metastatic Squamous NSCLC (Immunotherapy-based)",
+      "criteria": [
+        {
+          "text": "Note: Specific detailed eligibility criteria not yet surfaced from available sources, but generally expected:",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Ages Eligible:",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "18 years and older",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "18 years and older",
+              "entity_type": "AGE",
+              "value": 18,
+              "resource_type": "Patient"
+            }
+          ]
+        },
+        {
+          "text": "Sexes Eligible:",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "All",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "All",
+              "entity_type": "GENDER",
+              "value": "unknown",
+              "resource_type": "Patient"
+            },
+            {
+              "text": "All",
+              "entity_type": "DIAGNOSIS",
+              "value": "All",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Typical Inclusion Criteria:",
+          "type": "inclusion",
+          "entities": []
+        },
+        {
+          "text": "Histologically confirmed metastatic squamous NSCLC",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Suitable for systemic chemotherapy and immunotherapy",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "ECOG performance status allowing study participation",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Adequate organ function",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Typical Exclusion Criteria:",
+          "type": "exclusion",
+          "entities": []
+        },
+        {
+          "text": "Severe uncontrolled medical conditions",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Active CNS metastases untreated or symptomatic",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "CNS metastases",
+              "entity_type": "EXCLUSION",
+              "value": "CNS metastases",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Prior treatment conflicting with study drugs",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Pregnancy or breastfeeding",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "Pregnancy",
+              "entity_type": "EXCLUSION",
+              "value": "Pregnancy",
+              "resource_type": "Condition"
+            },
+            {
+              "text": "breastfeeding",
+              "entity_type": "EXCLUSION",
+              "value": "breastfeeding",
+              "resource_type": "Condition"
+            }
+          ]
+        }
+      ],
+      "total_entities": 6,
+      "all_entities": [
+        {
+          "text": "18 years and older",
+          "entity_type": "AGE",
+          "value": 18,
+          "resource_type": "Patient"
+        },
+        {
+          "text": "All",
+          "entity_type": "GENDER",
+          "value": "unknown",
+          "resource_type": "Patient"
+        },
+        {
+          "text": "All",
+          "entity_type": "DIAGNOSIS",
+          "value": "All",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "CNS metastases",
+          "entity_type": "EXCLUSION",
+          "value": "CNS metastases",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "Pregnancy",
+          "entity_type": "EXCLUSION",
+          "value": "Pregnancy",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "breastfeeding",
+          "entity_type": "EXCLUSION",
+          "value": "breastfeeding",
+          "resource_type": "Condition"
+        }
+      ]
+    },
+    {
+      "trial_id": "trial_3",
+      "nct_id": "NCT06350097",
+      "title": "Osimertinib ± Datopotamab Deruxtecan in EGFR-mutated NSCLC (Targeted + ADC)",
+      "criteria": [
+        {
+          "text": "Note: Detailed eligibility criteria specific to combination trial not directly available in current search; general criteria from similar trials include:",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Ages Eligible:",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "18 years and older",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "18 years and older",
+              "entity_type": "AGE",
+              "value": 18,
+              "resource_type": "Patient"
+            }
+          ]
+        },
+        {
+          "text": "Sexes Eligible:",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "All",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "All",
+              "entity_type": "GENDER",
+              "value": "unknown",
+              "resource_type": "Patient"
+            },
+            {
+              "text": "All",
+              "entity_type": "DIAGNOSIS",
+              "value": "All",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Expected Inclusion Criteria:",
+          "type": "inclusion",
+          "entities": []
+        },
+        {
+          "text": "Histologically confirmed NSCLC with activating EGFR mutation",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "EGFR ",
+              "entity_type": "BIOMARKER",
+              "value": "EGFR ",
+              "resource_type": "Observation"
+            }
+          ]
+        },
+        {
+          "text": "Metastatic or unresectable disease",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "unresectable disease",
+              "entity_type": "DIAGNOSIS",
+              "value": "unresectable disease",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Measurable disease per RECIST criteria",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "Measurable disease",
+              "entity_type": "MEASURABLE_DISEASE",
+              "value": "Measurable disease",
+              "resource_type": "Observation"
+            }
+          ]
+        },
+        {
+          "text": "Prior treatment status may vary based on trial design",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Expected Exclusion Criteria:",
+          "type": "exclusion",
+          "entities": []
+        },
+        {
+          "text": "Uncontrolled CNS metastases",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "CNS metastases",
+              "entity_type": "EXCLUSION",
+              "value": "CNS metastases",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Significant cardiac or organ dysfunction",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Prior exposure to study drugs or related investigational agents",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "Pregnant or breastfeeding",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "Pregnant",
+              "entity_type": "EXCLUSION",
+              "value": "Pregnant",
+              "resource_type": "Condition"
+            },
+            {
+              "text": "breastfeeding",
+              "entity_type": "EXCLUSION",
+              "value": "breastfeeding",
+              "resource_type": "Condition"
+            }
+          ]
+        }
+      ],
+      "total_entities": 9,
+      "all_entities": [
+        {
+          "text": "18 years and older",
+          "entity_type": "AGE",
+          "value": 18,
+          "resource_type": "Patient"
+        },
+        {
+          "text": "All",
+          "entity_type": "GENDER",
+          "value": "unknown",
+          "resource_type": "Patient"
+        },
+        {
+          "text": "All",
+          "entity_type": "DIAGNOSIS",
+          "value": "All",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "EGFR ",
+          "entity_type": "BIOMARKER",
+          "value": "EGFR ",
+          "resource_type": "Observation"
+        },
+        {
+          "text": "unresectable disease",
+          "entity_type": "DIAGNOSIS",
+          "value": "unresectable disease",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "Measurable disease",
+          "entity_type": "MEASURABLE_DISEASE",
+          "value": "Measurable disease",
+          "resource_type": "Observation"
+        },
+        {
+          "text": "CNS metastases",
+          "entity_type": "EXCLUSION",
+          "value": "CNS metastases",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "Pregnant",
+          "entity_type": "EXCLUSION",
+          "value": "Pregnant",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "breastfeeding",
+          "entity_type": "EXCLUSION",
+          "value": "breastfeeding",
+          "resource_type": "Condition"
+        }
+      ]
+    },
+    {
+      "trial_id": "trial_4",
+      "nct_id": "NCT06119581",
+      "title": "First-Line Olomorasib + Pembrolizumab ± Chemotherapy for KRAS G12C NSCLC",
+      "criteria": [
+        {
+          "text": "Note: Specific eligibility details currently not indexed; expected aligned criteria:",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Ages Eligible:",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "18 years and older",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "18 years and older",
+              "entity_type": "AGE",
+              "value": 18,
+              "resource_type": "Patient"
+            }
+          ]
+        },
+        {
+          "text": "Sexes Eligible:",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "All",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "All",
+              "entity_type": "GENDER",
+              "value": "unknown",
+              "resource_type": "Patient"
+            },
+            {
+              "text": "All",
+              "entity_type": "DIAGNOSIS",
+              "value": "All",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Typical Inclusion Criteria:",
+          "type": "inclusion",
+          "entities": []
+        },
+        {
+          "text": "Locally advanced or metastatic NSCLC with KRAS G12C mutation",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "KRAS ",
+              "entity_type": "BIOMARKER",
+              "value": "KRAS ",
+              "resource_type": "Observation"
+            }
+          ]
+        },
+        {
+          "text": "No prior systemic therapy for advanced disease",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "advanced disease",
+              "entity_type": "DIAGNOSIS",
+              "value": "advanced disease",
+              "resource_type": "Condition"
+            },
+            {
+              "text": "prior systemic therapy for advanced disease",
+              "entity_type": "EXCLUSION",
+              "value": "prior systemic therapy for advanced disease",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Measurable disease per RECIST",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "Measurable disease",
+              "entity_type": "MEASURABLE_DISEASE",
+              "value": "Measurable disease",
+              "resource_type": "Observation"
+            }
+          ]
+        },
+        {
+          "text": "ECOG 0 or 1",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "ECOG 0",
+              "entity_type": "ECOG",
+              "value": 0,
+              "resource_type": "Observation"
+            }
+          ]
+        },
+        {
+          "text": "Typical Exclusion Criteria:",
+          "type": "exclusion",
+          "entities": []
+        },
+        {
+          "text": "Active CNS metastases unless stable",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "CNS metastases",
+              "entity_type": "EXCLUSION",
+              "value": "CNS metastases",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Prior KRAS G12C inhibitor treatment",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "KRAS ",
+              "entity_type": "BIOMARKER",
+              "value": "KRAS ",
+              "resource_type": "Observation"
+            }
+          ]
+        },
+        {
+          "text": "Significant uncontrolled comorbidities",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Pregnant or breastfeeding",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "Pregnant",
+              "entity_type": "EXCLUSION",
+              "value": "Pregnant",
+              "resource_type": "Condition"
+            },
+            {
+              "text": "breastfeeding",
+              "entity_type": "EXCLUSION",
+              "value": "breastfeeding",
+              "resource_type": "Condition"
+            }
+          ]
+        }
+      ],
+      "total_entities": 12,
+      "all_entities": [
+        {
+          "text": "18 years and older",
+          "entity_type": "AGE",
+          "value": 18,
+          "resource_type": "Patient"
+        },
+        {
+          "text": "All",
+          "entity_type": "GENDER",
+          "value": "unknown",
+          "resource_type": "Patient"
+        },
+        {
+          "text": "All",
+          "entity_type": "DIAGNOSIS",
+          "value": "All",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "KRAS ",
+          "entity_type": "BIOMARKER",
+          "value": "KRAS ",
+          "resource_type": "Observation"
+        },
+        {
+          "text": "advanced disease",
+          "entity_type": "DIAGNOSIS",
+          "value": "advanced disease",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "prior systemic therapy for advanced disease",
+          "entity_type": "EXCLUSION",
+          "value": "prior systemic therapy for advanced disease",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "Measurable disease",
+          "entity_type": "MEASURABLE_DISEASE",
+          "value": "Measurable disease",
+          "resource_type": "Observation"
+        },
+        {
+          "text": "ECOG 0",
+          "entity_type": "ECOG",
+          "value": 0,
+          "resource_type": "Observation"
+        },
+        {
+          "text": "CNS metastases",
+          "entity_type": "EXCLUSION",
+          "value": "CNS metastases",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "KRAS ",
+          "entity_type": "BIOMARKER",
+          "value": "KRAS ",
+          "resource_type": "Observation"
+        },
+        {
+          "text": "Pregnant",
+          "entity_type": "EXCLUSION",
+          "value": "Pregnant",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "breastfeeding",
+          "entity_type": "EXCLUSION",
+          "value": "breastfeeding",
+          "resource_type": "Condition"
+        }
+      ]
+    },
+    {
+      "trial_id": "trial_5",
+      "nct_id": "NCT05984277",
+      "title": "Volrustomig + Chemo vs Pembrolizumab + Chemo in Metastatic NSCLC (Phase III)",
+      "criteria": [
+        {
+          "text": "Note: Detailed inclusion/exclusion not directly available via current brief search; generally aligned criteria might be:",
+          "type": "inclusion",
+          "entities": []
+        },
+        {
+          "text": "Ages Eligible:",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "18 years and older",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "18 years and older",
+              "entity_type": "AGE",
+              "value": 18,
+              "resource_type": "Patient"
+            }
+          ]
+        },
+        {
+          "text": "Sexes Eligible:",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "All",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "All",
+              "entity_type": "GENDER",
+              "value": "unknown",
+              "resource_type": "Patient"
+            },
+            {
+              "text": "All",
+              "entity_type": "DIAGNOSIS",
+              "value": "All",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Expected Inclusion Criteria:",
+          "type": "inclusion",
+          "entities": []
+        },
+        {
+          "text": "Metastatic NSCLC, suitable for systemic chemotherapy and immune checkpoint inhibitor",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "ECOG performance status sufficient for treatment",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Expected Exclusion Criteria:",
+          "type": "exclusion",
+          "entities": []
+        },
+        {
+          "text": "Untreated or symptomatic brain metastases",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "brain metastases",
+              "entity_type": "EXCLUSION",
+              "value": "brain metastases",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Prior therapy conflicting with regimen",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Severe comorbid illness",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Pregnancy or breastfeeding",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "Pregnancy",
+              "entity_type": "EXCLUSION",
+              "value": "Pregnancy",
+              "resource_type": "Condition"
+            },
+            {
+              "text": "breastfeeding",
+              "entity_type": "EXCLUSION",
+              "value": "breastfeeding",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "NCT06241391 – Ga-68 PSMA PET/CT in Gliomas (Not yet recruiting, India site - Bhubaneswar, diagnostic imaging focus)",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Ages Eligible for Study:",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "18 years and older",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "18 years and older",
+              "entity_type": "AGE",
+              "value": 18,
+              "resource_type": "Patient"
+            }
+          ]
+        },
+        {
+          "text": "Sexes Eligible for Study:",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "All",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "All",
+              "entity_type": "GENDER",
+              "value": "unknown",
+              "resource_type": "Patient"
+            },
+            {
+              "text": "All",
+              "entity_type": "DIAGNOSIS",
+              "value": "All",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Inclusion Criteria:",
+          "type": "inclusion",
+          "entities": []
+        },
+        {
+          "text": "Age ≥ 18 years",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "History of WHO grade III or IV infiltrating glioma (such as glioblastoma) previously treated with first-line therapy",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Clinical and MRI suspicion of recurrent disease or residue after treatment",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Suitable for undergoing Ga-68 PSMA PET/CT imaging for diagnostic purposes",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Ability to give informed consent",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Exclusion Criteria:",
+          "type": "exclusion",
+          "entities": []
+        },
+        {
+          "text": "Patients unable to undergo PET/CT due to any contraindications",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Pregnant or breastfeeding women",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "Pregnant",
+              "entity_type": "EXCLUSION",
+              "value": "Pregnant",
+              "resource_type": "Condition"
+            },
+            {
+              "text": "breastfeeding",
+              "entity_type": "EXCLUSION",
+              "value": "breastfeeding",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Other serious medical conditions that preclude participation",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "This trial is an imaging diagnostic study aiming to evaluate the role of Ga-68 PSMA PET/CT for detecting and characterizing gliomas in adult patients, especially for those with high-grade gliomas previously treated.",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "NCT06016452 – A Study of Chlorophyllin for the Management of Brain Radio-necrosis in Patients With Diffuse Glioma (Recruiting, India site - Mumbai)",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "Ages Eligible:",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "18 to 70 years",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Sexes Eligible:",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "All",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "All",
+              "entity_type": "GENDER",
+              "value": "unknown",
+              "resource_type": "Patient"
+            },
+            {
+              "text": "All",
+              "entity_type": "DIAGNOSIS",
+              "value": "All",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Inclusion Criteria:",
+          "type": "inclusion",
+          "entities": []
+        },
+        {
+          "text": "Histological diagnosis of adult-type diffuse glioma",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Radiological evidence of brain radionecrosis on imaging (MRI with or without PET)",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Patients with new neurological symptoms or worsening prior deficits (Symptomatic - Stratum A) or without new symptoms (Asymptomatic - Stratum B)",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Karnofsky Performance Scale (KPS) score ≥ 50",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Ability to provide informed consent",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Exclusion Criteria:",
+          "type": "exclusion",
+          "entities": []
+        },
+        {
+          "text": "No tissue diagnosis available",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "KPS score < 50",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Evidence of disease progression rather than radionecrosis",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Contraindications to corticosteroids (for symptomatic patients)",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Altered mental status impeding understanding or consent",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Diagnosis of brainstem glioma",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Indeterminate diagnosis between radionecrosis and disease progression",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Prior treatment with bevacizumab (for either disease progression or radionecrosis)",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "This study aims to evaluate chlorophyllin's effectiveness in treating brain radionecrosis in diffuse glioma patients, assessing clinical-radiological response and corticosteroid use changes over a 3-month treatment period.",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "NCT05063682 – EGFRvIII-CAR T Cells for Glioblastoma Leptomeningeal Disease",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Ages Eligible:",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "18 years and older",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "18 years and older",
+              "entity_type": "AGE",
+              "value": 18,
+              "resource_type": "Patient"
+            }
+          ]
+        },
+        {
+          "text": "Sexes Eligible:",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "All",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "All",
+              "entity_type": "GENDER",
+              "value": "unknown",
+              "resource_type": "Patient"
+            },
+            {
+              "text": "All",
+              "entity_type": "DIAGNOSIS",
+              "value": "All",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Inclusion Criteria:",
+          "type": "inclusion",
+          "entities": []
+        },
+        {
+          "text": "Histologically confirmed diagnosis of glioblastoma expressing EGFRvIII mutation, confirmed via central review with EGFRvIII H-score ≥ 250",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Presence of leptomeningeal disease from glioblastoma",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Radiographic progression consistent with neuro-oncology response criteria",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Surgical lesion accessible for biopsy/resection (minimum tumor tissue amount expected)",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Adequate organ function, including:",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Absolute neutrophil count ≥ 1000/mm³",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Platelet count ≥ 100,000/mm³ (transfusion independent for ≥7 days)",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Absolute lymphocyte count ≥ 300/µL or CD3 count ≥ 150/µL",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Creatinine clearance or equivalent glomerular filtration rate ≥ 50 mL/min/1.73m²",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Agreement to contraception use during study and for 6 months after last intervention (if of reproductive potential)",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Negative pregnancy test for females of childbearing potential prior to treatment",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "pregnancy",
+              "entity_type": "EXCLUSION",
+              "value": "pregnancy",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Ability to give informed consent",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Exclusion Criteria:",
+          "type": "exclusion",
+          "entities": []
+        },
+        {
+          "text": "Pregnancy or breastfeeding",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "Pregnancy",
+              "entity_type": "EXCLUSION",
+              "value": "Pregnancy",
+              "resource_type": "Condition"
+            },
+            {
+              "text": "breastfeeding",
+              "entity_type": "EXCLUSION",
+              "value": "breastfeeding",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Serious uncontrolled medical conditions or infections",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Active systemic infections or immune deficiency",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Other malignancies unless disease-free for a defined period",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Contraindications for receiving lymphodepleting chemotherapy or CAR-T cell therapy",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "This phase I trial evaluates the safety, side effects, and dose of EGFRvIII-CAR T cells targeting glioblastoma leptomeningeal disease with detailed organ function and reproductive safety criteria.",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "NCT05062772 – Brain Tumor Intraoperative Ultrasound Database (Completed, India site - Mumbai, surgical tech dataset)",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Inclusion Criteria:",
+          "type": "inclusion",
+          "entities": []
+        },
+        {
+          "text": "Adult patients operated between January 2018 and January 2020",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Pathological diagnosis of WHO grade IV astrocytoma (Glioblastoma)",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Intraoperative ultrasound study includes B-mode images",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "Informed consent obtained for intraoperative ultrasound (IOUS) and image acquisition/storage on the international database",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "Patients affected by brain tumor undergoing craniotomy and lesion removal",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Suitable for intraoperative ultrasound image acquisition",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "Exclusion Criteria:",
+          "type": "exclusion",
+          "entities": []
+        },
+        {
+          "text": "Other histopathological diagnoses besides glioblastoma (though the database can prospectively include other tumor types)",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Artifacts in ultrasound images that make analysis impossible",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "Stereotactic biopsies (not surgical resections)",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "No informed consent for IOUS or image acquisition/storage",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "Craniotomy not suitable for IOUS (e.g., smaller than probe width, not allowing correct probe placement)",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "History of prior cerebral surgery affecting IOUS acquisition",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Relapsing brain tumor",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "This study collects standardized intraoperative ultrasound images during brain tumor surgeries for research and development of imaging analysis techniques across international centers, including the India site.",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "NCT04365647 – Intra-operative Variation in Brain Tumor Size",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "(Completed, India site – Srinagar, surgical focus)",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Ages Eligible for Study:",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "18 years and older",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "18 years and older",
+              "entity_type": "AGE",
+              "value": 18,
+              "resource_type": "Patient"
+            }
+          ]
+        },
+        {
+          "text": "Sexes Eligible for Study:",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "All",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "All",
+              "entity_type": "GENDER",
+              "value": "unknown",
+              "resource_type": "Patient"
+            },
+            {
+              "text": "All",
+              "entity_type": "DIAGNOSIS",
+              "value": "All",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Accepts Healthy Volunteers:",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "No",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Inclusion Criteria:",
+          "type": "inclusion",
+          "entities": []
+        },
+        {
+          "text": "Adult patients undergoing surgery for brain tumors",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "MRI imaging available pre-operatively for tumor size measurement",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Intra-operative ultrasound (IOUS) performed during surgery",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Tumor type suitable for surgical resection (any histology allowed; both high-grade and low-grade lesions considered if resection feasible)",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Patient (or legally authorized representative) able to provide informed consent",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Exclusion Criteria:",
+          "type": "exclusion",
+          "entities": []
+        },
+        {
+          "text": "Patients undergoing stereotactic biopsy only (no resection)",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Patients without both pre-operative MRI and intra-operative ultrasound imaging",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Prior cranial surgery in the same region that may distort anatomy or measurements",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Tumors with extensive hemorrhage or calcification preventing accurate volume calculation via IOUS",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "Inability to give informed consent",
+          "type": "clinical",
+          "entities": []
+        }
+      ],
+      "total_entities": 22,
+      "all_entities": [
+        {
+          "text": "18 years and older",
+          "entity_type": "AGE",
+          "value": 18,
+          "resource_type": "Patient"
+        },
+        {
+          "text": "All",
+          "entity_type": "GENDER",
+          "value": "unknown",
+          "resource_type": "Patient"
+        },
+        {
+          "text": "All",
+          "entity_type": "DIAGNOSIS",
+          "value": "All",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "brain metastases",
+          "entity_type": "EXCLUSION",
+          "value": "brain metastases",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "Pregnancy",
+          "entity_type": "EXCLUSION",
+          "value": "Pregnancy",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "breastfeeding",
+          "entity_type": "EXCLUSION",
+          "value": "breastfeeding",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "18 years and older",
+          "entity_type": "AGE",
+          "value": 18,
+          "resource_type": "Patient"
+        },
+        {
+          "text": "All",
+          "entity_type": "GENDER",
+          "value": "unknown",
+          "resource_type": "Patient"
+        },
+        {
+          "text": "All",
+          "entity_type": "DIAGNOSIS",
+          "value": "All",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "Pregnant",
+          "entity_type": "EXCLUSION",
+          "value": "Pregnant",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "breastfeeding",
+          "entity_type": "EXCLUSION",
+          "value": "breastfeeding",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "All",
+          "entity_type": "GENDER",
+          "value": "unknown",
+          "resource_type": "Patient"
+        },
+        {
+          "text": "All",
+          "entity_type": "DIAGNOSIS",
+          "value": "All",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "18 years and older",
+          "entity_type": "AGE",
+          "value": 18,
+          "resource_type": "Patient"
+        },
+        {
+          "text": "All",
+          "entity_type": "GENDER",
+          "value": "unknown",
+          "resource_type": "Patient"
+        },
+        {
+          "text": "All",
+          "entity_type": "DIAGNOSIS",
+          "value": "All",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "pregnancy",
+          "entity_type": "EXCLUSION",
+          "value": "pregnancy",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "Pregnancy",
+          "entity_type": "EXCLUSION",
+          "value": "Pregnancy",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "breastfeeding",
+          "entity_type": "EXCLUSION",
+          "value": "breastfeeding",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "18 years and older",
+          "entity_type": "AGE",
+          "value": 18,
+          "resource_type": "Patient"
+        },
+        {
+          "text": "All",
+          "entity_type": "GENDER",
+          "value": "unknown",
+          "resource_type": "Patient"
+        },
+        {
+          "text": "All",
+          "entity_type": "DIAGNOSIS",
+          "value": "All",
+          "resource_type": "Condition"
+        }
+      ]
+    },
+    {
+      "trial_id": "trial_1",
+      "nct_id": "NCT00677716",
+      "title": "Cotara for Glioblastoma at First Relapse (Completed, India site - Bangalore, targeted therapy)",
+      "criteria": [
+        {
+          "text": "Ages Eligible for Study:",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "18 to 75 years",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Sexes Eligible:",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "All",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "All",
+              "entity_type": "GENDER",
+              "value": "unknown",
+              "resource_type": "Patient"
+            },
+            {
+              "text": "All",
+              "entity_type": "DIAGNOSIS",
+              "value": "All",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "Inclusion Criteria:",
+          "type": "inclusion",
+          "entities": []
+        },
+        {
+          "text": "Histologically confirmed glioblastoma multiforme (GBM)",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Clinical Target Volume (tumor size) between 5 and 60 cc inclusive",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Karnofsky Performance Status (KPS) ≥ 70%",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Stable dose of steroids (± 4 mg/day) for at least two weeks prior to baseline",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Adequate hematologic, renal, and liver function",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Exclusion Criteria:",
+          "type": "exclusion",
+          "entities": []
+        },
+        {
+          "text": "Infratentorial tumor(s), tumors communicating with ventricles, or intraventricular disease",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Bilateral non-contiguous gadolinium-enhancing tumors",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Diffuse disease with satellite lesions less than 1.5 cm from catheter tip or more than two satellite lesions",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Known or suspected allergy to study medication or iodine",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Surgery within four weeks prior to baseline",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "More than one prior chemotherapy regimen or chemotherapy within four weeks (six weeks for nitrosourea) before baseline",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Radiation therapy within four weeks prior to baseline",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Investigational agent usage within last 30 days",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "Previous treatment with any chimeric monoclonal antibody",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "HIV positive status",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "This trial focused on confirming the safety and dosing of Cotara (radioactive iodine-labeled antibody) delivered by interstitial infusion for GBM at first relapse.meghan-johnson-scholarship-fund.clinicaltrialconnect+1",
+          "type": "clinical",
+          "entities": []
+        }
+      ],
+      "total_entities": 2,
+      "all_entities": [
+        {
+          "text": "All",
+          "entity_type": "GENDER",
+          "value": "unknown",
+          "resource_type": "Patient"
+        },
+        {
+          "text": "All",
+          "entity_type": "DIAGNOSIS",
+          "value": "All",
+          "resource_type": "Condition"
+        }
+      ]
+    },
+    {
+      "trial_id": "trial_2",
+      "nct_id": "NCT01480479",
+      "title": "Rindopepimut/GM-CSF in Newly Diagnosed Glioblastoma (Completed, large Phase III trial)",
+      "criteria": [
+        {
+          "text": "(While exact detailed criteria for this large global study were not in the immediate retrieval, typical criteria for similarly designed rindopepimut trials include:)",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Typical Inclusion Criteria:",
+          "type": "inclusion",
+          "entities": []
+        },
+        {
+          "text": "Newly diagnosed glioblastoma, histologically confirmed",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "EGFRvIII positive tumor status (as this vaccine targets EGFRvIII mutation)",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Patients who have undergone standard surgery and chemoradiotherapy",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "KPS ≥ 70% or equivalent performance status",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Adequate organ function and hematologic parameters",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Age generally adult or elderly depending on protocol",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "Typical Exclusion Criteria:",
+          "type": "exclusion",
+          "entities": []
+        },
+        {
+          "text": "Prior malignancy (except certain skin or cervical cancers) unless disease-free for specified period",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Active infection or uncontrolled illness",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Immunosuppressive therapy or immune deficiency",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Pregnancy or breastfeeding",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "Pregnancy",
+              "entity_type": "EXCLUSION",
+              "value": "Pregnancy",
+              "resource_type": "Condition"
+            },
+            {
+              "text": "breastfeeding",
+              "entity_type": "EXCLUSION",
+              "value": "breastfeeding",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "This Phase III trial evaluated a targeted immunotherapy vaccine combined with GM-CSF in newly diagnosed GBM with EGFRvIII mutation.",
+          "type": "clinical",
+          "entities": []
+        }
+      ],
+      "total_entities": 2,
+      "all_entities": [
+        {
+          "text": "Pregnancy",
+          "entity_type": "EXCLUSION",
+          "value": "Pregnancy",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "breastfeeding",
+          "entity_type": "EXCLUSION",
+          "value": "breastfeeding",
+          "resource_type": "Condition"
+        }
+      ]
+    },
+    {
+      "trial_id": "trial_3",
+      "nct_id": "NCT01450449",
+      "title": "Short Course vs. Standard Radiotherapy in Elderly/Frail GBM Patients (Completed, global)",
+      "criteria": [
+        {
+          "text": "Inclusion Criteria (Typical for such radiotherapy trials):",
+          "type": "inclusion",
+          "entities": []
+        },
+        {
+          "text": "Histologically confirmed glioblastoma",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Age generally ≥ 65 years or defined as elderly/frail based on performance status or clinical judgment",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "Suitable for radiotherapy according to investigator",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Minimal or controlled comorbidities allowing treatment",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "KPS or ECOG performance status thresholds defined per protocol",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Exclusion Criteria:",
+          "type": "exclusion",
+          "entities": []
+        },
+        {
+          "text": "Prior cranial radiotherapy",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Severe comorbidities contraindicating radiotherapy",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Other active malignancy or brain pathology interfering with assessment",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Pregnancy",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "Pregnancy",
+              "entity_type": "EXCLUSION",
+              "value": "Pregnancy",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "The trial compared short-course hypofractionated radiotherapy versus standard radiotherapy schedules, focusing on elderly or frail patients with GBM to optimize treatment tolerability and outcome.",
+          "type": "clinical",
+          "entities": []
+        }
+      ],
+      "total_entities": 1,
+      "all_entities": [
+        {
+          "text": "Pregnancy",
+          "entity_type": "EXCLUSION",
+          "value": "Pregnancy",
+          "resource_type": "Condition"
+        }
+      ]
+    },
+    {
+      "trial_id": "trial_4",
+      "nct_id": "NCT00761280",
+      "title": "AP 12009 in Anaplastic Astrocytoma or Secondary Glioblastoma (Completed with results, multi-country)",
+      "criteria": [
+        {
+          "text": "Inclusion Criteria (typical for AP 12009):",
+          "type": "inclusion",
+          "entities": []
+        },
+        {
+          "text": "Histologically confirmed anaplastic astrocytoma or secondary glioblastoma",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Adults aged 18 or older",
+          "type": "demographic",
+          "entities": []
+        },
+        {
+          "text": "Disease progression documented after prior therapy",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Measurable disease or evaluable disease by imaging",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "Measurable disease",
+              "entity_type": "MEASURABLE_DISEASE",
+              "value": "Measurable disease",
+              "resource_type": "Observation"
+            }
+          ]
+        },
+        {
+          "text": "Adequate organ function and performance status (KPS/ECOG)",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Exclusion Criteria:",
+          "type": "exclusion",
+          "entities": []
+        },
+        {
+          "text": "Other uncontrolled medical conditions",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Active infections",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Prior treatment interfering with AP 12009 action or trial safety",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Pregnancy or breastfeeding",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "Pregnancy",
+              "entity_type": "EXCLUSION",
+              "value": "Pregnancy",
+              "resource_type": "Condition"
+            },
+            {
+              "text": "breastfeeding",
+              "entity_type": "EXCLUSION",
+              "value": "breastfeeding",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "AP 12009 targeted TGF-β2 via antisense oligonucleotides to inhibit tumor progression pathways in aggressive gliomas.",
+          "type": "clinical",
+          "entities": []
+        }
+      ],
+      "total_entities": 3,
+      "all_entities": [
+        {
+          "text": "Measurable disease",
+          "entity_type": "MEASURABLE_DISEASE",
+          "value": "Measurable disease",
+          "resource_type": "Observation"
+        },
+        {
+          "text": "Pregnancy",
+          "entity_type": "EXCLUSION",
+          "value": "Pregnancy",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "breastfeeding",
+          "entity_type": "EXCLUSION",
+          "value": "breastfeeding",
+          "resource_type": "Condition"
+        }
+      ]
+    },
+    {
+      "trial_id": "trial_5",
+      "nct_id": "NCT00431561",
+      "title": "TGF-β2 Antisense Compound in High-grade Glioma (Completed, multinational)",
+      "criteria": [
+        {
+          "text": "Inclusion Criteria:",
+          "type": "inclusion",
+          "entities": []
+        },
+        {
+          "text": "Histologically confirmed high-grade glioma, including glioblastoma",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Adult patients (usually ≥ 18 years)",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Progression following standard treatment or unsuitable for standard care",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Adequate performance status and organ function",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Signed informed consent",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Exclusion Criteria:",
+          "type": "exclusion",
+          "entities": []
+        },
+        {
+          "text": "Prior investigational therapies interfering with study drug",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Severe comorbidities or infections",
+          "type": "clinical",
+          "entities": []
+        },
+        {
+          "text": "Pregnancy or breastfeeding",
+          "type": "clinical",
+          "entities": [
+            {
+              "text": "Pregnancy",
+              "entity_type": "EXCLUSION",
+              "value": "Pregnancy",
+              "resource_type": "Condition"
+            },
+            {
+              "text": "breastfeeding",
+              "entity_type": "EXCLUSION",
+              "value": "breastfeeding",
+              "resource_type": "Condition"
+            }
+          ]
+        },
+        {
+          "text": "This trial evaluated a molecular targeted therapy aimed at TGF-β2 antisense compound to modulate tumor environment and growth.",
+          "type": "clinical",
+          "entities": []
+        }
+      ],
+      "total_entities": 2,
+      "all_entities": [
+        {
+          "text": "Pregnancy",
+          "entity_type": "EXCLUSION",
+          "value": "Pregnancy",
+          "resource_type": "Condition"
+        },
+        {
+          "text": "breastfeeding",
+          "entity_type": "EXCLUSION",
+          "value": "breastfeeding",
+          "resource_type": "Condition"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total_trials": 26,
+    "total_criteria": 566,
+    "total_entities": 252,
+    "extraction_timestamp": null
+  }
+}

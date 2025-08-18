@@ -1,0 +1,307 @@
+2025-08-16 22:38:07,249 - INFO: Starting FHIR extraction process...
+2025-08-16 22:38:07,249 - INFO: Reading criteria dataset from: criteria_dataset.docx
+2025-08-16 22:38:07,350 - INFO: Extracted 592 paragraphs
+2025-08-16 22:38:07,353 - INFO: Extracted 26 trials
+2025-08-16 22:38:07,376 - INFO: Extraction complete: 26 trials, 252 entities
+2025-08-16 22:38:09,140 - INFO: Loaded EMR mappings successfully
+2025-08-16 22:38:09,140 - INFO: Starting FHIR conversion...
+2025-08-16 22:38:09,142 - INFO: Conversion complete: 26 trials, 218 resources
+2025-08-16 22:38:09,149 - INFO: Validating master FHIR bundle...
+2025-08-16 22:38:09,239 - INFO: Validating individual trial bundles...
+2025-08-16 22:38:13,400 - INFO:    - Trials processed: 26
+2025-08-16 22:38:13,400 - INFO:    - Entities extracted: 252
+2025-08-16 22:38:13,400 - INFO:    - FHIR resources created: 218
+2025-08-16 22:52:15,997 - INFO: 🚀 Starting Clinical Trial to FHIR Pipeline
+2025-08-16 22:52:15,998 - INFO: 📅 Pipeline started at: 2025-08-16 22:52:15
+2025-08-16 22:52:15,998 - INFO: 📄 Step 1: Extracting data from criteria_dataset.docx
+2025-08-16 22:52:16,202 - ERROR: ❌ Pipeline failed: 'FHIRExtractor' object has no attribute 'extract_from_docx'
+2025-08-16 22:52:16,205 - ERROR: 📋 Error details: Traceback (most recent call last):
+  File "D:\CODES\emr_project\Ayusynapse\run_pipeline.py", line 39, in run_pipeline
+    extracted_data = extractor.extract_from_docx('criteria_dataset.docx')
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'FHIRExtractor' object has no attribute 'extract_from_docx'
+
+2025-08-16 22:52:16,207 - ERROR: 💥 Pipeline execution failed!
+2025-08-16 22:52:42,215 - INFO: 🚀 Starting Clinical Trial to FHIR Pipeline
+2025-08-16 22:52:42,216 - INFO: 📅 Pipeline started at: 2025-08-16 22:52:42
+2025-08-16 22:52:42,216 - INFO: 📄 Step 1: Extracting data from criteria_dataset.docx
+2025-08-16 22:52:42,375 - INFO: Starting FHIR extraction process...
+2025-08-16 22:52:42,375 - INFO: Reading criteria dataset from: criteria_dataset.docx
+2025-08-16 22:52:42,452 - INFO: Extracted 592 paragraphs
+2025-08-16 22:52:42,455 - INFO: Extracted 26 trials
+2025-08-16 22:52:42,477 - INFO: Extraction complete: 26 trials, 252 entities
+2025-08-16 22:52:42,477 - INFO: ✅ Extracted 26 trials
+2025-08-16 22:52:42,478 - INFO: 🔄 Step 2: Converting to FHIR format
+2025-08-16 22:52:44,023 - INFO: Loaded EMR mappings successfully
+2025-08-16 22:52:44,023 - INFO: Starting FHIR conversion...
+2025-08-16 22:52:44,025 - INFO: Conversion complete: 26 trials, 218 resources
+2025-08-16 22:52:44,026 - INFO: ✅ Converted 26 trials to FHIR
+2025-08-16 22:52:44,026 - INFO: ✅ Generated 218 FHIR resources
+2025-08-16 22:52:44,026 - INFO: 💾 Step 3: Saving FHIR data
+2025-08-16 22:52:44,027 - INFO: Validating master FHIR bundle...
+2025-08-16 22:52:44,097 - INFO: ✅ Bundle is valid
+2025-08-16 22:52:44,097 - INFO: ✅ Master bundle validation passed
+2025-08-16 22:52:44,097 - INFO: Validating individual trial bundles...
+2025-08-16 22:52:44,336 - INFO: ✅ Bundle is valid
+2025-08-16 22:52:44,337 - INFO: ✅ Trial bundle 1 validation passed
+2025-08-16 22:52:44,403 - INFO: ✅ Bundle is valid
+2025-08-16 22:52:44,403 - INFO: ✅ Trial bundle 2 validation passed
+2025-08-16 22:52:44,519 - INFO: ✅ Bundle is valid
+2025-08-16 22:52:44,519 - INFO: ✅ Trial bundle 3 validation passed
+2025-08-16 22:52:44,590 - INFO: ✅ Bundle is valid
+2025-08-16 22:52:44,590 - INFO: ✅ Trial bundle 4 validation passed
+2025-08-16 22:52:44,690 - INFO: ✅ Bundle is valid
+2025-08-16 22:52:44,690 - INFO: ✅ Trial bundle 5 validation passed
+2025-08-16 22:52:44,763 - INFO: ✅ Bundle is valid
+2025-08-16 22:52:44,764 - INFO: ✅ Trial bundle 6 validation passed
+2025-08-16 22:52:44,910 - INFO: ✅ Bundle is valid
+2025-08-16 22:52:44,911 - INFO: ✅ Trial bundle 7 validation passed
+2025-08-16 22:52:44,983 - INFO: ✅ Bundle is valid
+2025-08-16 22:52:44,984 - INFO: ✅ Trial bundle 8 validation passed
+2025-08-16 22:52:45,141 - INFO: ✅ Bundle is valid
+2025-08-16 22:52:45,143 - INFO: ✅ Trial bundle 9 validation passed
+2025-08-16 22:52:45,301 - INFO: ✅ Bundle is valid
+2025-08-16 22:52:45,302 - INFO: ✅ Trial bundle 10 validation passed
+2025-08-16 22:52:45,423 - INFO: ✅ Bundle is valid
+2025-08-16 22:52:45,423 - INFO: ✅ Trial bundle 11 validation passed
+2025-08-16 22:52:45,492 - INFO: ✅ Bundle is valid
+2025-08-16 22:52:45,493 - INFO: ✅ Trial bundle 12 validation passed
+2025-08-16 22:52:45,703 - INFO: ✅ Bundle is valid
+2025-08-16 22:52:45,704 - INFO: ✅ Trial bundle 13 validation passed
+2025-08-16 22:52:45,835 - INFO: ✅ Bundle is valid
+2025-08-16 22:52:45,835 - INFO: ✅ Trial bundle 14 validation passed
+2025-08-16 22:52:45,991 - INFO: ✅ Bundle is valid
+2025-08-16 22:52:45,992 - INFO: ✅ Trial bundle 15 validation passed
+2025-08-16 22:52:46,619 - INFO: ✅ Bundle is valid
+2025-08-16 22:52:46,619 - INFO: ✅ Trial bundle 16 validation passed
+2025-08-16 22:52:46,762 - INFO: ✅ Bundle is valid
+2025-08-16 22:52:46,763 - INFO: ✅ Trial bundle 17 validation passed
+2025-08-16 22:52:46,847 - INFO: ✅ Bundle is valid
+2025-08-16 22:52:46,848 - INFO: ✅ Trial bundle 18 validation passed
+2025-08-16 22:52:46,973 - INFO: ✅ Bundle is valid
+2025-08-16 22:52:46,973 - INFO: ✅ Trial bundle 19 validation passed
+2025-08-16 22:52:47,145 - INFO: ✅ Bundle is valid
+2025-08-16 22:52:47,145 - INFO: ✅ Trial bundle 20 validation passed
+2025-08-16 22:52:47,359 - INFO: ✅ Bundle is valid
+2025-08-16 22:52:47,360 - INFO: ✅ Trial bundle 21 validation passed
+2025-08-16 22:52:47,401 - INFO: ✅ Bundle is valid
+2025-08-16 22:52:47,402 - INFO: ✅ Trial bundle 22 validation passed
+2025-08-16 22:52:47,457 - INFO: ✅ Bundle is valid
+2025-08-16 22:52:47,457 - INFO: ✅ Trial bundle 23 validation passed
+2025-08-16 22:52:47,501 - INFO: ✅ Bundle is valid
+2025-08-16 22:52:47,501 - INFO: ✅ Trial bundle 24 validation passed
+2025-08-16 22:52:47,566 - INFO: ✅ Bundle is valid
+2025-08-16 22:52:47,567 - INFO: ✅ Trial bundle 25 validation passed
+2025-08-16 22:52:47,625 - INFO: ✅ Bundle is valid
+2025-08-16 22:52:47,626 - INFO: ✅ Trial bundle 26 validation passed
+2025-08-16 22:52:47,654 - INFO: ✅ Saved validated FHIR data to: clinical_trials_fhir.json
+2025-08-16 22:52:47,654 - INFO: 💾 Step 4: Skipping server storage
+2025-08-16 22:52:47,654 - INFO: 🎯 Pipeline Summary:
+2025-08-16 22:52:47,655 - INFO:    📊 Total trials processed: 26
+2025-08-16 22:52:47,655 - INFO:    🔗 Total FHIR resources: 218
+2025-08-16 22:52:47,655 - INFO:    ⏱️  Processing time: 5.44 seconds
+2025-08-16 22:52:47,655 - INFO:    📁 Output file: clinical_trials_fhir.json
+2025-08-16 22:52:47,655 - INFO:    💾 Server storage: Disabled
+2025-08-16 22:52:47,656 - INFO: ✅ Pipeline completed successfully!
+2025-08-16 22:52:47,656 - INFO: 🎉 Pipeline execution completed successfully!
+2025-08-16 22:52:54,597 - INFO: 🚀 Starting Clinical Trial to FHIR Pipeline
+2025-08-16 22:52:54,598 - INFO: 📅 Pipeline started at: 2025-08-16 22:52:54
+2025-08-16 22:52:54,598 - INFO: 📄 Step 1: Extracting data from criteria_dataset.docx
+2025-08-16 22:52:54,752 - INFO: Starting FHIR extraction process...
+2025-08-16 22:52:54,752 - INFO: Reading criteria dataset from: criteria_dataset.docx
+2025-08-16 22:52:54,819 - INFO: Extracted 592 paragraphs
+2025-08-16 22:52:54,821 - INFO: Extracted 26 trials
+2025-08-16 22:52:54,842 - INFO: Extraction complete: 26 trials, 252 entities
+2025-08-16 22:52:54,843 - INFO: ✅ Extracted 26 trials
+2025-08-16 22:52:54,843 - INFO: 🔄 Step 2: Converting to FHIR format
+2025-08-16 22:52:56,174 - INFO: Loaded EMR mappings successfully
+2025-08-16 22:52:56,175 - INFO: Starting FHIR conversion...
+2025-08-16 22:52:56,177 - INFO: Conversion complete: 26 trials, 218 resources
+2025-08-16 22:52:56,177 - INFO: ✅ Converted 26 trials to FHIR
+2025-08-16 22:52:56,177 - INFO: ✅ Generated 218 FHIR resources
+2025-08-16 22:52:56,177 - INFO: 💾 Step 3: Saving FHIR data
+2025-08-16 22:52:56,177 - INFO: Validating master FHIR bundle...
+2025-08-16 22:52:56,259 - INFO: ✅ Bundle is valid
+2025-08-16 22:52:56,260 - INFO: ✅ Master bundle validation passed
+2025-08-16 22:52:56,260 - INFO: Validating individual trial bundles...
+2025-08-16 22:52:56,530 - INFO: ✅ Bundle is valid
+2025-08-16 22:52:56,531 - INFO: ✅ Trial bundle 1 validation passed
+2025-08-16 22:52:56,608 - INFO: ✅ Bundle is valid
+2025-08-16 22:52:56,609 - INFO: ✅ Trial bundle 2 validation passed
+2025-08-16 22:52:56,720 - INFO: ✅ Bundle is valid
+2025-08-16 22:52:56,721 - INFO: ✅ Trial bundle 3 validation passed
+2025-08-16 22:52:56,794 - INFO: ✅ Bundle is valid
+2025-08-16 22:52:56,794 - INFO: ✅ Trial bundle 4 validation passed
+2025-08-16 22:52:56,894 - INFO: ✅ Bundle is valid
+2025-08-16 22:52:56,895 - INFO: ✅ Trial bundle 5 validation passed
+2025-08-16 22:52:56,962 - INFO: ✅ Bundle is valid
+2025-08-16 22:52:56,962 - INFO: ✅ Trial bundle 6 validation passed
+2025-08-16 22:52:57,098 - INFO: ✅ Bundle is valid
+2025-08-16 22:52:57,099 - INFO: ✅ Trial bundle 7 validation passed
+2025-08-16 22:52:57,178 - INFO: ✅ Bundle is valid
+2025-08-16 22:52:57,178 - INFO: ✅ Trial bundle 8 validation passed
+2025-08-16 22:52:57,350 - INFO: ✅ Bundle is valid
+2025-08-16 22:52:57,351 - INFO: ✅ Trial bundle 9 validation passed
+2025-08-16 22:52:57,512 - INFO: ✅ Bundle is valid
+2025-08-16 22:52:57,512 - INFO: ✅ Trial bundle 10 validation passed
+2025-08-16 22:52:57,627 - INFO: ✅ Bundle is valid
+2025-08-16 22:52:57,628 - INFO: ✅ Trial bundle 11 validation passed
+2025-08-16 22:52:57,695 - INFO: ✅ Bundle is valid
+2025-08-16 22:52:57,696 - INFO: ✅ Trial bundle 12 validation passed
+2025-08-16 22:52:57,919 - INFO: ✅ Bundle is valid
+2025-08-16 22:52:57,919 - INFO: ✅ Trial bundle 13 validation passed
+2025-08-16 22:52:58,053 - INFO: ✅ Bundle is valid
+2025-08-16 22:52:58,054 - INFO: ✅ Trial bundle 14 validation passed
+2025-08-16 22:52:58,211 - INFO: ✅ Bundle is valid
+2025-08-16 22:52:58,211 - INFO: ✅ Trial bundle 15 validation passed
+2025-08-16 22:52:58,823 - INFO: ✅ Bundle is valid
+2025-08-16 22:52:58,824 - INFO: ✅ Trial bundle 16 validation passed
+2025-08-16 22:52:58,964 - INFO: ✅ Bundle is valid
+2025-08-16 22:52:58,965 - INFO: ✅ Trial bundle 17 validation passed
+2025-08-16 22:52:59,049 - INFO: ✅ Bundle is valid
+2025-08-16 22:52:59,049 - INFO: ✅ Trial bundle 18 validation passed
+2025-08-16 22:52:59,173 - INFO: ✅ Bundle is valid
+2025-08-16 22:52:59,174 - INFO: ✅ Trial bundle 19 validation passed
+2025-08-16 22:52:59,343 - INFO: ✅ Bundle is valid
+2025-08-16 22:52:59,343 - INFO: ✅ Trial bundle 20 validation passed
+2025-08-16 22:52:59,549 - INFO: ✅ Bundle is valid
+2025-08-16 22:52:59,549 - INFO: ✅ Trial bundle 21 validation passed
+2025-08-16 22:52:59,593 - INFO: ✅ Bundle is valid
+2025-08-16 22:52:59,594 - INFO: ✅ Trial bundle 22 validation passed
+2025-08-16 22:52:59,648 - INFO: ✅ Bundle is valid
+2025-08-16 22:52:59,648 - INFO: ✅ Trial bundle 23 validation passed
+2025-08-16 22:52:59,691 - INFO: ✅ Bundle is valid
+2025-08-16 22:52:59,692 - INFO: ✅ Trial bundle 24 validation passed
+2025-08-16 22:52:59,759 - INFO: ✅ Bundle is valid
+2025-08-16 22:52:59,759 - INFO: ✅ Trial bundle 25 validation passed
+2025-08-16 22:52:59,816 - INFO: ✅ Bundle is valid
+2025-08-16 22:52:59,816 - INFO: ✅ Trial bundle 26 validation passed
+2025-08-16 22:52:59,848 - INFO: ✅ Saved validated FHIR data to: clinical_trials_fhir.json
+2025-08-16 22:52:59,848 - INFO: 🔄 Connecting to FHIR server for storage...
+2025-08-16 22:53:02,859 - INFO: ✅ Connected to FHIR server: http://hapi.fhir.org/baseR4
+2025-08-16 22:53:02,859 - INFO: 📦 Storing 26 individual trial bundles...
+2025-08-16 22:53:02,860 - INFO: 📤 Storing trial 1: trial_1
+2025-08-16 22:53:02,860 - INFO: 📤 Attempting to store bundle (attempt 1/4)
+2025-08-16 22:53:03,248 - INFO: ✅ Successfully stored bundle with ID: 48724927
+2025-08-16 22:53:03,249 - INFO: ✅ Successfully stored Bundle with ID: 48724927
+2025-08-16 22:53:03,249 - INFO: 📤 Storing trial 2: trial_2
+2025-08-16 22:53:03,249 - INFO: 📤 Attempting to store bundle (attempt 1/4)
+2025-08-16 22:53:04,148 - INFO: ✅ Successfully stored bundle with ID: 48724928
+2025-08-16 22:53:04,149 - INFO: ✅ Successfully stored Bundle with ID: 48724928
+2025-08-16 22:53:04,149 - INFO: 📤 Storing trial 3: trial_3
+2025-08-16 22:53:04,149 - INFO: 📤 Attempting to store bundle (attempt 1/4)
+2025-08-16 22:53:05,182 - INFO: ✅ Successfully stored bundle with ID: 48724929
+2025-08-16 22:53:05,183 - INFO: ✅ Successfully stored Bundle with ID: 48724929
+2025-08-16 22:53:05,183 - INFO: 📤 Storing trial 4: trial_4
+2025-08-16 22:53:05,183 - INFO: 📤 Attempting to store bundle (attempt 1/4)
+2025-08-16 22:53:06,159 - INFO: ✅ Successfully stored bundle with ID: 48724930
+2025-08-16 22:53:06,159 - INFO: ✅ Successfully stored Bundle with ID: 48724930
+2025-08-16 22:53:06,160 - INFO: 📤 Storing trial 5: trial_5
+2025-08-16 22:53:06,160 - INFO: 📤 Attempting to store bundle (attempt 1/4)
+2025-08-16 22:53:08,768 - INFO: ✅ Successfully stored bundle with ID: 48724931
+2025-08-16 22:53:08,768 - INFO: ✅ Successfully stored Bundle with ID: 48724931
+2025-08-16 22:53:08,769 - INFO: 📤 Storing trial 6: trial_6
+2025-08-16 22:53:08,769 - INFO: 📤 Attempting to store bundle (attempt 1/4)
+2025-08-16 22:53:11,071 - INFO: ✅ Successfully stored bundle with ID: 48724932
+2025-08-16 22:53:11,071 - INFO: ✅ Successfully stored Bundle with ID: 48724932
+2025-08-16 22:53:11,071 - INFO: 📤 Storing trial 7: trial_1
+2025-08-16 22:53:11,072 - INFO: 📤 Attempting to store bundle (attempt 1/4)
+2025-08-16 22:53:11,412 - INFO: ✅ Successfully stored bundle with ID: 48724933
+2025-08-16 22:53:11,413 - INFO: ✅ Successfully stored Bundle with ID: 48724933
+2025-08-16 22:53:11,413 - INFO: 📤 Storing trial 8: trial_2
+2025-08-16 22:53:11,413 - INFO: 📤 Attempting to store bundle (attempt 1/4)
+2025-08-16 22:53:12,362 - INFO: ✅ Successfully stored bundle with ID: 48724934
+2025-08-16 22:53:12,362 - INFO: ✅ Successfully stored Bundle with ID: 48724934
+2025-08-16 22:53:12,363 - INFO: 📤 Storing trial 9: trial_3
+2025-08-16 22:53:12,363 - INFO: 📤 Attempting to store bundle (attempt 1/4)
+2025-08-16 22:53:13,637 - INFO: ✅ Successfully stored bundle with ID: 48724935
+2025-08-16 22:53:13,638 - INFO: ✅ Successfully stored Bundle with ID: 48724935
+2025-08-16 22:53:13,638 - INFO: 📤 Storing trial 10: trial_4
+2025-08-16 22:53:13,638 - INFO: 📤 Attempting to store bundle (attempt 1/4)
+2025-08-16 22:53:16,920 - INFO: ✅ Successfully stored bundle with ID: 48724936
+2025-08-16 22:53:16,920 - INFO: ✅ Successfully stored Bundle with ID: 48724936
+2025-08-16 22:53:16,920 - INFO: 📤 Storing trial 11: trial_5
+2025-08-16 22:53:16,920 - INFO: 📤 Attempting to store bundle (attempt 1/4)
+2025-08-16 22:53:17,552 - INFO: ✅ Successfully stored bundle with ID: 48724937
+2025-08-16 22:53:17,553 - INFO: ✅ Successfully stored Bundle with ID: 48724937
+2025-08-16 22:53:17,553 - INFO: 📤 Storing trial 12: trial_6
+2025-08-16 22:53:17,553 - INFO: 📤 Attempting to store bundle (attempt 1/4)
+2025-08-16 22:53:18,208 - INFO: ✅ Successfully stored bundle with ID: 48724938
+2025-08-16 22:53:18,208 - INFO: ✅ Successfully stored Bundle with ID: 48724938
+2025-08-16 22:53:18,209 - INFO: 📤 Storing trial 13: trial_7
+2025-08-16 22:53:18,209 - INFO: 📤 Attempting to store bundle (attempt 1/4)
+2025-08-16 22:53:19,493 - INFO: ✅ Successfully stored bundle with ID: 48724939
+2025-08-16 22:53:19,494 - INFO: ✅ Successfully stored Bundle with ID: 48724939
+2025-08-16 22:53:19,494 - INFO: 📤 Storing trial 14: trial_8
+2025-08-16 22:53:19,494 - INFO: 📤 Attempting to store bundle (attempt 1/4)
+2025-08-16 22:53:20,246 - INFO: ✅ Successfully stored bundle with ID: 48724940
+2025-08-16 22:53:20,246 - INFO: ✅ Successfully stored Bundle with ID: 48724940
+2025-08-16 22:53:20,247 - INFO: 📤 Storing trial 15: trial_9
+2025-08-16 22:53:20,247 - INFO: 📤 Attempting to store bundle (attempt 1/4)
+2025-08-16 22:53:21,243 - INFO: ✅ Successfully stored bundle with ID: 48724941
+2025-08-16 22:53:21,243 - INFO: ✅ Successfully stored Bundle with ID: 48724941
+2025-08-16 22:53:21,243 - INFO: 📤 Storing trial 16: trial_10
+2025-08-16 22:53:21,243 - INFO: 📤 Attempting to store bundle (attempt 1/4)
+2025-08-16 22:53:22,279 - INFO: ✅ Successfully stored bundle with ID: 48724942
+2025-08-16 22:53:22,280 - INFO: ✅ Successfully stored Bundle with ID: 48724942
+2025-08-16 22:53:22,280 - INFO: 📤 Storing trial 17: trial_1
+2025-08-16 22:53:22,280 - INFO: 📤 Attempting to store bundle (attempt 1/4)
+2025-08-16 22:53:23,833 - INFO: ✅ Successfully stored bundle with ID: 48724943
+2025-08-16 22:53:23,834 - INFO: ✅ Successfully stored Bundle with ID: 48724943
+2025-08-16 22:53:23,834 - INFO: 📤 Storing trial 18: trial_2
+2025-08-16 22:53:23,834 - INFO: 📤 Attempting to store bundle (attempt 1/4)
+2025-08-16 22:53:24,210 - INFO: ✅ Successfully stored bundle with ID: 48724944
+2025-08-16 22:53:24,210 - INFO: ✅ Successfully stored Bundle with ID: 48724944
+2025-08-16 22:53:24,210 - INFO: 📤 Storing trial 19: trial_3
+2025-08-16 22:53:24,211 - INFO: 📤 Attempting to store bundle (attempt 1/4)
+2025-08-16 22:53:26,720 - INFO: ✅ Successfully stored bundle with ID: 48724945
+2025-08-16 22:53:26,720 - INFO: ✅ Successfully stored Bundle with ID: 48724945
+2025-08-16 22:53:26,720 - INFO: 📤 Storing trial 20: trial_4
+2025-08-16 22:53:26,721 - INFO: 📤 Attempting to store bundle (attempt 1/4)
+2025-08-16 22:53:27,763 - INFO: ✅ Successfully stored bundle with ID: 48724946
+2025-08-16 22:53:27,764 - INFO: ✅ Successfully stored Bundle with ID: 48724946
+2025-08-16 22:53:27,764 - INFO: 📤 Storing trial 21: trial_5
+2025-08-16 22:53:27,764 - INFO: 📤 Attempting to store bundle (attempt 1/4)
+2025-08-16 22:53:28,308 - INFO: ✅ Successfully stored bundle with ID: 48724947
+2025-08-16 22:53:28,309 - INFO: ✅ Successfully stored Bundle with ID: 48724947
+2025-08-16 22:53:28,309 - INFO: 📤 Storing trial 22: trial_1
+2025-08-16 22:53:28,310 - INFO: 📤 Attempting to store bundle (attempt 1/4)
+2025-08-16 22:53:29,049 - INFO: ✅ Successfully stored bundle with ID: 48724948
+2025-08-16 22:53:29,049 - INFO: ✅ Successfully stored Bundle with ID: 48724948
+2025-08-16 22:53:29,050 - INFO: 📤 Storing trial 23: trial_2
+2025-08-16 22:53:29,050 - INFO: 📤 Attempting to store bundle (attempt 1/4)
+2025-08-16 22:53:30,048 - INFO: ✅ Successfully stored bundle with ID: 48724949
+2025-08-16 22:53:30,049 - INFO: ✅ Successfully stored Bundle with ID: 48724949
+2025-08-16 22:53:30,049 - INFO: 📤 Storing trial 24: trial_3
+2025-08-16 22:53:30,049 - INFO: 📤 Attempting to store bundle (attempt 1/4)
+2025-08-16 22:53:31,058 - INFO: ✅ Successfully stored bundle with ID: 48724950
+2025-08-16 22:53:31,059 - INFO: ✅ Successfully stored Bundle with ID: 48724950
+2025-08-16 22:53:31,059 - INFO: 📤 Storing trial 25: trial_4
+2025-08-16 22:53:31,059 - INFO: 📤 Attempting to store bundle (attempt 1/4)
+2025-08-16 22:53:32,052 - INFO: ✅ Successfully stored bundle with ID: 48724951
+2025-08-16 22:53:32,052 - INFO: ✅ Successfully stored Bundle with ID: 48724951
+2025-08-16 22:53:32,052 - INFO: 📤 Storing trial 26: trial_5
+2025-08-16 22:53:32,052 - INFO: 📤 Attempting to store bundle (attempt 1/4)
+2025-08-16 22:53:33,056 - INFO: ✅ Successfully stored bundle with ID: 48724952
+2025-08-16 22:53:33,057 - INFO: ✅ Successfully stored Bundle with ID: 48724952
+2025-08-16 22:53:33,057 - INFO: ✅ Successfully stored 26/26 trial bundles to FHIR server
+2025-08-16 22:53:33,057 - INFO: 📦 Storing master bundle...
+2025-08-16 22:53:33,057 - INFO: 📤 Attempting to store bundle (attempt 1/4)
+2025-08-16 22:53:33,334 - ERROR: ❌ Bundle too large (413): <html>
+<head><title>413 Request Entity Too Large</title></head>
+<body>
+<center><h1>413 Request Entity Too Large</h1></center>
+<hr><center>nginx/1.24.0 (Ubuntu)</center>
+</body>
+</html>
+
+2025-08-16 22:53:33,334 - ERROR: ❌ Failed to store master bundle: Bundle size exceeds server limits
+2025-08-16 22:53:33,334 - INFO: 🌐 Step 4: Storing to FHIR server
+2025-08-16 22:53:33,335 - INFO: 🎯 Pipeline Summary:
+2025-08-16 22:53:33,335 - INFO:    📊 Total trials processed: 26
+2025-08-16 22:53:33,335 - INFO:    🔗 Total FHIR resources: 218
+2025-08-16 22:53:33,335 - INFO:    ⏱️  Processing time: 38.74 seconds
+2025-08-16 22:53:33,335 - INFO:    📁 Output file: clinical_trials_fhir.json
+2025-08-16 22:53:33,335 - INFO:    🌐 Server storage: Enabled
+2025-08-16 22:53:33,335 - INFO: ✅ Pipeline completed successfully!
+2025-08-16 22:53:33,336 - INFO: 🎉 Pipeline execution completed successfully!

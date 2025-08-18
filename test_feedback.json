@@ -1,0 +1,100 @@
+[
+  {
+    "feedback_id": "90b9b6d8-da41-4df8-a23f-4e105bd6b367",
+    "prediction_id": "pred-001",
+    "trial_id": "NCT07062263",
+    "patient_id": "patient-001",
+    "feedback_type": "correct",
+    "confidence_score": 0.85,
+    "user_id": "doctor-smith",
+    "timestamp": "2025-08-18T18:50:16.514299",
+    "comments": "Excellent match for HER2+ biliary cancer patient",
+    "suggested_corrections": null,
+    "metadata": {
+      "source": "test"
+    }
+  },
+  {
+    "feedback_id": "88456481-b2a7-4228-8983-9306d8b80afa",
+    "prediction_id": "pred-002",
+    "trial_id": "NCT12345678",
+    "patient_id": "patient-002",
+    "feedback_type": "incorrect",
+    "confidence_score": 0.45,
+    "user_id": "doctor-jones",
+    "timestamp": "2025-08-18T18:50:16.515992",
+    "comments": "Patient has CNS metastases which should exclude them",
+    "suggested_corrections": {
+      "exclusions": "Add CNS metastases check"
+    },
+    "metadata": {
+      "source": "test"
+    }
+  },
+  {
+    "feedback_id": "93c5e11b-837c-4ff3-ba11-4197a75b54fa",
+    "prediction_id": "pred-003",
+    "trial_id": "NCT98765432",
+    "patient_id": "patient-003",
+    "feedback_type": "partial",
+    "confidence_score": 0.72,
+    "user_id": "doctor-brown",
+    "timestamp": "2025-08-18T18:50:16.527446",
+    "comments": "Match is mostly correct but missing some lab criteria",
+    "suggested_corrections": {
+      "lab_criteria": "Include creatinine clearance"
+    },
+    "metadata": {
+      "source": "test"
+    }
+  },
+  {
+    "feedback_id": "af0cbda0-7aaf-49c1-b411-68dd59d7d552",
+    "prediction_id": "pred-001",
+    "trial_id": "NCT07062263",
+    "patient_id": "patient-001",
+    "feedback_type": "correct",
+    "confidence_score": 0.85,
+    "user_id": "doctor-smith",
+    "timestamp": "2025-08-18T18:53:10.995040",
+    "comments": "Excellent match for HER2+ biliary cancer patient",
+    "suggested_corrections": null,
+    "metadata": {
+      "source": "test"
+    }
+  },
+  {
+    "feedback_id": "c6147fad-5161-4337-81ee-a8e9c6dfb491",
+    "prediction_id": "pred-002",
+    "trial_id": "NCT12345678",
+    "patient_id": "patient-002",
+    "feedback_type": "incorrect",
+    "confidence_score": 0.45,
+    "user_id": "doctor-jones",
+    "timestamp": "2025-08-18T18:53:10.996652",
+    "comments": "Patient has CNS metastases which should exclude them",
+    "suggested_corrections": {
+      "exclusions": "Add CNS metastases check"
+    },
+    "metadata": {
+      "source": "test"
+    }
+  },
+  {
+    "feedback_id": "8eebf3cd-3065-478d-b882-41cc5d7a3fec",
+    "prediction_id": "pred-003",
+    "trial_id": "NCT98765432",
+    "patient_id": "patient-003",
+    "feedback_type": "partial",
+    "confidence_score": 0.72,
+    "user_id": "doctor-brown",
+    "timestamp": "2025-08-18T18:53:11.009472",
+    "comments": "Match is mostly correct but missing some lab criteria",
+    "suggested_corrections": {
+      "lab_criteria": "Include creatinine clearance"
+    },
+    "metadata": {
+      "source": "test"
+    }
+  }
+]

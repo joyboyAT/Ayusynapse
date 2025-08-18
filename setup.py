@@ -78,9 +78,8 @@ def test_installation():
         print("✅ All core dependencies imported successfully")
         
         # Test platform initialization
-        from src.main import ClinicalTrialsPlatform
-        platform = ClinicalTrialsPlatform()
-        print("✅ Platform initialized successfully")
+        from ayusynapse import __version__
+        print(f"✅ Ayusynapse package imported successfully (version {__version__})")
         
         return True
     except Exception as e:

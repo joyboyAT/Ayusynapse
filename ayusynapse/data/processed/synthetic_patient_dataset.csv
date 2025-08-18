@@ -1,0 +1,16 @@
+PatientID,Name,Age,Gender,Condition,Treatment,TrialID,TrialStatus,Outcome
+P001,Whitney Evans,59,Male,Glioblastoma Multiforme,Clinical Trial Drug X,NCT35659546,Not yet recruiting,Partial response
+P002,Terry Saunders,60,Male,Anaplastic Astrocytoma,Surgery,NCT35529157,Completed,Progression
+P003,Antonio Davis,37,Male,Anaplastic Astrocytoma,Bevacizumab,NCT22483375,Recruiting,Partial response
+P004,Jesse Peterson,21,Male,Glioblastoma Multiforme,Temozolomide,NCT31174728,Completed,Complete response
+P005,Mark Hall,67,Male,Oligodendroglioma,Radiotherapy,NCT16704776,Recruiting,Partial response
+P006,Richard Fernandez,54,Male,Glioblastoma Multiforme,Radiotherapy,NCT82723430,Completed,Progression
+P007,Bryce Gonzalez,35,Female,Glioblastoma Multiforme,Bevacizumab,NCT49039476,Recruiting,Stable disease
+P008,Laurie Carroll,27,Female,Meningioma,Temozolomide,NCT20132019,Recruiting,Stable disease
+P009,Rebecca Stanton,37,Female,Glioblastoma Multiforme,Clinical Trial Drug X,NCT61703188,Recruiting,Progression
+P010,Charles Patterson,46,Female,Oligodendroglioma,Clinical Trial Drug X,NCT76640919,Recruiting,Progression
+P011,Jackie Clarke,23,Male,Glioblastoma Multiforme,Radiotherapy,NCT12754068,Recruiting,Complete response
+P012,Janet Mitchell,63,Male,Meningioma,Bevacizumab,NCT69400938,Not yet recruiting,Stable disease
+P013,Jesus Martinez,66,Female,Oligodendroglioma,Temozolomide,NCT40698071,Not yet recruiting,Complete response
+P014,Jenna Brown,71,Female,Glioblastoma Multiforme,Surgery,NCT53644461,Not yet recruiting,Progression
+P015,Michael Ware,21,Female,Meningioma,Radiotherapy,NCT71414442,Completed,Complete response

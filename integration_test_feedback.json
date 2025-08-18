@@ -1,0 +1,32 @@
+[
+  {
+    "feedback_id": "b7cb65b4-18cb-4fc6-8d25-5db5213a419d",
+    "prediction_id": "pred-integration-001",
+    "trial_id": "NCT07062263",
+    "patient_id": "patient-integration-001",
+    "feedback_type": "correct",
+    "confidence_score": 0.85,
+    "user_id": "doctor-integration",
+    "timestamp": "2025-08-18T18:50:16.560764",
+    "comments": "Good match, patient meets all criteria",
+    "suggested_corrections": null,
+    "metadata": {
+      "integration_test": true
+    }
+  },
+  {
+    "feedback_id": "67f46ea9-16dd-47a2-9fdf-cad406252b0f",
+    "prediction_id": "pred-integration-001",
+    "trial_id": "NCT07062263",
+    "patient_id": "patient-integration-001",
+    "feedback_type": "correct",
+    "confidence_score": 0.85,
+    "user_id": "doctor-integration",
+    "timestamp": "2025-08-18T18:53:11.052297",
+    "comments": "Good match, patient meets all criteria",
+    "suggested_corrections": null,
+    "metadata": {
+      "integration_test": true
+    }
+  }
+]
