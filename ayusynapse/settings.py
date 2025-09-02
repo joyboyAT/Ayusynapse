@@ -6,14 +6,14 @@ import os
 from typing import List, Dict
 
 # API Configuration
-API_HOST = "0.0.0.0"
-API_PORT = 8000
-API_DEBUG = True
+API_HOST = "0.0.0.0" #listen on all network interfaces.
+API_PORT = 8000 #default port for the API
+API_DEBUG = True #enable debug mode for development
 
-# Data Collection Settings
+# Data Collection Settings  
 CLINICAL_TRIALS_GOV_API_URL = "https://clinicaltrials.gov/api/query/study_fields"
 MAX_TRIALS_PER_CONDITION = 50
-COLLECTION_DELAY = 1  # seconds between requests
+COLLECTION_DELAY = 1  # seconds gap between requests
 
 # Oncology Conditions
 ONCOLOGY_CONDITIONS = [
@@ -100,6 +100,7 @@ FHIR_RESOURCES = {
         'Observation': ['laboratory', 'labResults'],
         'DiagnosticReport': ['laboratory', 'pathology']
     },
+    
     'clinical': {
         'Observation': ['vitalSigns', 'performanceStatus'],
         'Condition': ['clinicalStatus', 'severity']
@@ -117,6 +118,10 @@ FHIR_RESOURCES = {
         'MedicationAdministration': ['medication', 'timing']
     }
 }
+
+#FHIR = Fast Healthcare Interoperability Resources (a standard for medical data).
+
+#Maps medical categories (demographics, labs, imaging, etc.) to FHIR resource types.
 
 # Standard Medical Codes
 STANDARD_CODES = {
